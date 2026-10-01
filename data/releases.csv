@@ -1,0 +1,11 @@
+id,title,artistId,year,type,sourceIds,confidence
+rel-beginning,Beginning (Sa-Tin-Gyin),acid,2000,album,src-wiki-acid;src-wiki-burmese-hiphop,high
+rel-chocolate-yaung-yayge,Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams),sai-sai-kham-leng,2000,album,src-wiki-saisai,high
+rel-thangegyin-myar-swar,Thangegyin Myar Swar (Friends),sai-sai-kham-leng,2001,album,src-wiki-saisai,high
+rel-february-mhat-tann,February Mhat Tann,sai-sai-kham-leng,2003,album,src-wiki-saisai,high
+rel-saisai-live-in-yangon,Sai Sai Live in Yangon,sai-sai-kham-leng,2004,album,src-wiki-saisai,high
+rel-saisai-hu-khaw-thi,Sai Sai Hu Khaw Thi,sai-sai-kham-leng,2005,album,src-wiki-saisai,high
+rel-hip-hop-vibration,Hip Hop Vibration Pya Htan Chat,nay-win,2005,album,src-myanmore-2017,medium
+rel-happy-saisai-birthday,Happy Sai Sai Birthday,sai-sai-kham-leng,2007,album,src-wiki-saisai,high
+rel-ever-golli,Ever Golli (Always Dwifter),sai-sai-kham-leng,2009,album,src-wiki-saisai,high
+rel-date-date-kye,Date Date Kye (Topnotch),sai-sai-kham-leng,2012,album,src-wiki-saisai,high

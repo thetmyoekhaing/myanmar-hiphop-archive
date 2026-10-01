@@ -1,0 +1,12 @@
+[
+  {"id": "rel-beginning", "title": "Beginning (Sa-Tin-Gyin)", "artistId": "acid", "year": 2000, "type": "album", "sourceIds": ["src-wiki-acid", "src-wiki-burmese-hiphop"], "confidence": "high"},
+  {"id": "rel-chocolate-yaung-yayge", "title": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)", "artistId": "sai-sai-kham-leng", "year": 2000, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
+  {"id": "rel-thangegyin-myar-swar", "title": "Thangegyin Myar Swar (Friends)", "artistId": "sai-sai-kham-leng", "year": 2001, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
+  {"id": "rel-february-mhat-tann", "title": "February Mhat Tann", "artistId": "sai-sai-kham-leng", "year": 2003, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
+  {"id": "rel-saisai-live-in-yangon", "title": "Sai Sai Live in Yangon", "artistId": "sai-sai-kham-leng", "year": 2004, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
+  {"id": "rel-saisai-hu-khaw-thi", "title": "Sai Sai Hu Khaw Thi", "artistId": "sai-sai-kham-leng", "year": 2005, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
+  {"id": "rel-hip-hop-vibration", "title": "Hip Hop Vibration Pya Htan Chat", "artistId": "nay-win", "year": 2005, "type": "album", "sourceIds": ["src-myanmore-2017"], "confidence": "medium"},
+  {"id": "rel-happy-saisai-birthday", "title": "Happy Sai Sai Birthday", "artistId": "sai-sai-kham-leng", "year": 2007, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
+  {"id": "rel-ever-golli", "title": "Ever Golli (Always Dwifter)", "artistId": "sai-sai-kham-leng", "year": 2009, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
+  {"id": "rel-date-date-kye", "title": "Date Date Kye (Topnotch)", "artistId": "sai-sai-kham-leng", "year": 2012, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"}
+]

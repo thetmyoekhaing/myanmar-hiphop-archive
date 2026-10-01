@@ -1,0 +1,5570 @@
+{
+  "meta": {
+    "name": "Myanmar Hip-Hop Open Data Archive",
+    "slug": "myanmar-hiphop-data",
+    "version": "0.1.0",
+    "license": "Open Data Commons Attribution-ShareAlike 4.0 (ODbL-style, CC BY-SA 4.0 for non-database uses)",
+    "licenseFile": "LICENSE.txt",
+    "readme": "README.md",
+    "jsonSchema": "schema/schema.json",
+    "language": "en",
+    "secondaryLanguage": "my",
+    "scope": "Yangon-centred history of Myanmar / Burmese hip-hop: artists, crews, releases, songs, events, venues, topics, sources and typed relationships.",
+    "generatedAt": "2026-10-01T06:20:30.061Z",
+    "counts": {
+      "artists": 36,
+      "crews": 2,
+      "releases": 10,
+      "songs": 2,
+      "events": 2,
+      "venues": 1,
+      "topics": 1,
+      "sources": 9,
+      "relationships": 33,
+      "milestones": 8,
+      "generations": 4
+    },
+    "provenance": {
+      "model": "Every claim carries at least one source id. `status` on relationships is one of VERIFIED (human-checked), AI_EXTRACTED (pending review), CONFLICTED, REJECTED. `confidence` is high | medium | low.",
+      "statusValues": [
+        "VERIFIED",
+        "AI_EXTRACTED",
+        "CONFLICTED",
+        "REJECTED"
+      ],
+      "confidenceValues": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "copyright": "Factual metadata only (names, dates, places). No article text, lyrics or images are redistributed. Copyrighted sources are cited for facts only.",
+      "caveat": "Entities marked confidence low or status AI_EXTRACTED have not been human-verified. Render these with a visible \"unverified\" affordance."
+    },
+    "guide": {
+      "purpose": "Single-file JSON for LLM consumption and UI generation. All cross-references are already resolved: nothing needs joining at render time.",
+      "readOrder": [
+        "meta",
+        "ui",
+        "entities",
+        "graph",
+        "entityDetail",
+        "schema"
+      ],
+      "sections": {
+        "meta": "Counts, licence, provenance rules, and this guide.",
+        "ui": "Pre-assembled views: generations, timeline, milestones, highlights, facets. Start here for layout work.",
+        "entities": "Canonical records exactly as stored in data/*.json.",
+        "graph": "Flat nodes/edges with human-readable labels on every endpoint. For force-directed or matrix network views.",
+        "entityDetail": "Denormalized per-entity bundles: discography, crews, songs, events, relations, resolved sources. Keyed by entity id.",
+        "schema": "Field definitions and data rules from schema/schema.json."
+      },
+      "renderingHints": [
+        "entities.artists and ui.generations are the primary navigation: group by generation, or by city (all Yangon).",
+        "ui.timeline is pre-sorted by year; render as a vertical or horizontal chronology.",
+        "entityDetail[\"acid\"] and entityDetail[\"sai-sai-kham-leng\"] are the two deepest profiles and make good hero/detail pages.",
+        "graph.edges[].status and .confidence let you dim unverified links without extra lookups.",
+        "ui.facets.activeByYear is a ready-made activity series for a chart.",
+        "Sort any people-facing list by year; id slugs are for keys only, never for display.",
+        "Burmese-script aliases live in entities.artists[].aliases - keep them, do not transliterate."
+      ],
+      "keyArtists": [
+        "acid",
+        "sai-sai-kham-leng",
+        "phyo-zeya-thaw",
+        "yan-yan-chan",
+        "annaga",
+        "hein-zaw",
+        "nay-win",
+        "myo-kyawt-myaing"
+      ],
+      "keyReleases": [
+        "rel-beginning",
+        "rel-chocolate-yaung-yayge",
+        "rel-thangegyin-myar-swar",
+        "rel-february-mhat-tann",
+        "rel-date-date-kye"
+      ],
+      "keyEvents": [
+        "ev-straight-outta-yangon-2",
+        "ev-saisai-birthday-show"
+      ]
+    }
+  },
+  "ui": {
+    "headline": "Myanmar Hip-Hop: a sourced timeline of Yangon rap",
+    "summary": "From the first album in 2000 to a 2017 reunion show, this is an open, source-attributed archive of Myanmar hip-hop. Every fact links back to a citation, and every citation is marked verified, medium or low confidence.",
+    "generations": [
+      {
+        "id": "prehistory",
+        "label": "Precursors",
+        "period": "1988-1999",
+        "summary": "The groundwork laid before the first records: Myo Kyawt Myaing performing from 1988, and Sai Sai Kham Leng releasing Chocolate Yaung Yayge Einmet in 2000.",
+        "sourceIds": [
+          "src-wiki-burmese-hiphop",
+          "src-wiki-saisai"
+        ],
+        "artistIds": [
+          "myo-kyawt-myaing",
+          "sai-sai-kham-leng"
+        ],
+        "artists": [
+          {
+            "id": "myo-kyawt-myaing",
+            "name": "Myo Kyawt Myaing",
+            "type": "solo",
+            "activeFrom": 1988
+          },
+          {
+            "id": "sai-sai-kham-leng",
+            "name": "Sai Sai Kham Leng",
+            "type": "solo",
+            "activeFrom": 1998
+          }
+        ],
+        "crewIds": [],
+        "crews": [],
+        "releaseIds": [
+          "rel-chocolate-yaung-yayge",
+          "rel-thangegyin-myar-swar",
+          "rel-february-mhat-tann",
+          "rel-saisai-live-in-yangon",
+          "rel-saisai-hu-khaw-thi",
+          "rel-happy-saisai-birthday",
+          "rel-ever-golli",
+          "rel-date-date-kye"
+        ],
+        "count": 2
+      },
+      {
+        "id": "1",
+        "label": "1st generation",
+        "period": "2000-2001",
+        "summary": "The first wave. Acid released Beginning (Sa-Tin-Gyin) in 2000, Burma's first hip-hop album, and topped the domestic charts for over two months. Theory, NS and Too Big followed.",
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-wiki-burmese-hiphop"
+        ],
+        "artistIds": [
+          "acid",
+          "theory",
+          "barbu",
+          "thxa-soe",
+          "ns",
+          "kyaw-thu-soe",
+          "lin-lin",
+          "too-big"
+        ],
+        "artists": [
+          {
+            "id": "acid",
+            "name": "Acid",
+            "type": "group",
+            "activeFrom": 2000
+          },
+          {
+            "id": "theory",
+            "name": "Theory",
+            "type": "group",
+            "activeFrom": 2000
+          },
+          {
+            "id": "barbu",
+            "name": "Barbu",
+            "type": "solo",
+            "activeFrom": 2000
+          },
+          {
+            "id": "thxa-soe",
+            "name": "Thxa Soe",
+            "type": "solo",
+            "activeFrom": 2000
+          },
+          {
+            "id": "ns",
+            "name": "NS",
+            "type": "group",
+            "activeFrom": 2000
+          },
+          {
+            "id": "kyaw-thu-soe",
+            "name": "Kyaw Thu Soe",
+            "type": "solo",
+            "activeFrom": 2000
+          },
+          {
+            "id": "lin-lin",
+            "name": "Lin Lin",
+            "type": "solo",
+            "activeFrom": 2000
+          },
+          {
+            "id": "too-big",
+            "name": "Too Big",
+            "type": "group",
+            "activeFrom": 2000
+          }
+        ],
+        "crewIds": [],
+        "crews": [],
+        "releaseIds": [
+          "rel-beginning"
+        ],
+        "count": 8
+      },
+      {
+        "id": "2",
+        "label": "2nd generation",
+        "period": "2001-2005",
+        "summary": "The scene consolidates: 9mm, Project-1, Byauk-Oh, Examplz, G-Family, On-Track, L.E.E, Cyclone, plus the M.H.A. association and solo acts J-Me, Bigg-Y and G-Tone. Snare and the Rap Master Nay Win anchor Snare.",
+        "sourceIds": [
+          "src-wiki-burmese-hiphop",
+          "src-myanmore-2017"
+        ],
+        "artistIds": [
+          "nay-win",
+          "snare",
+          "9mm",
+          "project-1",
+          "byauk-oh",
+          "examplz",
+          "g-family",
+          "on-track",
+          "lee",
+          "cyclone",
+          "j-me",
+          "bigg-y",
+          "g-tone",
+          "kyak-pha",
+          "yatha",
+          "thuta-aye"
+        ],
+        "artists": [
+          {
+            "id": "nay-win",
+            "name": "Nay Win",
+            "type": "solo",
+            "activeFrom": 2000
+          },
+          {
+            "id": "snare",
+            "name": "Snare",
+            "type": "group",
+            "activeFrom": 2000
+          },
+          {
+            "id": "9mm",
+            "name": "9mm",
+            "type": "group",
+            "activeFrom": 2001
+          },
+          {
+            "id": "project-1",
+            "name": "Project-1",
+            "type": "group",
+            "activeFrom": 2002
+          },
+          {
+            "id": "byauk-oh",
+            "name": "Byauk-Oh",
+            "type": "group",
+            "activeFrom": 2002
+          },
+          {
+            "id": "examplz",
+            "name": "Examplz",
+            "type": "group",
+            "activeFrom": 2002
+          },
+          {
+            "id": "g-family",
+            "name": "G-Family",
+            "type": "group",
+            "activeFrom": 2002
+          },
+          {
+            "id": "on-track",
+            "name": "On-Track",
+            "type": "group",
+            "activeFrom": 2002
+          },
+          {
+            "id": "lee",
+            "name": "L.E.E",
+            "type": "group",
+            "activeFrom": 2002
+          },
+          {
+            "id": "cyclone",
+            "name": "Cyclone",
+            "type": "group",
+            "activeFrom": 2002
+          },
+          {
+            "id": "j-me",
+            "name": "J-Me",
+            "type": "solo",
+            "activeFrom": 2002
+          },
+          {
+            "id": "bigg-y",
+            "name": "Bigg-Y",
+            "type": "solo",
+            "activeFrom": 2002
+          },
+          {
+            "id": "g-tone",
+            "name": "G-Tone",
+            "type": "solo",
+            "activeFrom": 2002
+          },
+          {
+            "id": "kyak-pha",
+            "name": "Kyak Pha",
+            "type": "solo",
+            "activeFrom": 2002
+          },
+          {
+            "id": "yatha",
+            "name": "YaTha",
+            "type": "solo",
+            "activeFrom": 2002
+          },
+          {
+            "id": "thuta-aye",
+            "name": "Thuta Aye",
+            "type": "solo",
+            "activeFrom": 2002
+          }
+        ],
+        "crewIds": [
+          "mha"
+        ],
+        "crews": [
+          {
+            "id": "mha",
+            "name": "Myanmar HipHop Association (M.H.A.)",
+            "formed": 2002,
+            "status": "unofficial"
+          }
+        ],
+        "releaseIds": [
+          "rel-hip-hop-vibration"
+        ],
+        "count": 16
+      },
+      {
+        "id": "3",
+        "label": "3rd generation",
+        "period": "2006-present",
+        "summary": "A new wave from late 2006: Jouk Jack, Kyaw Htut Swe, VIP / Rock$tar, Hlwan Paing, Ah Boy and Htein Win P Crew.",
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ],
+        "artistIds": [
+          "jouk-jack",
+          "kyaw-htut-swe",
+          "vip",
+          "ah-boy",
+          "htein-win-p-crew",
+          "hlwan-paing"
+        ],
+        "artists": [
+          {
+            "id": "jouk-jack",
+            "name": "Jouk Jack",
+            "type": "solo",
+            "activeFrom": 2006
+          },
+          {
+            "id": "kyaw-htut-swe",
+            "name": "Kyaw Htut Swe",
+            "type": "solo",
+            "activeFrom": 2006
+          },
+          {
+            "id": "vip",
+            "name": "VIP",
+            "type": "group",
+            "activeFrom": 2006
+          },
+          {
+            "id": "ah-boy",
+            "name": "Ah Boy",
+            "type": "solo",
+            "activeFrom": 2006
+          },
+          {
+            "id": "htein-win-p-crew",
+            "name": "Htein Win P Crew",
+            "type": "group",
+            "activeFrom": 2006
+          },
+          {
+            "id": "hlwan-paing",
+            "name": "Hlwan Paing",
+            "type": "solo",
+            "activeFrom": 2006
+          }
+        ],
+        "crewIds": [
+          "generation-wave"
+        ],
+        "crews": [
+          {
+            "id": "generation-wave",
+            "name": "Generation Wave",
+            "formed": 2007,
+            "status": "youth movement (not a rap group)"
+          }
+        ],
+        "releaseIds": [],
+        "count": 6
+      }
+    ],
+    "timeline": [
+      {
+        "year": 1988,
+        "entries": [
+          {
+            "year": 1988,
+            "date": null,
+            "kind": "artist",
+            "refId": "myo-kyawt-myaing",
+            "title": "Myo Kyawt Myaing",
+            "detail": "solo active from",
+            "artistIds": [
+              "myo-kyawt-myaing"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          }
+        ]
+      },
+      {
+        "year": 1998,
+        "entries": [
+          {
+            "year": 1998,
+            "date": null,
+            "kind": "artist",
+            "refId": "sai-sai-kham-leng",
+            "title": "Sai Sai Kham Leng",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": null
+          }
+        ]
+      },
+      {
+        "year": 2000,
+        "entries": [
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-beginning",
+            "title": "Beginning (Sa-Tin-Gyin)",
+            "detail": "album by Acid",
+            "artistIds": [
+              "acid"
+            ],
+            "sourceIds": [
+              "src-wiki-acid",
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": "high"
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-chocolate-yaung-yayge",
+            "title": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "acid",
+            "title": "Acid",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "acid"
+            ],
+            "sourceIds": [
+              "src-wiki-acid",
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "phyo-zeya-thaw",
+            "title": "Phyo Zeya Thaw",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "phyo-zeya-thaw"
+            ],
+            "sourceIds": [
+              "src-wiki-acid"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "yan-yan-chan",
+            "title": "Yan Yan Chan",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "yan-yan-chan"
+            ],
+            "sourceIds": [
+              "src-wiki-acid",
+              "src-insight-604"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "annaga",
+            "title": "Annaga",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "annaga"
+            ],
+            "sourceIds": [
+              "src-wiki-acid"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "hein-zaw",
+            "title": "Hein Zaw",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "hein-zaw"
+            ],
+            "sourceIds": [
+              "src-wiki-acid"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "nay-win",
+            "title": "Nay Win",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "nay-win"
+            ],
+            "sourceIds": [
+              "src-myanmore-2017"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "snare",
+            "title": "Snare",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "snare"
+            ],
+            "sourceIds": [
+              "src-myanmore-2017"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "theory",
+            "title": "Theory",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "theory"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "barbu",
+            "title": "Barbu",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "barbu"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "thxa-soe",
+            "title": "Thxa Soe",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "thxa-soe"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "ns",
+            "title": "NS",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "ns"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "kyaw-thu-soe",
+            "title": "Kyaw Thu Soe",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "kyaw-thu-soe"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "lin-lin",
+            "title": "Lin Lin",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "lin-lin"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2000,
+            "date": null,
+            "kind": "artist",
+            "refId": "too-big",
+            "title": "Too Big",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "too-big"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          }
+        ]
+      },
+      {
+        "year": 2001,
+        "entries": [
+          {
+            "year": 2001,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-thangegyin-myar-swar",
+            "title": "Thangegyin Myar Swar (Friends)",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          },
+          {
+            "year": 2001,
+            "date": null,
+            "kind": "artist",
+            "refId": "9mm",
+            "title": "9mm",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "9mm"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          }
+        ]
+      },
+      {
+        "year": 2002,
+        "entries": [
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "project-1",
+            "title": "Project-1",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "project-1"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "byauk-oh",
+            "title": "Byauk-Oh",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "byauk-oh"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "examplz",
+            "title": "Examplz",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "examplz"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "g-family",
+            "title": "G-Family",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "g-family"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "on-track",
+            "title": "On-Track",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "on-track"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "lee",
+            "title": "L.E.E",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "lee"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "cyclone",
+            "title": "Cyclone",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "cyclone"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "j-me",
+            "title": "J-Me",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "j-me"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "bigg-y",
+            "title": "Bigg-Y",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "bigg-y"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "g-tone",
+            "title": "G-Tone",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "g-tone"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "kyak-pha",
+            "title": "Kyak Pha",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "kyak-pha"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "yatha",
+            "title": "YaTha",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "yatha"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2002,
+            "date": null,
+            "kind": "artist",
+            "refId": "thuta-aye",
+            "title": "Thuta Aye",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "thuta-aye"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          }
+        ]
+      },
+      {
+        "year": 2003,
+        "entries": [
+          {
+            "year": 2003,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-february-mhat-tann",
+            "title": "February Mhat Tann",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "year": 2004,
+        "entries": [
+          {
+            "year": 2004,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-saisai-live-in-yangon",
+            "title": "Sai Sai Live in Yangon",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          },
+          {
+            "year": 2004,
+            "date": "2004-04-10",
+            "kind": "event",
+            "refId": "ev-saisai-birthday-show",
+            "title": "Sai Sai Birthday Show",
+            "detail": "Annual outdoor concert starting 10 April 2004",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "year": 2005,
+        "entries": [
+          {
+            "year": 2005,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-saisai-hu-khaw-thi",
+            "title": "Sai Sai Hu Khaw Thi",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          },
+          {
+            "year": 2005,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-hip-hop-vibration",
+            "title": "Hip Hop Vibration Pya Htan Chat",
+            "detail": "album by Nay Win",
+            "artistIds": [
+              "nay-win"
+            ],
+            "sourceIds": [
+              "src-myanmore-2017"
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      {
+        "year": 2006,
+        "entries": [
+          {
+            "year": 2006,
+            "date": null,
+            "kind": "artist",
+            "refId": "jouk-jack",
+            "title": "Jouk Jack",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "jouk-jack"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2006,
+            "date": null,
+            "kind": "artist",
+            "refId": "kyaw-htut-swe",
+            "title": "Kyaw Htut Swe",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "kyaw-htut-swe"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2006,
+            "date": null,
+            "kind": "artist",
+            "refId": "vip",
+            "title": "VIP",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "vip"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2006,
+            "date": null,
+            "kind": "artist",
+            "refId": "ah-boy",
+            "title": "Ah Boy",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "ah-boy"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2006,
+            "date": null,
+            "kind": "artist",
+            "refId": "htein-win-p-crew",
+            "title": "Htein Win P Crew",
+            "detail": "group active from, Yangon",
+            "artistIds": [
+              "htein-win-p-crew"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2006,
+            "date": null,
+            "kind": "artist",
+            "refId": "hlwan-paing",
+            "title": "Hlwan Paing",
+            "detail": "solo active from, Yangon",
+            "artistIds": [
+              "hlwan-paing"
+            ],
+            "sourceIds": [
+              "src-wiki-burmese-hiphop"
+            ],
+            "confidence": null
+          },
+          {
+            "year": 2006,
+            "date": "2006-04-10",
+            "kind": "milestone",
+            "refId": "hein-zaw",
+            "title": "Hein Zaw dies",
+            "detail": "Age 25",
+            "artistIds": [
+              "hein-zaw"
+            ],
+            "sourceIds": [
+              "src-wiki-acid"
+            ],
+            "confidence": null
+          }
+        ]
+      },
+      {
+        "year": 2007,
+        "entries": [
+          {
+            "year": 2007,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-happy-saisai-birthday",
+            "title": "Happy Sai Sai Birthday",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "entries": [
+          {
+            "year": 2009,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-ever-golli",
+            "title": "Ever Golli (Always Dwifter)",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "entries": [
+          {
+            "year": 2012,
+            "date": null,
+            "kind": "release",
+            "refId": "rel-date-date-kye",
+            "title": "Date Date Kye (Topnotch)",
+            "detail": "album by Sai Sai Kham Leng",
+            "artistIds": [
+              "sai-sai-kham-leng"
+            ],
+            "sourceIds": [
+              "src-wiki-saisai"
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "entries": [
+          {
+            "year": 2017,
+            "date": "2017-09-15",
+            "kind": "event",
+            "refId": "ev-straight-outta-yangon-2",
+            "title": "Full Stop's Straight Outta Yangon: Chapter 2",
+            "detail": "ACID reunion show; exact date approximate (announced as 'tonight' in Sep 2017 article)",
+            "artistIds": [
+              "acid"
+            ],
+            "sourceIds": [
+              "src-coconuts-2017"
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "entries": [
+          {
+            "year": 2022,
+            "date": "2022-07-23",
+            "kind": "milestone",
+            "refId": "phyo-zeya-thaw",
+            "title": "Phyo Zeya Thaw dies",
+            "detail": "Age 41",
+            "artistIds": [
+              "phyo-zeya-thaw"
+            ],
+            "sourceIds": [
+              "src-wiki-acid"
+            ],
+            "confidence": null
+          }
+        ]
+      }
+    ],
+    "timelineEntryKinds": {
+      "release": 10,
+      "event": 2,
+      "artist": 36,
+      "milestone": 2
+    },
+    "milestones": [
+      {
+        "id": "ms-1988-pioneer",
+        "year": 1988,
+        "title": "Myo Kyawt Myaing performing",
+        "text": "The earliest figure recorded in the archive as active, treated as a pioneer of Burmese hip-hop.",
+        "artistIds": [
+          "myo-kyawt-myaing"
+        ],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "ms-2000-beginning",
+        "year": 2000,
+        "title": "Acid releases Burma's first hip-hop album",
+        "text": "Beginning (Sa-Tin-Gyin) by Acid, founded by Phyo Zeya Thaw, Annaga, Hein Zaw and Yan Yan Chan, topped the Burmese charts for more than two months.",
+        "artistIds": [
+          "acid",
+          "phyo-zeya-thaw",
+          "annaga",
+          "hein-zaw",
+          "yan-yan-chan"
+        ],
+        "releaseIds": [
+          "rel-beginning"
+        ],
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-wiki-burmese-hiphop"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "ms-2000-saisai-debut",
+        "year": 2000,
+        "title": "Sai Sai Kham Leng debuts",
+        "text": "Debut album Chocolate Yaung Yayge Einmet, followed in 2001 by Thangegyin Myar Swar, which made him a star.",
+        "artistIds": [
+          "sai-sai-kham-leng"
+        ],
+        "releaseIds": [
+          "rel-chocolate-yaung-yayge",
+          "rel-thangegyin-myar-swar"
+        ],
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "ms-2003-number-one",
+        "year": 2003,
+        "title": "\"One Nal Mhat Tan\" hits number one",
+        "text": "The track from February Mhat Tann reached number one in Myanmar.",
+        "artistIds": [
+          "sai-sai-kham-leng"
+        ],
+        "releaseIds": [
+          "rel-february-mhat-tann"
+        ],
+        "songIds": [
+          "song-one-nal-mhat-tan"
+        ],
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "ms-2004-birthday-show",
+        "year": 2004,
+        "title": "Sai Sai Birthday Show begins",
+        "text": "Annual outdoor concert held every 10 April from 2004, a fixture of the Yangon calendar.",
+        "artistIds": [
+          "sai-sai-kham-leng"
+        ],
+        "eventIds": [
+          "ev-saisai-birthday-show"
+        ],
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "ms-2006-third-gen",
+        "year": 2006,
+        "title": "Third generation emerges",
+        "text": "From late 2006 a new wave appears: Jouk Jack, Kyaw Htut Swe, VIP / Rock$tar, Hlwan Paing.",
+        "artistIds": [
+          "jouk-jack",
+          "kyaw-htut-swe",
+          "vip",
+          "hlwan-paing"
+        ],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "ms-2007-generation-wave",
+        "year": 2007,
+        "title": "Generation Wave youth movement",
+        "text": "Phyo Zeya Thaw is documented as part of Generation Wave, a youth movement rather than a rap group.",
+        "artistIds": [
+          "phyo-zeya-thaw"
+        ],
+        "crewIds": [
+          "generation-wave"
+        ],
+        "sourceIds": [
+          "src-wiki-acid"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "ms-2017-reunion",
+        "year": 2017,
+        "title": "Acid reunion at The Clubhouse",
+        "text": "Straight Outta Yangon: Chapter 2, an ACID reunion show in Yangon, and the subject of Insight Myanmar episode 604.",
+        "artistIds": [
+          "acid"
+        ],
+        "eventIds": [
+          "ev-straight-outta-yangon-2"
+        ],
+        "venueIds": [
+          "ven-clubhouse"
+        ],
+        "sourceIds": [
+          "src-coconuts-2017",
+          "src-insight-604"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "highlights": {
+      "pioneers": [
+        "acid",
+        "phyo-zeya-thaw",
+        "yan-yan-chan",
+        "annaga",
+        "hein-zaw",
+        "nay-win",
+        "snare",
+        "myo-kyawt-myaing",
+        "sai-sai-kham-leng",
+        "theory",
+        "barbu",
+        "thxa-soe",
+        "ns",
+        "kyaw-thu-soe",
+        "lin-lin",
+        "too-big"
+      ],
+      "firstAlbum": {
+        "id": "rel-beginning",
+        "title": "Beginning (Sa-Tin-Gyin)",
+        "artistId": "acid",
+        "year": 2000,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-wiki-burmese-hiphop"
+        ],
+        "confidence": "high"
+      },
+      "longestRunningReleaseSeries": {
+        "artistId": "sai-sai-kham-leng",
+        "artistName": "Sai Sai Kham Leng",
+        "releaseIds": [
+          "rel-chocolate-yaung-yayge",
+          "rel-thangegyin-myar-swar",
+          "rel-february-mhat-tann",
+          "rel-saisai-live-in-yangon",
+          "rel-saisai-hu-khaw-thi",
+          "rel-happy-saisai-birthday",
+          "rel-ever-golli",
+          "rel-date-date-kye"
+        ],
+        "span": "2000-2012"
+      },
+      "cities": [
+        "Yangon"
+      ],
+      "yearRange": [
+        1988,
+        2022
+      ]
+    },
+    "facets": {
+      "artistType": {
+        "group": 15,
+        "solo": 21
+      },
+      "artistCity": {
+        "Yangon": 35
+      },
+      "generation": {
+        "1": 8,
+        "2": 16,
+        "3": 6,
+        "prehistory": 2
+      },
+      "releaseType": {
+        "album": 10
+      },
+      "sourceType": {
+        "encyclopedia": 3,
+        "article": 1,
+        "interview": 1,
+        "podcast": 1,
+        "video": 1,
+        "database": 1,
+        "magazine": 1
+      },
+      "relationshipType": {
+        "member_of": 15,
+        "released": 10,
+        "pioneer_of": 2,
+        "associated_with": 1,
+        "performed_at": 2,
+        "mentioned_in": 1,
+        "documented_in": 2
+      },
+      "relationshipStatus": {
+        "VERIFIED": 27,
+        "AI_EXTRACTED": 6
+      },
+      "relationshipConfidence": {
+        "high": 21,
+        "medium": 10,
+        "low": 2
+      },
+      "releaseConfidence": {
+        "high": 9,
+        "medium": 1
+      },
+      "eventConfidence": {
+        "medium": 1,
+        "high": 1
+      },
+      "activeByYear": [
+        {
+          "year": 1988,
+          "count": 1
+        },
+        {
+          "year": 1998,
+          "count": 2
+        },
+        {
+          "year": 2000,
+          "count": 16
+        },
+        {
+          "year": 2001,
+          "count": 17
+        },
+        {
+          "year": 2002,
+          "count": 30
+        },
+        {
+          "year": 2003,
+          "count": 30
+        },
+        {
+          "year": 2004,
+          "count": 30
+        },
+        {
+          "year": 2005,
+          "count": 30
+        },
+        {
+          "year": 2006,
+          "count": 36
+        },
+        {
+          "year": 2007,
+          "count": 35
+        },
+        {
+          "year": 2009,
+          "count": 35
+        },
+        {
+          "year": 2012,
+          "count": 35
+        },
+        {
+          "year": 2017,
+          "count": 35
+        },
+        {
+          "year": 2022,
+          "count": 35
+        }
+      ]
+    }
+  },
+  "entities": {
+    "artists": [
+      {
+        "id": "acid",
+        "name": "Acid",
+        "type": "group",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [
+          "ACID",
+          "အက်စစ်"
+        ],
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "phyo-zeya-thaw",
+        "name": "Phyo Zeya Thaw",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": 2022,
+        "city": "Yangon",
+        "born": "1981-03-26",
+        "died": "2022-07-23",
+        "aliases": [
+          "Zayar Thaw"
+        ],
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      },
+      {
+        "id": "yan-yan-chan",
+        "name": "Yan Yan Chan",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "born": "1979-05-12",
+        "aliases": [
+          "Anegga (podcast alias)"
+        ],
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-insight-604"
+        ]
+      },
+      {
+        "id": "annaga",
+        "name": "Annaga",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "born": "1979-05-19",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      },
+      {
+        "id": "hein-zaw",
+        "name": "Hein Zaw",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": 2006,
+        "city": "Yangon",
+        "born": "1981-06-12",
+        "died": "2006-04-10",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      },
+      {
+        "id": "nay-win",
+        "name": "Nay Win",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [
+          "နေဝင်း",
+          "Rap Master"
+        ],
+        "sourceIds": [
+          "src-myanmore-2017"
+        ]
+      },
+      {
+        "id": "snare",
+        "name": "Snare",
+        "type": "group",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-myanmore-2017"
+        ]
+      },
+      {
+        "id": "myo-kyawt-myaing",
+        "name": "Myo Kyawt Myaing",
+        "type": "solo",
+        "activeFrom": 1988,
+        "activeTo": null,
+        "city": null,
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng",
+        "type": "solo",
+        "activeFrom": 1998,
+        "activeTo": null,
+        "city": "Yangon",
+        "born": "1979-04-10",
+        "aliases": [
+          "Sai Sai Kham Hlaing",
+          "စိုင်းစိုင်းခမ်းလှိုင်"
+        ],
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "theory",
+        "name": "Theory",
+        "type": "group",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "barbu",
+        "name": "Barbu",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "thxa-soe",
+        "name": "Thxa Soe",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "ns",
+        "name": "NS",
+        "type": "group",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "kyaw-thu-soe",
+        "name": "Kyaw Thu Soe",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "lin-lin",
+        "name": "Lin Lin",
+        "type": "solo",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "too-big",
+        "name": "Too Big",
+        "type": "group",
+        "activeFrom": 2000,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "9mm",
+        "name": "9mm",
+        "type": "group",
+        "activeFrom": 2001,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "project-1",
+        "name": "Project-1",
+        "type": "group",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "byauk-oh",
+        "name": "Byauk-Oh",
+        "type": "group",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [
+          "Firecracker"
+        ],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "examplz",
+        "name": "Examplz",
+        "type": "group",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "g-family",
+        "name": "G-Family",
+        "type": "group",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "on-track",
+        "name": "On-Track",
+        "type": "group",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "lee",
+        "name": "L.E.E",
+        "type": "group",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "cyclone",
+        "name": "Cyclone",
+        "type": "group",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "j-me",
+        "name": "J-Me",
+        "type": "solo",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "bigg-y",
+        "name": "Bigg-Y",
+        "type": "solo",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "g-tone",
+        "name": "G-Tone",
+        "type": "solo",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "kyak-pha",
+        "name": "Kyak Pha",
+        "type": "solo",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "yatha",
+        "name": "YaTha",
+        "type": "solo",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "thuta-aye",
+        "name": "Thuta Aye",
+        "type": "solo",
+        "activeFrom": 2002,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "jouk-jack",
+        "name": "Jouk Jack",
+        "type": "solo",
+        "activeFrom": 2006,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "kyaw-htut-swe",
+        "name": "Kyaw Htut Swe",
+        "type": "solo",
+        "activeFrom": 2006,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "type": "group",
+        "activeFrom": 2006,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [
+          "Rock$tar"
+        ],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "ah-boy",
+        "name": "Ah Boy",
+        "type": "solo",
+        "activeFrom": 2006,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "htein-win-p-crew",
+        "name": "Htein Win P Crew",
+        "type": "group",
+        "activeFrom": 2006,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "hlwan-paing",
+        "name": "Hlwan Paing",
+        "type": "solo",
+        "activeFrom": 2006,
+        "activeTo": null,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      }
+    ],
+    "crews": [
+      {
+        "id": "mha",
+        "name": "Myanmar HipHop Association (M.H.A.)",
+        "formed": 2002,
+        "city": "Yangon",
+        "memberIds": [
+          "j-me",
+          "bigg-y",
+          "g-tone",
+          "kyak-pha",
+          "yatha",
+          "thuta-aye"
+        ],
+        "status": "unofficial",
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "generation-wave",
+        "name": "Generation Wave",
+        "formed": 2007,
+        "city": "Yangon",
+        "memberIds": [
+          "phyo-zeya-thaw"
+        ],
+        "status": "youth movement (not a rap group)",
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "id": "rel-beginning",
+        "title": "Beginning (Sa-Tin-Gyin)",
+        "artistId": "acid",
+        "year": 2000,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-wiki-burmese-hiphop"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-chocolate-yaung-yayge",
+        "title": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2000,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-thangegyin-myar-swar",
+        "title": "Thangegyin Myar Swar (Friends)",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2001,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-february-mhat-tann",
+        "title": "February Mhat Tann",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2003,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-saisai-live-in-yangon",
+        "title": "Sai Sai Live in Yangon",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2004,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-saisai-hu-khaw-thi",
+        "title": "Sai Sai Hu Khaw Thi",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2005,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-hip-hop-vibration",
+        "title": "Hip Hop Vibration Pya Htan Chat",
+        "artistId": "nay-win",
+        "year": 2005,
+        "type": "album",
+        "sourceIds": [
+          "src-myanmore-2017"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "id": "rel-happy-saisai-birthday",
+        "title": "Happy Sai Sai Birthday",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2007,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-ever-golli",
+        "title": "Ever Golli (Always Dwifter)",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2009,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "rel-date-date-kye",
+        "title": "Date Date Kye (Topnotch)",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2012,
+        "type": "album",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "songs": [
+      {
+        "id": "song-one-nal-mhat-tan",
+        "title": "One Nal Mhat Tan",
+        "releaseId": "rel-february-mhat-tann",
+        "artistId": "sai-sai-kham-leng",
+        "year": 2003,
+        "note": "Hit number one in Myanmar",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "song-thu-nge-chin-myar-swar",
+        "title": "Thu Nge Chin Myar Swar",
+        "releaseId": null,
+        "artistId": "sai-sai-kham-leng",
+        "year": null,
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "id": "ev-straight-outta-yangon-2",
+        "name": "Full Stop's Straight Outta Yangon: Chapter 2",
+        "date": "2017-09-15",
+        "venueId": "ven-clubhouse",
+        "performerIds": [
+          "acid"
+        ],
+        "sourceIds": [
+          "src-coconuts-2017"
+        ],
+        "confidence": "medium",
+        "note": "ACID reunion show; exact date approximate (announced as 'tonight' in Sep 2017 article)"
+      },
+      {
+        "id": "ev-saisai-birthday-show",
+        "name": "Sai Sai Birthday Show",
+        "date": "2004-04-10",
+        "venueId": null,
+        "performerIds": [
+          "sai-sai-kham-leng"
+        ],
+        "sourceIds": [
+          "src-wiki-saisai"
+        ],
+        "confidence": "high",
+        "note": "Annual outdoor concert starting 10 April 2004"
+      }
+    ],
+    "venues": [
+      {
+        "id": "ven-clubhouse",
+        "name": "The Clubhouse",
+        "city": "Yangon",
+        "sourceIds": [
+          "src-coconuts-2017"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "burmese-hiphop",
+        "name": "Burmese hip-hop",
+        "type": "genre",
+        "country": "Myanmar",
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src-wiki-burmese-hiphop",
+        "type": "encyclopedia",
+        "title": "Burmese hip-hop",
+        "publication": "Wikipedia",
+        "date": null,
+        "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop",
+        "license": "CC BY-SA"
+      },
+      {
+        "id": "src-wiki-acid",
+        "type": "encyclopedia",
+        "title": "Acid (hip-hop group)",
+        "publication": "Wikipedia",
+        "date": null,
+        "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)",
+        "license": "CC BY-SA"
+      },
+      {
+        "id": "src-wiki-saisai",
+        "type": "encyclopedia",
+        "title": "Sai Sai Kham Leng",
+        "publication": "Wikipedia",
+        "date": null,
+        "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng",
+        "license": "CC BY-SA"
+      },
+      {
+        "id": "src-coconuts-2017",
+        "type": "article",
+        "title": "ACID - Myanmar's hip hop godfathers - to reunite at the Clubhouse tonight",
+        "publication": "Coconuts Yangon",
+        "date": "2017-09-15",
+        "url": "https://coconuts.co/yangon/lifestyle/acid-myanmars-hip-hop-godfathers-reunite-clubhouse-tonight/",
+        "license": "Copyrighted (facts only)"
+      },
+      {
+        "id": "src-myanmore-2017",
+        "type": "interview",
+        "title": "Snare and the Rap Master Nay Win",
+        "author": "Aung Pyae",
+        "publication": "Myanmore",
+        "date": "2017-01-06",
+        "url": "https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/",
+        "license": "Copyrighted (facts only)"
+      },
+      {
+        "id": "src-insight-604",
+        "type": "podcast",
+        "title": "Insight Myanmar Ep.604: Straight Outta Yangon",
+        "publication": "Insight Myanmar",
+        "date": "2026-09-08",
+        "url": "https://insightmyanmar.org/complete-shows/2026/9/8/episode-604-straight-outta-yangon",
+        "license": "Copyrighted (facts only)"
+      },
+      {
+        "id": "src-yt-acid-doc",
+        "type": "video",
+        "title": "The History of Myanmar Hip Hop | ACID: The Beginning",
+        "publication": "YouTube",
+        "date": null,
+        "url": "https://www.youtube.com/watch?v=XHU7xXY-VKo",
+        "license": "Copyrighted (facts only)"
+      },
+      {
+        "id": "src-deezer-saisai",
+        "type": "database",
+        "title": "Sai Sai Kham Leng artist page",
+        "publication": "Deezer",
+        "date": null,
+        "url": "https://www.deezer.com/en/artist/11437368",
+        "license": "Copyrighted (facts only)"
+      },
+      {
+        "id": "src-street-magazine",
+        "type": "magazine",
+        "title": "The Street (scanned issues, private collection)",
+        "publication": "The Street Magazine, Yangon",
+        "date": "2009",
+        "url": null,
+        "license": "Copyrighted (private scans; facts only, no republication)"
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "acid",
+        "kind": "artist",
+        "label": "Acid",
+        "subtitle": "group",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [
+          "ACID",
+          "အက်စစ်"
+        ],
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "phyo-zeya-thaw",
+        "kind": "artist",
+        "label": "Phyo Zeya Thaw",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [
+          "Zayar Thaw"
+        ],
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      },
+      {
+        "id": "yan-yan-chan",
+        "kind": "artist",
+        "label": "Yan Yan Chan",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [
+          "Anegga (podcast alias)"
+        ],
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-insight-604"
+        ]
+      },
+      {
+        "id": "annaga",
+        "kind": "artist",
+        "label": "Annaga",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      },
+      {
+        "id": "hein-zaw",
+        "kind": "artist",
+        "label": "Hein Zaw",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      },
+      {
+        "id": "nay-win",
+        "kind": "artist",
+        "label": "Nay Win",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [
+          "နေဝင်း",
+          "Rap Master"
+        ],
+        "sourceIds": [
+          "src-myanmore-2017"
+        ]
+      },
+      {
+        "id": "snare",
+        "kind": "artist",
+        "label": "Snare",
+        "subtitle": "group",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-myanmore-2017"
+        ]
+      },
+      {
+        "id": "myo-kyawt-myaing",
+        "kind": "artist",
+        "label": "Myo Kyawt Myaing",
+        "subtitle": "solo",
+        "year": 1988,
+        "city": null,
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "sai-sai-kham-leng",
+        "kind": "artist",
+        "label": "Sai Sai Kham Leng",
+        "subtitle": "solo",
+        "year": 1998,
+        "city": "Yangon",
+        "aliases": [
+          "Sai Sai Kham Hlaing",
+          "စိုင်းစိုင်းခမ်းလှိုင်"
+        ],
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "theory",
+        "kind": "artist",
+        "label": "Theory",
+        "subtitle": "group",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "barbu",
+        "kind": "artist",
+        "label": "Barbu",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "thxa-soe",
+        "kind": "artist",
+        "label": "Thxa Soe",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "ns",
+        "kind": "artist",
+        "label": "NS",
+        "subtitle": "group",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "kyaw-thu-soe",
+        "kind": "artist",
+        "label": "Kyaw Thu Soe",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "lin-lin",
+        "kind": "artist",
+        "label": "Lin Lin",
+        "subtitle": "solo",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "too-big",
+        "kind": "artist",
+        "label": "Too Big",
+        "subtitle": "group",
+        "year": 2000,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "9mm",
+        "kind": "artist",
+        "label": "9mm",
+        "subtitle": "group",
+        "year": 2001,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "project-1",
+        "kind": "artist",
+        "label": "Project-1",
+        "subtitle": "group",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "byauk-oh",
+        "kind": "artist",
+        "label": "Byauk-Oh",
+        "subtitle": "group",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [
+          "Firecracker"
+        ],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "examplz",
+        "kind": "artist",
+        "label": "Examplz",
+        "subtitle": "group",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "g-family",
+        "kind": "artist",
+        "label": "G-Family",
+        "subtitle": "group",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "on-track",
+        "kind": "artist",
+        "label": "On-Track",
+        "subtitle": "group",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "lee",
+        "kind": "artist",
+        "label": "L.E.E",
+        "subtitle": "group",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "cyclone",
+        "kind": "artist",
+        "label": "Cyclone",
+        "subtitle": "group",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "j-me",
+        "kind": "artist",
+        "label": "J-Me",
+        "subtitle": "solo",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "bigg-y",
+        "kind": "artist",
+        "label": "Bigg-Y",
+        "subtitle": "solo",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "g-tone",
+        "kind": "artist",
+        "label": "G-Tone",
+        "subtitle": "solo",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "kyak-pha",
+        "kind": "artist",
+        "label": "Kyak Pha",
+        "subtitle": "solo",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "yatha",
+        "kind": "artist",
+        "label": "YaTha",
+        "subtitle": "solo",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "thuta-aye",
+        "kind": "artist",
+        "label": "Thuta Aye",
+        "subtitle": "solo",
+        "year": 2002,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "jouk-jack",
+        "kind": "artist",
+        "label": "Jouk Jack",
+        "subtitle": "solo",
+        "year": 2006,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "kyaw-htut-swe",
+        "kind": "artist",
+        "label": "Kyaw Htut Swe",
+        "subtitle": "solo",
+        "year": 2006,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "vip",
+        "kind": "artist",
+        "label": "VIP",
+        "subtitle": "group",
+        "year": 2006,
+        "city": "Yangon",
+        "aliases": [
+          "Rock$tar"
+        ],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "ah-boy",
+        "kind": "artist",
+        "label": "Ah Boy",
+        "subtitle": "solo",
+        "year": 2006,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "htein-win-p-crew",
+        "kind": "artist",
+        "label": "Htein Win P Crew",
+        "subtitle": "group",
+        "year": 2006,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "hlwan-paing",
+        "kind": "artist",
+        "label": "Hlwan Paing",
+        "subtitle": "solo",
+        "year": 2006,
+        "city": "Yangon",
+        "aliases": [],
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "mha",
+        "kind": "crew",
+        "label": "Myanmar HipHop Association (M.H.A.)",
+        "subtitle": "unofficial",
+        "year": 2002,
+        "city": "Yangon",
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "generation-wave",
+        "kind": "crew",
+        "label": "Generation Wave",
+        "subtitle": "youth movement (not a rap group)",
+        "year": 2007,
+        "city": "Yangon",
+        "sourceIds": [
+          "src-wiki-acid"
+        ]
+      },
+      {
+        "id": "rel-beginning",
+        "kind": "release",
+        "label": "Beginning (Sa-Tin-Gyin)",
+        "subtitle": "album",
+        "year": 2000,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-acid",
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "rel-chocolate-yaung-yayge",
+        "kind": "release",
+        "label": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)",
+        "subtitle": "album",
+        "year": 2000,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "rel-thangegyin-myar-swar",
+        "kind": "release",
+        "label": "Thangegyin Myar Swar (Friends)",
+        "subtitle": "album",
+        "year": 2001,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "rel-february-mhat-tann",
+        "kind": "release",
+        "label": "February Mhat Tann",
+        "subtitle": "album",
+        "year": 2003,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "rel-saisai-live-in-yangon",
+        "kind": "release",
+        "label": "Sai Sai Live in Yangon",
+        "subtitle": "album",
+        "year": 2004,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "rel-saisai-hu-khaw-thi",
+        "kind": "release",
+        "label": "Sai Sai Hu Khaw Thi",
+        "subtitle": "album",
+        "year": 2005,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "rel-hip-hop-vibration",
+        "kind": "release",
+        "label": "Hip Hop Vibration Pya Htan Chat",
+        "subtitle": "album",
+        "year": 2005,
+        "confidence": "medium",
+        "sourceIds": [
+          "src-myanmore-2017"
+        ]
+      },
+      {
+        "id": "rel-happy-saisai-birthday",
+        "kind": "release",
+        "label": "Happy Sai Sai Birthday",
+        "subtitle": "album",
+        "year": 2007,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "rel-ever-golli",
+        "kind": "release",
+        "label": "Ever Golli (Always Dwifter)",
+        "subtitle": "album",
+        "year": 2009,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "rel-date-date-kye",
+        "kind": "release",
+        "label": "Date Date Kye (Topnotch)",
+        "subtitle": "album",
+        "year": 2012,
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "song-one-nal-mhat-tan",
+        "kind": "song",
+        "label": "One Nal Mhat Tan",
+        "subtitle": "song",
+        "year": 2003,
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "song-thu-nge-chin-myar-swar",
+        "kind": "song",
+        "label": "Thu Nge Chin Myar Swar",
+        "subtitle": "song",
+        "year": null,
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "ev-straight-outta-yangon-2",
+        "kind": "event",
+        "label": "Full Stop's Straight Outta Yangon: Chapter 2",
+        "subtitle": "event",
+        "year": 2017,
+        "date": "2017-09-15",
+        "confidence": "medium",
+        "sourceIds": [
+          "src-coconuts-2017"
+        ]
+      },
+      {
+        "id": "ev-saisai-birthday-show",
+        "kind": "event",
+        "label": "Sai Sai Birthday Show",
+        "subtitle": "event",
+        "year": 2004,
+        "date": "2004-04-10",
+        "confidence": "high",
+        "sourceIds": [
+          "src-wiki-saisai"
+        ]
+      },
+      {
+        "id": "ven-clubhouse",
+        "kind": "venue",
+        "label": "The Clubhouse",
+        "subtitle": "venue",
+        "year": null,
+        "city": "Yangon",
+        "sourceIds": [
+          "src-coconuts-2017"
+        ]
+      },
+      {
+        "id": "burmese-hiphop",
+        "kind": "topic",
+        "label": "Burmese hip-hop",
+        "subtitle": "genre",
+        "year": null,
+        "sourceIds": [
+          "src-wiki-burmese-hiphop"
+        ]
+      },
+      {
+        "id": "src-wiki-burmese-hiphop",
+        "kind": "source",
+        "label": "Burmese hip-hop",
+        "subtitle": "Wikipedia",
+        "year": null,
+        "sourceType": "encyclopedia",
+        "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+      },
+      {
+        "id": "src-wiki-acid",
+        "kind": "source",
+        "label": "Acid (hip-hop group)",
+        "subtitle": "Wikipedia",
+        "year": null,
+        "sourceType": "encyclopedia",
+        "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+      },
+      {
+        "id": "src-wiki-saisai",
+        "kind": "source",
+        "label": "Sai Sai Kham Leng",
+        "subtitle": "Wikipedia",
+        "year": null,
+        "sourceType": "encyclopedia",
+        "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+      },
+      {
+        "id": "src-coconuts-2017",
+        "kind": "source",
+        "label": "ACID - Myanmar's hip hop godfathers - to reunite at the Clubhouse tonight",
+        "subtitle": "Coconuts Yangon",
+        "year": 2017,
+        "sourceType": "article",
+        "url": "https://coconuts.co/yangon/lifestyle/acid-myanmars-hip-hop-godfathers-reunite-clubhouse-tonight/"
+      },
+      {
+        "id": "src-myanmore-2017",
+        "kind": "source",
+        "label": "Snare and the Rap Master Nay Win",
+        "subtitle": "Myanmore",
+        "year": 2017,
+        "sourceType": "interview",
+        "url": "https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/"
+      },
+      {
+        "id": "src-insight-604",
+        "kind": "source",
+        "label": "Insight Myanmar Ep.604: Straight Outta Yangon",
+        "subtitle": "Insight Myanmar",
+        "year": 2026,
+        "sourceType": "podcast",
+        "url": "https://insightmyanmar.org/complete-shows/2026/9/8/episode-604-straight-outta-yangon"
+      },
+      {
+        "id": "src-yt-acid-doc",
+        "kind": "source",
+        "label": "The History of Myanmar Hip Hop | ACID: The Beginning",
+        "subtitle": "YouTube",
+        "year": null,
+        "sourceType": "video",
+        "url": "https://www.youtube.com/watch?v=XHU7xXY-VKo"
+      },
+      {
+        "id": "src-deezer-saisai",
+        "kind": "source",
+        "label": "Sai Sai Kham Leng artist page",
+        "subtitle": "Deezer",
+        "year": null,
+        "sourceType": "database",
+        "url": "https://www.deezer.com/en/artist/11437368"
+      },
+      {
+        "id": "src-street-magazine",
+        "kind": "source",
+        "label": "The Street (scanned issues, private collection)",
+        "subtitle": "The Street Magazine, Yangon",
+        "year": 2009,
+        "sourceType": "magazine",
+        "url": null
+      }
+    ],
+    "edges": [
+      {
+        "from": "phyo-zeya-thaw",
+        "fromLabel": "Phyo Zeya Thaw",
+        "type": "member_of",
+        "to": "acid",
+        "toLabel": "Acid",
+        "toKind": "artist",
+        "source": "src-wiki-acid",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "yan-yan-chan",
+        "fromLabel": "Yan Yan Chan",
+        "type": "member_of",
+        "to": "acid",
+        "toLabel": "Acid",
+        "toKind": "artist",
+        "source": "src-wiki-acid",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "annaga",
+        "fromLabel": "Annaga",
+        "type": "member_of",
+        "to": "acid",
+        "toLabel": "Acid",
+        "toKind": "artist",
+        "source": "src-wiki-acid",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "hein-zaw",
+        "fromLabel": "Hein Zaw",
+        "type": "member_of",
+        "to": "acid",
+        "toLabel": "Acid",
+        "toKind": "artist",
+        "source": "src-wiki-acid",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "acid",
+        "fromLabel": "Acid",
+        "type": "released",
+        "to": "rel-beginning",
+        "toLabel": "rel-beginning",
+        "toKind": "release",
+        "source": "src-wiki-acid",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "acid",
+        "fromLabel": "Acid",
+        "type": "pioneer_of",
+        "to": "burmese-hiphop",
+        "toLabel": "Burmese hip-hop",
+        "toKind": "topic",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "nay-win",
+        "fromLabel": "Nay Win",
+        "type": "member_of",
+        "to": "snare",
+        "toLabel": "Snare",
+        "toKind": "artist",
+        "source": "src-myanmore-2017",
+        "status": "AI_EXTRACTED",
+        "confidence": "medium"
+      },
+      {
+        "from": "nay-win",
+        "fromLabel": "Nay Win",
+        "type": "released",
+        "to": "rel-hip-hop-vibration",
+        "toLabel": "rel-hip-hop-vibration",
+        "toKind": "release",
+        "source": "src-myanmore-2017",
+        "status": "AI_EXTRACTED",
+        "confidence": "medium"
+      },
+      {
+        "from": "barbu",
+        "fromLabel": "Barbu",
+        "type": "member_of",
+        "to": "theory",
+        "toLabel": "Theory",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "thxa-soe",
+        "fromLabel": "Thxa Soe",
+        "type": "member_of",
+        "to": "theory",
+        "toLabel": "Theory",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "kyaw-thu-soe",
+        "fromLabel": "Kyaw Thu Soe",
+        "type": "member_of",
+        "to": "ns",
+        "toLabel": "NS",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "lin-lin",
+        "fromLabel": "Lin Lin",
+        "type": "member_of",
+        "to": "ns",
+        "toLabel": "NS",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "g-tone",
+        "fromLabel": "G-Tone",
+        "type": "member_of",
+        "to": "cyclone",
+        "toLabel": "Cyclone",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "medium"
+      },
+      {
+        "from": "jouk-jack",
+        "fromLabel": "Jouk Jack",
+        "type": "member_of",
+        "to": "vip",
+        "toLabel": "VIP",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "medium"
+      },
+      {
+        "from": "kyaw-htut-swe",
+        "fromLabel": "Kyaw Htut Swe",
+        "type": "member_of",
+        "to": "vip",
+        "toLabel": "VIP",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "medium"
+      },
+      {
+        "from": "ah-boy",
+        "fromLabel": "Ah Boy",
+        "type": "member_of",
+        "to": "vip",
+        "toLabel": "VIP",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "medium"
+      },
+      {
+        "from": "hlwan-paing",
+        "fromLabel": "Hlwan Paing",
+        "type": "associated_with",
+        "to": "vip",
+        "toLabel": "VIP",
+        "toKind": "artist",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "AI_EXTRACTED",
+        "confidence": "medium"
+      },
+      {
+        "from": "j-me",
+        "fromLabel": "J-Me",
+        "type": "member_of",
+        "to": "mha",
+        "toLabel": "Myanmar HipHop Association (M.H.A.)",
+        "toKind": "crew",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "AI_EXTRACTED",
+        "confidence": "low"
+      },
+      {
+        "from": "phyo-zeya-thaw",
+        "fromLabel": "Phyo Zeya Thaw",
+        "type": "member_of",
+        "to": "generation-wave",
+        "toLabel": "Generation Wave",
+        "toKind": "crew",
+        "source": "src-wiki-acid",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-chocolate-yaung-yayge",
+        "toLabel": "rel-chocolate-yaung-yayge",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-thangegyin-myar-swar",
+        "toLabel": "rel-thangegyin-myar-swar",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-february-mhat-tann",
+        "toLabel": "rel-february-mhat-tann",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-saisai-live-in-yangon",
+        "toLabel": "rel-saisai-live-in-yangon",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-saisai-hu-khaw-thi",
+        "toLabel": "rel-saisai-hu-khaw-thi",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-happy-saisai-birthday",
+        "toLabel": "rel-happy-saisai-birthday",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-ever-golli",
+        "toLabel": "rel-ever-golli",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "released",
+        "to": "rel-date-date-kye",
+        "toLabel": "rel-date-date-kye",
+        "toKind": "release",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "acid",
+        "fromLabel": "Acid",
+        "type": "performed_at",
+        "to": "ev-straight-outta-yangon-2",
+        "toLabel": "Full Stop's Straight Outta Yangon: Chapter 2",
+        "toKind": "event",
+        "source": "src-coconuts-2017",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "sai-sai-kham-leng",
+        "fromLabel": "Sai Sai Kham Leng",
+        "type": "performed_at",
+        "to": "ev-saisai-birthday-show",
+        "toLabel": "Sai Sai Birthday Show",
+        "toKind": "event",
+        "source": "src-wiki-saisai",
+        "status": "VERIFIED",
+        "confidence": "high"
+      },
+      {
+        "from": "myo-kyawt-myaing",
+        "fromLabel": "Myo Kyawt Myaing",
+        "type": "pioneer_of",
+        "to": "burmese-hiphop",
+        "toLabel": "Burmese hip-hop",
+        "toKind": "topic",
+        "source": "src-wiki-burmese-hiphop",
+        "status": "VERIFIED",
+        "confidence": "medium"
+      },
+      {
+        "from": "yan-yan-chan",
+        "fromLabel": "Yan Yan Chan",
+        "type": "mentioned_in",
+        "to": "src-insight-604",
+        "toLabel": "src-insight-604",
+        "toKind": "source",
+        "source": "src-insight-604",
+        "status": "AI_EXTRACTED",
+        "confidence": "medium"
+      },
+      {
+        "from": "acid",
+        "fromLabel": "Acid",
+        "type": "documented_in",
+        "to": "src-yt-acid-doc",
+        "toLabel": "src-yt-acid-doc",
+        "toKind": "source",
+        "source": "src-yt-acid-doc",
+        "status": "VERIFIED",
+        "confidence": "medium"
+      },
+      {
+        "from": "burmese-hiphop",
+        "fromLabel": "Burmese hip-hop",
+        "type": "documented_in",
+        "to": "src-street-magazine",
+        "toLabel": "src-street-magazine",
+        "toKind": "source",
+        "source": "src-street-magazine",
+        "status": "AI_EXTRACTED",
+        "confidence": "low"
+      }
+    ]
+  },
+  "entityDetail": {
+    "acid": {
+      "id": "acid",
+      "kind": "artist",
+      "name": "Acid",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [
+        "ACID",
+        "အက်စစ်"
+      ],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [],
+      "releases": [
+        {
+          "id": "rel-beginning",
+          "title": "Beginning (Sa-Tin-Gyin)",
+          "year": 2000,
+          "type": "album",
+          "confidence": "high"
+        }
+      ],
+      "songs": [],
+      "events": [
+        {
+          "id": "ev-straight-outta-yangon-2",
+          "name": "Full Stop's Straight Outta Yangon: Chapter 2",
+          "date": "2017-09-15",
+          "venue": "The Clubhouse"
+        }
+      ],
+      "relations": [
+        {
+          "type": "released",
+          "to": "rel-beginning",
+          "toLabel": "rel-beginning",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "pioneer_of",
+          "to": "burmese-hiphop",
+          "toLabel": "Burmese hip-hop",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "performed_at",
+          "to": "ev-straight-outta-yangon-2",
+          "toLabel": "Full Stop's Straight Outta Yangon: Chapter 2",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "documented_in",
+          "to": "src-yt-acid-doc",
+          "toLabel": "src-yt-acid-doc",
+          "status": "VERIFIED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [
+        {
+          "type": "member_of",
+          "from": "phyo-zeya-thaw",
+          "fromLabel": "Phyo Zeya Thaw",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "member_of",
+          "from": "yan-yan-chan",
+          "fromLabel": "Yan Yan Chan",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "member_of",
+          "from": "annaga",
+          "fromLabel": "Annaga",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "member_of",
+          "from": "hein-zaw",
+          "fromLabel": "Hein Zaw",
+          "status": "VERIFIED"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-wiki-acid",
+          "title": "Acid (hip-hop group)",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+        },
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "phyo-zeya-thaw": {
+      "id": "phyo-zeya-thaw",
+      "kind": "artist",
+      "name": "Phyo Zeya Thaw",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": 2022,
+      "born": "1981-03-26",
+      "died": "2022-07-23",
+      "aliases": [
+        "Zayar Thaw"
+      ],
+      "generation": null,
+      "generationLabel": null,
+      "crews": [
+        {
+          "id": "generation-wave",
+          "name": "Generation Wave",
+          "role": "member"
+        }
+      ],
+      "groups": [
+        {
+          "id": "acid",
+          "name": "Acid",
+          "kind": "artist"
+        },
+        {
+          "id": "generation-wave",
+          "name": "Generation Wave",
+          "kind": "crew"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "acid",
+          "toLabel": "Acid",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "member_of",
+          "to": "generation-wave",
+          "toLabel": "Generation Wave",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-acid",
+          "title": "Acid (hip-hop group)",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+        }
+      ]
+    },
+    "yan-yan-chan": {
+      "id": "yan-yan-chan",
+      "kind": "artist",
+      "name": "Yan Yan Chan",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": "1979-05-12",
+      "died": null,
+      "aliases": [
+        "Anegga (podcast alias)"
+      ],
+      "generation": null,
+      "generationLabel": null,
+      "crews": [],
+      "groups": [
+        {
+          "id": "acid",
+          "name": "Acid",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "acid",
+          "toLabel": "Acid",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "mentioned_in",
+          "to": "src-insight-604",
+          "toLabel": "src-insight-604",
+          "status": "AI_EXTRACTED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-acid",
+          "title": "Acid (hip-hop group)",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+        },
+        {
+          "id": "src-insight-604",
+          "title": "Insight Myanmar Ep.604: Straight Outta Yangon",
+          "publication": "Insight Myanmar",
+          "url": "https://insightmyanmar.org/complete-shows/2026/9/8/episode-604-straight-outta-yangon"
+        }
+      ]
+    },
+    "annaga": {
+      "id": "annaga",
+      "kind": "artist",
+      "name": "Annaga",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": "1979-05-19",
+      "died": null,
+      "aliases": [],
+      "generation": null,
+      "generationLabel": null,
+      "crews": [],
+      "groups": [
+        {
+          "id": "acid",
+          "name": "Acid",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "acid",
+          "toLabel": "Acid",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-acid",
+          "title": "Acid (hip-hop group)",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+        }
+      ]
+    },
+    "hein-zaw": {
+      "id": "hein-zaw",
+      "kind": "artist",
+      "name": "Hein Zaw",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": 2006,
+      "born": "1981-06-12",
+      "died": "2006-04-10",
+      "aliases": [],
+      "generation": null,
+      "generationLabel": null,
+      "crews": [],
+      "groups": [
+        {
+          "id": "acid",
+          "name": "Acid",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "acid",
+          "toLabel": "Acid",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-acid",
+          "title": "Acid (hip-hop group)",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+        }
+      ]
+    },
+    "nay-win": {
+      "id": "nay-win",
+      "kind": "artist",
+      "name": "Nay Win",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [
+        "နေဝင်း",
+        "Rap Master"
+      ],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "snare",
+          "name": "Snare",
+          "kind": "artist"
+        }
+      ],
+      "releases": [
+        {
+          "id": "rel-hip-hop-vibration",
+          "title": "Hip Hop Vibration Pya Htan Chat",
+          "year": 2005,
+          "type": "album",
+          "confidence": "medium"
+        }
+      ],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "snare",
+          "toLabel": "Snare",
+          "status": "AI_EXTRACTED",
+          "confidence": "medium"
+        },
+        {
+          "type": "released",
+          "to": "rel-hip-hop-vibration",
+          "toLabel": "rel-hip-hop-vibration",
+          "status": "AI_EXTRACTED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-myanmore-2017",
+          "title": "Snare and the Rap Master Nay Win",
+          "publication": "Myanmore",
+          "url": "https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/"
+        }
+      ]
+    },
+    "snare": {
+      "id": "snare",
+      "kind": "artist",
+      "name": "Snare",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [
+        {
+          "type": "member_of",
+          "from": "nay-win",
+          "fromLabel": "Nay Win",
+          "status": "AI_EXTRACTED"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-myanmore-2017",
+          "title": "Snare and the Rap Master Nay Win",
+          "publication": "Myanmore",
+          "url": "https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/"
+        }
+      ]
+    },
+    "myo-kyawt-myaing": {
+      "id": "myo-kyawt-myaing",
+      "kind": "artist",
+      "name": "Myo Kyawt Myaing",
+      "type": "solo",
+      "city": null,
+      "activeFrom": 1988,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "prehistory",
+      "generationLabel": "Precursors",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "pioneer_of",
+          "to": "burmese-hiphop",
+          "toLabel": "Burmese hip-hop",
+          "status": "VERIFIED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "sai-sai-kham-leng": {
+      "id": "sai-sai-kham-leng",
+      "kind": "artist",
+      "name": "Sai Sai Kham Leng",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 1998,
+      "activeTo": null,
+      "born": "1979-04-10",
+      "died": null,
+      "aliases": [
+        "Sai Sai Kham Hlaing",
+        "စိုင်းစိုင်းခမ်းလှိုင်"
+      ],
+      "generation": "prehistory",
+      "generationLabel": "Precursors",
+      "crews": [],
+      "groups": [],
+      "releases": [
+        {
+          "id": "rel-chocolate-yaung-yayge",
+          "title": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)",
+          "year": 2000,
+          "type": "album",
+          "confidence": "high"
+        },
+        {
+          "id": "rel-thangegyin-myar-swar",
+          "title": "Thangegyin Myar Swar (Friends)",
+          "year": 2001,
+          "type": "album",
+          "confidence": "high"
+        },
+        {
+          "id": "rel-february-mhat-tann",
+          "title": "February Mhat Tann",
+          "year": 2003,
+          "type": "album",
+          "confidence": "high"
+        },
+        {
+          "id": "rel-saisai-live-in-yangon",
+          "title": "Sai Sai Live in Yangon",
+          "year": 2004,
+          "type": "album",
+          "confidence": "high"
+        },
+        {
+          "id": "rel-saisai-hu-khaw-thi",
+          "title": "Sai Sai Hu Khaw Thi",
+          "year": 2005,
+          "type": "album",
+          "confidence": "high"
+        },
+        {
+          "id": "rel-happy-saisai-birthday",
+          "title": "Happy Sai Sai Birthday",
+          "year": 2007,
+          "type": "album",
+          "confidence": "high"
+        },
+        {
+          "id": "rel-ever-golli",
+          "title": "Ever Golli (Always Dwifter)",
+          "year": 2009,
+          "type": "album",
+          "confidence": "high"
+        },
+        {
+          "id": "rel-date-date-kye",
+          "title": "Date Date Kye (Topnotch)",
+          "year": 2012,
+          "type": "album",
+          "confidence": "high"
+        }
+      ],
+      "songs": [
+        {
+          "id": "song-one-nal-mhat-tan",
+          "title": "One Nal Mhat Tan",
+          "year": 2003,
+          "note": "Hit number one in Myanmar"
+        },
+        {
+          "id": "song-thu-nge-chin-myar-swar",
+          "title": "Thu Nge Chin Myar Swar",
+          "year": null,
+          "note": null
+        }
+      ],
+      "events": [
+        {
+          "id": "ev-saisai-birthday-show",
+          "name": "Sai Sai Birthday Show",
+          "date": "2004-04-10",
+          "venue": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "released",
+          "to": "rel-chocolate-yaung-yayge",
+          "toLabel": "rel-chocolate-yaung-yayge",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "released",
+          "to": "rel-thangegyin-myar-swar",
+          "toLabel": "rel-thangegyin-myar-swar",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "released",
+          "to": "rel-february-mhat-tann",
+          "toLabel": "rel-february-mhat-tann",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "released",
+          "to": "rel-saisai-live-in-yangon",
+          "toLabel": "rel-saisai-live-in-yangon",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "released",
+          "to": "rel-saisai-hu-khaw-thi",
+          "toLabel": "rel-saisai-hu-khaw-thi",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "released",
+          "to": "rel-happy-saisai-birthday",
+          "toLabel": "rel-happy-saisai-birthday",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "released",
+          "to": "rel-ever-golli",
+          "toLabel": "rel-ever-golli",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "released",
+          "to": "rel-date-date-kye",
+          "toLabel": "rel-date-date-kye",
+          "status": "VERIFIED",
+          "confidence": "high"
+        },
+        {
+          "type": "performed_at",
+          "to": "ev-saisai-birthday-show",
+          "toLabel": "Sai Sai Birthday Show",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "theory": {
+      "id": "theory",
+      "kind": "artist",
+      "name": "Theory",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [
+        {
+          "type": "member_of",
+          "from": "barbu",
+          "fromLabel": "Barbu",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "member_of",
+          "from": "thxa-soe",
+          "fromLabel": "Thxa Soe",
+          "status": "VERIFIED"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "barbu": {
+      "id": "barbu",
+      "kind": "artist",
+      "name": "Barbu",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "theory",
+          "name": "Theory",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "theory",
+          "toLabel": "Theory",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "thxa-soe": {
+      "id": "thxa-soe",
+      "kind": "artist",
+      "name": "Thxa Soe",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "theory",
+          "name": "Theory",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "theory",
+          "toLabel": "Theory",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "ns": {
+      "id": "ns",
+      "kind": "artist",
+      "name": "NS",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [
+        {
+          "type": "member_of",
+          "from": "kyaw-thu-soe",
+          "fromLabel": "Kyaw Thu Soe",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "member_of",
+          "from": "lin-lin",
+          "fromLabel": "Lin Lin",
+          "status": "VERIFIED"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "kyaw-thu-soe": {
+      "id": "kyaw-thu-soe",
+      "kind": "artist",
+      "name": "Kyaw Thu Soe",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "ns",
+          "name": "NS",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "ns",
+          "toLabel": "NS",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "lin-lin": {
+      "id": "lin-lin",
+      "kind": "artist",
+      "name": "Lin Lin",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "ns",
+          "name": "NS",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "ns",
+          "toLabel": "NS",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "too-big": {
+      "id": "too-big",
+      "kind": "artist",
+      "name": "Too Big",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2000,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "1",
+      "generationLabel": "1st generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "9mm": {
+      "id": "9mm",
+      "kind": "artist",
+      "name": "9mm",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2001,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "project-1": {
+      "id": "project-1",
+      "kind": "artist",
+      "name": "Project-1",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "byauk-oh": {
+      "id": "byauk-oh",
+      "kind": "artist",
+      "name": "Byauk-Oh",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [
+        "Firecracker"
+      ],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "examplz": {
+      "id": "examplz",
+      "kind": "artist",
+      "name": "Examplz",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "g-family": {
+      "id": "g-family",
+      "kind": "artist",
+      "name": "G-Family",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "on-track": {
+      "id": "on-track",
+      "kind": "artist",
+      "name": "On-Track",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "lee": {
+      "id": "lee",
+      "kind": "artist",
+      "name": "L.E.E",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "cyclone": {
+      "id": "cyclone",
+      "kind": "artist",
+      "name": "Cyclone",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [
+        {
+          "type": "member_of",
+          "from": "g-tone",
+          "fromLabel": "G-Tone",
+          "status": "VERIFIED"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "j-me": {
+      "id": "j-me",
+      "kind": "artist",
+      "name": "J-Me",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [
+        {
+          "id": "mha",
+          "name": "Myanmar HipHop Association (M.H.A.)",
+          "role": "member"
+        }
+      ],
+      "groups": [
+        {
+          "id": "mha",
+          "name": "Myanmar HipHop Association (M.H.A.)",
+          "kind": "crew"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "mha",
+          "toLabel": "Myanmar HipHop Association (M.H.A.)",
+          "status": "AI_EXTRACTED",
+          "confidence": "low"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "bigg-y": {
+      "id": "bigg-y",
+      "kind": "artist",
+      "name": "Bigg-Y",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [
+        {
+          "id": "mha",
+          "name": "Myanmar HipHop Association (M.H.A.)",
+          "role": "member"
+        }
+      ],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "g-tone": {
+      "id": "g-tone",
+      "kind": "artist",
+      "name": "G-Tone",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [
+        {
+          "id": "mha",
+          "name": "Myanmar HipHop Association (M.H.A.)",
+          "role": "member"
+        }
+      ],
+      "groups": [
+        {
+          "id": "cyclone",
+          "name": "Cyclone",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "cyclone",
+          "toLabel": "Cyclone",
+          "status": "VERIFIED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "kyak-pha": {
+      "id": "kyak-pha",
+      "kind": "artist",
+      "name": "Kyak Pha",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [
+        {
+          "id": "mha",
+          "name": "Myanmar HipHop Association (M.H.A.)",
+          "role": "member"
+        }
+      ],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "yatha": {
+      "id": "yatha",
+      "kind": "artist",
+      "name": "YaTha",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [
+        {
+          "id": "mha",
+          "name": "Myanmar HipHop Association (M.H.A.)",
+          "role": "member"
+        }
+      ],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "thuta-aye": {
+      "id": "thuta-aye",
+      "kind": "artist",
+      "name": "Thuta Aye",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2002,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "crews": [
+        {
+          "id": "mha",
+          "name": "Myanmar HipHop Association (M.H.A.)",
+          "role": "member"
+        }
+      ],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "jouk-jack": {
+      "id": "jouk-jack",
+      "kind": "artist",
+      "name": "Jouk Jack",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2006,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "3",
+      "generationLabel": "3rd generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "vip",
+          "toLabel": "VIP",
+          "status": "VERIFIED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "kyaw-htut-swe": {
+      "id": "kyaw-htut-swe",
+      "kind": "artist",
+      "name": "Kyaw Htut Swe",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2006,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "3",
+      "generationLabel": "3rd generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "vip",
+          "toLabel": "VIP",
+          "status": "VERIFIED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "vip": {
+      "id": "vip",
+      "kind": "artist",
+      "name": "VIP",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2006,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [
+        "Rock$tar"
+      ],
+      "generation": "3",
+      "generationLabel": "3rd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [
+        {
+          "type": "member_of",
+          "from": "jouk-jack",
+          "fromLabel": "Jouk Jack",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "member_of",
+          "from": "kyaw-htut-swe",
+          "fromLabel": "Kyaw Htut Swe",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "member_of",
+          "from": "ah-boy",
+          "fromLabel": "Ah Boy",
+          "status": "VERIFIED"
+        },
+        {
+          "type": "associated_with",
+          "from": "hlwan-paing",
+          "fromLabel": "Hlwan Paing",
+          "status": "AI_EXTRACTED"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "ah-boy": {
+      "id": "ah-boy",
+      "kind": "artist",
+      "name": "Ah Boy",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2006,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "3",
+      "generationLabel": "3rd generation",
+      "crews": [],
+      "groups": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "kind": "artist"
+        }
+      ],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "to": "vip",
+          "toLabel": "VIP",
+          "status": "VERIFIED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "htein-win-p-crew": {
+      "id": "htein-win-p-crew",
+      "kind": "artist",
+      "name": "Htein Win P Crew",
+      "type": "group",
+      "city": "Yangon",
+      "activeFrom": 2006,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "3",
+      "generationLabel": "3rd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "hlwan-paing": {
+      "id": "hlwan-paing",
+      "kind": "artist",
+      "name": "Hlwan Paing",
+      "type": "solo",
+      "city": "Yangon",
+      "activeFrom": 2006,
+      "activeTo": null,
+      "born": null,
+      "died": null,
+      "aliases": [],
+      "generation": "3",
+      "generationLabel": "3rd generation",
+      "crews": [],
+      "groups": [],
+      "releases": [],
+      "songs": [],
+      "events": [],
+      "relations": [
+        {
+          "type": "associated_with",
+          "to": "vip",
+          "toLabel": "VIP",
+          "status": "AI_EXTRACTED",
+          "confidence": "medium"
+        }
+      ],
+      "mentionedBy": [],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "mha": {
+      "id": "mha",
+      "kind": "crew",
+      "name": "Myanmar HipHop Association (M.H.A.)",
+      "formed": 2002,
+      "city": "Yangon",
+      "status": "unofficial",
+      "generation": "2",
+      "generationLabel": "2nd generation",
+      "members": [
+        {
+          "id": "j-me",
+          "name": "J-Me",
+          "type": "solo"
+        },
+        {
+          "id": "bigg-y",
+          "name": "Bigg-Y",
+          "type": "solo"
+        },
+        {
+          "id": "g-tone",
+          "name": "G-Tone",
+          "type": "solo"
+        },
+        {
+          "id": "kyak-pha",
+          "name": "Kyak Pha",
+          "type": "solo"
+        },
+        {
+          "id": "yatha",
+          "name": "YaTha",
+          "type": "solo"
+        },
+        {
+          "id": "thuta-aye",
+          "name": "Thuta Aye",
+          "type": "solo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "member_of",
+          "from": "j-me",
+          "to": "mha",
+          "status": "AI_EXTRACTED",
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "generation-wave": {
+      "id": "generation-wave",
+      "kind": "crew",
+      "name": "Generation Wave",
+      "formed": 2007,
+      "city": "Yangon",
+      "status": "youth movement (not a rap group)",
+      "generation": "3",
+      "generationLabel": "3rd generation",
+      "members": [
+        {
+          "id": "phyo-zeya-thaw",
+          "name": "Phyo Zeya Thaw",
+          "type": "solo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "member_of",
+          "from": "phyo-zeya-thaw",
+          "to": "generation-wave",
+          "status": "VERIFIED",
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-wiki-acid",
+          "title": "Acid (hip-hop group)",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+        }
+      ]
+    },
+    "rel-beginning": {
+      "id": "rel-beginning",
+      "kind": "release",
+      "title": "Beginning (Sa-Tin-Gyin)",
+      "type": "album",
+      "year": 2000,
+      "artist": {
+        "id": "acid",
+        "name": "Acid"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-acid",
+          "title": "Acid (hip-hop group)",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)"
+        },
+        {
+          "id": "src-wiki-burmese-hiphop",
+          "title": "Burmese hip-hop",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop"
+        }
+      ]
+    },
+    "rel-chocolate-yaung-yayge": {
+      "id": "rel-chocolate-yaung-yayge",
+      "kind": "release",
+      "title": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)",
+      "type": "album",
+      "year": 2000,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "rel-thangegyin-myar-swar": {
+      "id": "rel-thangegyin-myar-swar",
+      "kind": "release",
+      "title": "Thangegyin Myar Swar (Friends)",
+      "type": "album",
+      "year": 2001,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "rel-february-mhat-tann": {
+      "id": "rel-february-mhat-tann",
+      "kind": "release",
+      "title": "February Mhat Tann",
+      "type": "album",
+      "year": 2003,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [
+        {
+          "id": "song-one-nal-mhat-tan",
+          "title": "One Nal Mhat Tan",
+          "year": 2003,
+          "note": "Hit number one in Myanmar"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "rel-saisai-live-in-yangon": {
+      "id": "rel-saisai-live-in-yangon",
+      "kind": "release",
+      "title": "Sai Sai Live in Yangon",
+      "type": "album",
+      "year": 2004,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "rel-saisai-hu-khaw-thi": {
+      "id": "rel-saisai-hu-khaw-thi",
+      "kind": "release",
+      "title": "Sai Sai Hu Khaw Thi",
+      "type": "album",
+      "year": 2005,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "rel-hip-hop-vibration": {
+      "id": "rel-hip-hop-vibration",
+      "kind": "release",
+      "title": "Hip Hop Vibration Pya Htan Chat",
+      "type": "album",
+      "year": 2005,
+      "artist": {
+        "id": "nay-win",
+        "name": "Nay Win"
+      },
+      "songs": [],
+      "confidence": "medium",
+      "sources": [
+        {
+          "id": "src-myanmore-2017",
+          "title": "Snare and the Rap Master Nay Win",
+          "publication": "Myanmore",
+          "url": "https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/"
+        }
+      ]
+    },
+    "rel-happy-saisai-birthday": {
+      "id": "rel-happy-saisai-birthday",
+      "kind": "release",
+      "title": "Happy Sai Sai Birthday",
+      "type": "album",
+      "year": 2007,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "rel-ever-golli": {
+      "id": "rel-ever-golli",
+      "kind": "release",
+      "title": "Ever Golli (Always Dwifter)",
+      "type": "album",
+      "year": 2009,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "rel-date-date-kye": {
+      "id": "rel-date-date-kye",
+      "kind": "release",
+      "title": "Date Date Kye (Topnotch)",
+      "type": "album",
+      "year": 2012,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "songs": [],
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "publication": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "song-one-nal-mhat-tan": {
+      "id": "song-one-nal-mhat-tan",
+      "kind": "song",
+      "title": "One Nal Mhat Tan",
+      "year": 2003,
+      "note": "Hit number one in Myanmar",
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "release": {
+        "id": "rel-february-mhat-tann",
+        "title": "February Mhat Tann"
+      },
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "song-thu-nge-chin-myar-swar": {
+      "id": "song-thu-nge-chin-myar-swar",
+      "kind": "song",
+      "title": "Thu Nge Chin Myar Swar",
+      "year": null,
+      "note": null,
+      "artist": {
+        "id": "sai-sai-kham-leng",
+        "name": "Sai Sai Kham Leng"
+      },
+      "release": null,
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    },
+    "ev-straight-outta-yangon-2": {
+      "id": "ev-straight-outta-yangon-2",
+      "kind": "event",
+      "name": "Full Stop's Straight Outta Yangon: Chapter 2",
+      "date": "2017-09-15",
+      "venue": {
+        "id": "ven-clubhouse",
+        "name": "The Clubhouse",
+        "city": "Yangon"
+      },
+      "performers": [
+        {
+          "id": "acid",
+          "name": "Acid"
+        }
+      ],
+      "note": "ACID reunion show; exact date approximate (announced as 'tonight' in Sep 2017 article)",
+      "confidence": "medium",
+      "sources": [
+        {
+          "id": "src-coconuts-2017",
+          "title": "ACID - Myanmar's hip hop godfathers - to reunite at the Clubhouse tonight",
+          "url": "https://coconuts.co/yangon/lifestyle/acid-myanmars-hip-hop-godfathers-reunite-clubhouse-tonight/"
+        }
+      ]
+    },
+    "ev-saisai-birthday-show": {
+      "id": "ev-saisai-birthday-show",
+      "kind": "event",
+      "name": "Sai Sai Birthday Show",
+      "date": "2004-04-10",
+      "venue": null,
+      "performers": [
+        {
+          "id": "sai-sai-kham-leng",
+          "name": "Sai Sai Kham Leng"
+        }
+      ],
+      "note": "Annual outdoor concert starting 10 April 2004",
+      "confidence": "high",
+      "sources": [
+        {
+          "id": "src-wiki-saisai",
+          "title": "Sai Sai Kham Leng",
+          "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng"
+        }
+      ]
+    }
+  },
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Myanmar Hip-Hop Open Data Archive",
+    "description": "Knowledge-graph style schema. All facts must carry at least one source ID and a confidence level.",
+    "entityTypes": {
+      "Artist": {
+        "fields": {
+          "id": "string (slug)",
+          "name": "string",
+          "type": "solo | group | association",
+          "activeFrom": "int year|null",
+          "activeTo": "int year|null",
+          "city": "string|null",
+          "born": "ISO date|null",
+          "died": "ISO date|null",
+          "aliases": "string[]",
+          "sourceIds": "string[]"
+        }
+      },
+      "Crew": {
+        "fields": {
+          "id": "string",
+          "name": "string",
+          "formed": "int",
+          "city": "string|null",
+          "memberIds": "string[]",
+          "status": "string",
+          "sourceIds": "string[]"
+        }
+      },
+      "Release": {
+        "fields": {
+          "id": "string",
+          "title": "string",
+          "artistId": "string",
+          "year": "int",
+          "type": "album | single | mixtape",
+          "sourceIds": "string[]",
+          "confidence": "high | medium | low"
+        }
+      },
+      "Song": {
+        "fields": {
+          "id": "string",
+          "title": "string",
+          "releaseId": "string|null",
+          "artistId": "string",
+          "year": "int|null",
+          "note": "string|null",
+          "sourceIds": "string[]"
+        }
+      },
+      "Event": {
+        "fields": {
+          "id": "string",
+          "name": "string",
+          "date": "ISO date|null",
+          "venueId": "string|null",
+          "performerIds": "string[]",
+          "sourceIds": "string[]",
+          "confidence": "high | medium | low",
+          "note": "string|null"
+        }
+      },
+      "Venue": {
+        "fields": {
+          "id": "string",
+          "name": "string",
+          "city": "string",
+          "sourceIds": "string[]"
+        }
+      },
+      "Source": {
+        "fields": {
+          "id": "string (src-*)",
+          "type": "encyclopedia | article | interview | podcast | video | database | magazine",
+          "title": "string",
+          "publication": "string",
+          "date": "ISO date|null",
+          "url": "string|null",
+          "license": "string"
+        }
+      },
+      "Relationship": {
+        "fields": {
+          "from": "entity id",
+          "type": "member_of | released | performed_at | pioneer_of | associated_with | mentioned_in | documented_in",
+          "to": "entity id",
+          "source": "source id",
+          "status": "VERIFIED | AI_EXTRACTED | CONFLICTED | REJECTED",
+          "confidence": "high | medium | low"
+        }
+      }
+    },
+    "rules": [
+      "Every claim must reference at least one source ID.",
+      "No copyrighted text is stored - only factual metadata (names, dates, places).",
+      "Conflicts are flagged as CONFLICTED and resolved by human review, never by AI.",
+      "Burmese script names are preserved in the aliases field."
+    ]
+  }
+}

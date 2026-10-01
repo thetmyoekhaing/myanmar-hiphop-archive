@@ -1,0 +1,4 @@
+[
+  {"id": "ev-straight-outta-yangon-2", "name": "Full Stop's Straight Outta Yangon: Chapter 2", "date": "2017-09-15", "venueId": "ven-clubhouse", "performerIds": ["acid"], "sourceIds": ["src-coconuts-2017"], "confidence": "medium", "note": "ACID reunion show; exact date approximate (announced as 'tonight' in Sep 2017 article)"},
+  {"id": "ev-saisai-birthday-show", "name": "Sai Sai Birthday Show", "date": "2004-04-10", "venueId": null, "performerIds": ["sai-sai-kham-leng"], "sourceIds": ["src-wiki-saisai"], "confidence": "high", "note": "Annual outdoor concert starting 10 April 2004"}
+]

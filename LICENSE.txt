@@ -1,0 +1,6 @@
+Myanmar Hip-Hop Open Data Archive
+Data License: Open Data Commons Attribution-ShareAlike 4.0 (ODbL-style, CC BY-SA 4.0 for non-database uses).
+
+You are free to copy, redistribute, and build upon this dataset, provided you credit the archive and share adapted datasets under the same license. Source records in sources.json retain their original copyrights; only factual metadata (names, dates, places - not protected by copyright) has been extracted. No copyrighted text, lyrics, or images are included.
+
+THE DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. Facts marked confidence "low" or status "AI_EXTRACTED" / "CONFLICTED" have not been human-verified.

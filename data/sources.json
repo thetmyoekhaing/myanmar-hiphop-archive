@@ -1,0 +1,11 @@
+[
+  {"id": "src-wiki-burmese-hiphop", "type": "encyclopedia", "title": "Burmese hip-hop", "publication": "Wikipedia", "date": null, "url": "https://en.wikipedia.org/wiki/Burmese_hip-hop", "license": "CC BY-SA"},
+  {"id": "src-wiki-acid", "type": "encyclopedia", "title": "Acid (hip-hop group)", "publication": "Wikipedia", "date": null, "url": "https://en.wikipedia.org/wiki/Acid_(hip-hop_group)", "license": "CC BY-SA"},
+  {"id": "src-wiki-saisai", "type": "encyclopedia", "title": "Sai Sai Kham Leng", "publication": "Wikipedia", "date": null, "url": "https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng", "license": "CC BY-SA"},
+  {"id": "src-coconuts-2017", "type": "article", "title": "ACID - Myanmar's hip hop godfathers - to reunite at the Clubhouse tonight", "publication": "Coconuts Yangon", "date": "2017-09-15", "url": "https://coconuts.co/yangon/lifestyle/acid-myanmars-hip-hop-godfathers-reunite-clubhouse-tonight/", "license": "Copyrighted (facts only)"},
+  {"id": "src-myanmore-2017", "type": "interview", "title": "Snare and the Rap Master Nay Win", "author": "Aung Pyae", "publication": "Myanmore", "date": "2017-01-06", "url": "https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/", "license": "Copyrighted (facts only)"},
+  {"id": "src-insight-604", "type": "podcast", "title": "Insight Myanmar Ep.604: Straight Outta Yangon", "publication": "Insight Myanmar", "date": "2026-09-08", "url": "https://insightmyanmar.org/complete-shows/2026/9/8/episode-604-straight-outta-yangon", "license": "Copyrighted (facts only)"},
+  {"id": "src-yt-acid-doc", "type": "video", "title": "The History of Myanmar Hip Hop | ACID: The Beginning", "publication": "YouTube", "date": null, "url": "https://www.youtube.com/watch?v=XHU7xXY-VKo", "license": "Copyrighted (facts only)"},
+  {"id": "src-deezer-saisai", "type": "database", "title": "Sai Sai Kham Leng artist page", "publication": "Deezer", "date": null, "url": "https://www.deezer.com/en/artist/11437368", "license": "Copyrighted (facts only)"},
+  {"id": "src-street-magazine", "type": "magazine", "title": "The Street (scanned issues, private collection)", "publication": "The Street Magazine, Yangon", "date": "2009", "url": null, "license": "Copyrighted (private scans; facts only, no republication)"}
+]

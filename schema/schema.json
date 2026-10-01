@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Myanmar Hip-Hop Open Data Archive",
+  "description": "Knowledge-graph style schema. All facts must carry at least one source ID and a confidence level.",
+  "entityTypes": {
+    "Artist": {"fields": {"id": "string (slug)", "name": "string", "type": "solo | group | association", "activeFrom": "int year|null", "activeTo": "int year|null", "city": "string|null", "born": "ISO date|null", "died": "ISO date|null", "aliases": "string[]", "sourceIds": "string[]"}},
+    "Crew": {"fields": {"id": "string", "name": "string", "formed": "int", "city": "string|null", "memberIds": "string[]", "status": "string", "sourceIds": "string[]"}},
+    "Release": {"fields": {"id": "string", "title": "string", "artistId": "string", "year": "int", "type": "album | single | mixtape", "sourceIds": "string[]", "confidence": "high | medium | low"}},
+    "Song": {"fields": {"id": "string", "title": "string", "releaseId": "string|null", "artistId": "string", "year": "int|null", "note": "string|null", "sourceIds": "string[]"}},
+    "Event": {"fields": {"id": "string", "name": "string", "date": "ISO date|null", "venueId": "string|null", "performerIds": "string[]", "sourceIds": "string[]", "confidence": "high | medium | low", "note": "string|null"}},
+    "Venue": {"fields": {"id": "string", "name": "string", "city": "string", "sourceIds": "string[]"}},
+    "Source": {"fields": {"id": "string (src-*)", "type": "encyclopedia | article | interview | podcast | video | database | magazine", "title": "string", "publication": "string", "date": "ISO date|null", "url": "string|null", "license": "string"}},
+    "Relationship": {"fields": {"from": "entity id", "type": "member_of | released | performed_at | pioneer_of | associated_with | mentioned_in | documented_in", "to": "entity id", "source": "source id", "status": "VERIFIED | AI_EXTRACTED | CONFLICTED | REJECTED", "confidence": "high | medium | low"}}
+  },
+  "rules": [
+    "Every claim must reference at least one source ID.",
+    "No copyrighted text is stored - only factual metadata (names, dates, places).",
+    "Conflicts are flagged as CONFLICTED and resolved by human review, never by AI.",
+    "Burmese script names are preserved in the aliases field."
+  ]
+}
