@@ -1,38 +1,3493 @@
 [
-  {"id": "acid", "name": "Acid", "type": "group", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": ["ACID", "အက်စစ်"], "sourceIds": ["src-wiki-acid", "src-wiki-burmese-hiphop"]},
-  {"id": "phyo-zeya-thaw", "name": "Phyo Zeya Thaw", "type": "solo", "activeFrom": 2000, "activeTo": 2022, "city": "Yangon", "born": "1981-03-26", "died": "2022-07-23", "aliases": ["Zayar Thaw"], "sourceIds": ["src-wiki-acid"]},
-  {"id": "yan-yan-chan", "name": "Yan Yan Chan", "type": "solo", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "born": "1979-05-12", "aliases": ["Anegga (podcast alias)"], "sourceIds": ["src-wiki-acid", "src-insight-604"]},
-  {"id": "annaga", "name": "Annaga", "type": "solo", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "born": "1979-05-19", "aliases": [], "sourceIds": ["src-wiki-acid"]},
-  {"id": "hein-zaw", "name": "Hein Zaw", "type": "solo", "activeFrom": 2000, "activeTo": 2006, "city": "Yangon", "born": "1981-06-12", "died": "2006-04-10", "aliases": [], "sourceIds": ["src-wiki-acid"]},
-  {"id": "nay-win", "name": "Nay Win", "type": "solo", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": ["နေဝင်း", "Rap Master"], "sourceIds": ["src-myanmore-2017"]},
-  {"id": "snare", "name": "Snare", "type": "group", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-myanmore-2017"]},
-  {"id": "myo-kyawt-myaing", "name": "Myo Kyawt Myaing", "type": "solo", "activeFrom": 1988, "activeTo": null, "city": null, "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "sai-sai-kham-leng", "name": "Sai Sai Kham Leng", "type": "solo", "activeFrom": 1998, "activeTo": null, "city": "Yangon", "born": "1979-04-10", "aliases": ["Sai Sai Kham Hlaing", "စိုင်းစိုင်းခမ်းလှိုင်"], "sourceIds": ["src-wiki-saisai"]},
-  {"id": "theory", "name": "Theory", "type": "group", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "barbu", "name": "Barbu", "type": "solo", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "thxa-soe", "name": "Thxa Soe", "type": "solo", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "ns", "name": "NS", "type": "group", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "kyaw-thu-soe", "name": "Kyaw Thu Soe", "type": "solo", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "lin-lin", "name": "Lin Lin", "type": "solo", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "too-big", "name": "Too Big", "type": "group", "activeFrom": 2000, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "9mm", "name": "9mm", "type": "group", "activeFrom": 2001, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "project-1", "name": "Project-1", "type": "group", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "byauk-oh", "name": "Byauk-Oh", "type": "group", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": ["Firecracker"], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "examplz", "name": "Examplz", "type": "group", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "g-family", "name": "G-Family", "type": "group", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "on-track", "name": "On-Track", "type": "group", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "lee", "name": "L.E.E", "type": "group", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "cyclone", "name": "Cyclone", "type": "group", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "j-me", "name": "J-Me", "type": "solo", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "bigg-y", "name": "Bigg-Y", "type": "solo", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "g-tone", "name": "G-Tone", "type": "solo", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "kyak-pha", "name": "Kyak Pha", "type": "solo", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "yatha", "name": "YaTha", "type": "solo", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "thuta-aye", "name": "Thuta Aye", "type": "solo", "activeFrom": 2002, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "jouk-jack", "name": "Jouk Jack", "type": "solo", "activeFrom": 2006, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "kyaw-htut-swe", "name": "Kyaw Htut Swe", "type": "solo", "activeFrom": 2006, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "vip", "name": "VIP", "type": "group", "activeFrom": 2006, "activeTo": null, "city": "Yangon", "aliases": ["Rock$tar"], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "ah-boy", "name": "Ah Boy", "type": "solo", "activeFrom": 2006, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "htein-win-p-crew", "name": "Htein Win P Crew", "type": "group", "activeFrom": 2006, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "hlwan-paing", "name": "Hlwan Paing", "type": "solo", "activeFrom": 2006, "activeTo": null, "city": "Yangon", "aliases": [], "sourceIds": ["src-wiki-burmese-hiphop"]}
+  {
+    "id": "acid",
+    "name": "Acid",
+    "type": "group",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [
+      "ACID",
+      "အက်စစ်"
+    ],
+    "sourceIds": [
+      "src-wiki-acid",
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "phyo-zeya-thaw",
+    "name": "Phyo Zeya Thaw",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": 2022,
+    "city": "Yangon",
+    "born": "1981-03-26",
+    "died": "2022-07-25",
+    "aliases": [
+      "Zayar Thaw"
+    ],
+    "sourceIds": [
+      "src-dw-rapper-junta-2026",
+      "src-nyt-zayar-thaw-2022",
+      "src-vice-raj-2023",
+      "src-wiki-acid",
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "ACID co-founder and Generation Wave member. Served six years, released 17 May 2011. Arrested Nov 2021 for alleged 'terrorist attacks' and EXECUTED 25 July 2022 aged 41 - reported as the first use of capital punishment in Myanmar in decades. A 2026 documentary, 'The Rapper and the Junta' by Thomas Dandois, is about him."
+  },
+  {
+    "id": "yan-yan-chan",
+    "name": "Yan Yan Chan",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": "1979-05-12",
+    "aliases": [
+      "Anegga (podcast alias)"
+    ],
+    "sourceIds": [
+      "src-wiki-acid",
+      "src-insight-604"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "annaga",
+    "name": "Annaga",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": "1979-05-19",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-acid"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "hein-zaw",
+    "name": "Hein Zaw",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": 2006,
+    "city": "Yangon",
+    "born": "1981-06-12",
+    "died": "2006-04-10",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-acid"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "nay-win",
+    "name": "Nay Win",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [
+      "နေဝင်း",
+      "Rap Master"
+    ],
+    "sourceIds": [
+      "src-myanmore-2017"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "snare",
+    "name": "Snare",
+    "type": "group",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-myanmore-2017"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "myo-kyawt-myaing",
+    "name": "Myo Kyawt Myaing",
+    "type": "solo",
+    "activeFrom": 1988,
+    "activeTo": null,
+    "city": null,
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "sai-sai-kham-leng",
+    "name": "Sai Sai Kham Leng",
+    "type": "solo",
+    "activeFrom": 1998,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": "1979-04-10",
+    "aliases": [
+      "Sai Sai Kham Hlaing",
+      "စိုင်းစိုင်းခမ်းလှိုင်"
+    ],
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "theory",
+    "name": "Theory",
+    "type": "group",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "barbu",
+    "name": "Barbu",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "thxa-soe",
+    "name": "Thxa Soe",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "ns",
+    "name": "NS",
+    "type": "group",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "kyaw-thu-soe",
+    "name": "Kyaw Thu Soe",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "lin-lin",
+    "name": "Lin Lin",
+    "type": "solo",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "too-big",
+    "name": "Too Big",
+    "type": "group",
+    "activeFrom": 2000,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "9mm",
+    "name": "9mm",
+    "type": "group",
+    "activeFrom": 2001,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "project-1",
+    "name": "Project-1",
+    "type": "group",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "byauk-oh",
+    "name": "Byauk-Oh",
+    "type": "group",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [
+      "Firecracker"
+    ],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "examplz",
+    "name": "Examplz",
+    "type": "group",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "g-family",
+    "name": "G-Family",
+    "type": "group",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "on-track",
+    "name": "On-Track",
+    "type": "group",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "lee",
+    "name": "L.E.E",
+    "type": "group",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "cyclone",
+    "name": "Cyclone",
+    "type": "group",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "j-me",
+    "name": "J-Me",
+    "type": "solo",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "bigg-y",
+    "name": "Bigg-Y",
+    "type": "solo",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "g-tone",
+    "name": "G-Tone",
+    "type": "solo",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "kyak-pha",
+    "name": "Kyak Pha",
+    "type": "solo",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "yatha",
+    "name": "YaTha",
+    "type": "solo",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "thuta-aye",
+    "name": "Thuta Aye",
+    "type": "solo",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "jouk-jack",
+    "name": "Jouk Jack",
+    "type": "solo",
+    "activeFrom": 2006,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "kyaw-htut-swe",
+    "name": "Kyaw Htut Swe",
+    "type": "solo",
+    "activeFrom": 2006,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "ah-boy",
+    "name": "Ah Boy",
+    "type": "solo",
+    "activeFrom": 2002,
+    "activeTo": null,
+    "city": "Myeik",
+    "aliases": [
+      "အာဘွိုင်း"
+    ],
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-wiki-ah-boy",
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": "Kyaw Phyo Tun",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "vip",
+      "b-lord-family"
+    ],
+    "labelIds": [],
+    "note": "Born Kyaw Phyo Tun on 13 Jan 1986 in Myeik, Tanintharyi Division, to a Sino-Mon family; family moved to Yangon when he was 3. Lead vocalist of Rock$tar from 2002, and Wikipedia calls him a 'pioneer of the third generation of Burmese hip hop' - which implies a fourth generation is a recognised category. Solo debut album Ta Yoke Tan (Chinatown) 2007. 'A Ngweh A That Myar' (with ChanMyae MgCho) hit #1 on the JOOX top 100 in 2020 and won the JOOX 2020 Popular Song Award. MEMBERSHIP: lead vocalist of VIP (Rock$tar) from its 2007 formation, and a former member. His exit is the group's documented event; a Feb 2013 Burmese headline implies a grievance about him not fulfilling his role rather than a rupture. Wikipedia calls him a 'pioneer of the third generation of Burmese hip hop', which implies a fourth is a recognised category.",
+    "born": "1986-01-13"
+  },
+  {
+    "id": "htein-win-p-crew",
+    "name": "Htein Win P Crew",
+    "type": "group",
+    "activeFrom": 2006,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "hlwan-paing",
+    "name": "Hlwan Paing",
+    "type": "solo",
+    "activeFrom": 2006,
+    "activeTo": null,
+    "city": "Yangon",
+    "aliases": [],
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "base": null,
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": null
+  },
+  {
+    "id": "oasix",
+    "name": "Oasix",
+    "type": "solo",
+    "activeFrom": 2009,
+    "activeTo": null,
+    "city": "Mandalay",
+    "born": "1992-12-18",
+    "died": null,
+    "aliases": [
+      "အိုအေစစ်"
+    ],
+    "realName": "Thet Ko Tun",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "The clearest documented underground-to-mainstream path in the archive: Wildboy member from 2009, then a solo career. Wikipedia's own career section is titled '2009-2013: Career beginnings in underground'. Father Tun Wai was a Mandalay District court judge. His Dec 2015 duet album appears under two titles ('Pyaw San Par' in Wikipedia, ပြောစမ်းပါ in the fan archive); the archive records one release with both titles. '1992' is his birth year.",
+    "sourceIds": [
+      "src-wiki-oasix"
+    ],
+    "base": null
+  },
+  {
+    "id": "yzet",
+    "name": "Y-Zet",
+    "type": "solo",
+    "activeFrom": 2009,
+    "activeTo": null,
+    "city": "Pyin Oo Lwin, Mandalay Region",
+    "born": "1989-05-28",
+    "died": null,
+    "aliases": [
+      "ဝိုင်ဇက်"
+    ],
+    "realName": "Htet Nway Oo",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Long-running Wildboy member and Oasix's duet partner. Born 28 May 1989 in Pyin Oo Lwin, Mandalay REGION - not Mandalay city; school BEHS No. 4 Pyin Oo Lwin, chemistry at Yadanabon University, dropped out 2008. Joined Wildboy 2011. His 2017 album promotion in Mandalay turned violent and a 19-year-old died. INTERVIEWED BY IDEA Magazine, Aug 2017. NO BEEF WITH OASIX OR MG MOE AUNG: the archive's earlier note implying one is retracted - every source shows them as closest collaborators and duo partners, and the documented diss runs outward, not between them.",
+    "sourceIds": [
+      "src-wiki-yzet-2",
+      "src-idea-magazine-yzet-2017"
+    ],
+    "base": null
+  },
+  {
+    "id": "zay-ye",
+    "name": "Zay Ye'",
+    "type": "solo",
+    "activeFrom": 2004,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [
+      "ဇေရဲ",
+      "MC Zay Ye'"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Billed with an 'MC' prefix in a 2010 interview. Describes having no industry connections, self-financing early recordings and selling VIP samples for cash, with thousands of songs still unreleased. Bursts on streaming via a 37-song 'Best of Myanmar Hip Hop' playlist.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-99symphony-audiomack"
+    ],
+    "base": null
+  },
+  {
+    "id": "bo-htet",
+    "name": "Bo Htet",
+    "type": "solo",
+    "activeFrom": 2017,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "the-noise-label"
+    ],
+    "note": "Appears in a 2018 Coconuts freestyle-battle lineup.",
+    "sourceIds": [
+      "src-coconuts-showdown",
+      "src-mhc-archive",
+      "src-zipevent-bohtet-2020"
+    ],
+    "base": null
+  },
+  {
+    "id": "htet-yan",
+    "name": "Htet Yan",
+    "type": "solo",
+    "activeFrom": 2011,
+    "activeTo": null,
+    "city": "Meiktila",
+    "born": "1994-10-18",
+    "died": null,
+    "aliases": [
+      "ထက်ယံ"
+    ],
+    "realName": "Nyein Htet Aung",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "legacy-music"
+    ],
+    "note": "From Meiktila, moved to Yangon. Ran a four-album collective with Shwe Htoo, Lil'Z and X-Box. 'Nway Thwar Tal' (2018) went viral on TikTok in early 2019 with 50,000+ user videos. NOTE: an album called 'Thu' is NOT verified; the documented 2016 second album is 'October 18'.",
+    "sourceIds": [
+      "src-wiki-htet-yan",
+      "src-coconuts-imagine-dragons"
+    ],
+    "base": null
+  },
+  {
+    "id": "x-boxin",
+    "name": "X-Boxin",
+    "type": "solo",
+    "activeFrom": 2013,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [
+      "X-BOX",
+      "X-Box",
+      "B-Lord"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "b-lord-family"
+    ],
+    "labelIds": [
+      "boombox-ent"
+    ],
+    "note": "Born in Myeik, raised Yangon. Sharpened his rhyme 'at Yangon's underground freestyle competitions' (self-description). Myanmar Music Award for Best Young Rap Artist, 2014. The connective tissue across the 4G, BG18 and 2020s label scenes.",
+    "sourceIds": [
+      "src-apple-x-boxin",
+      "src-mhc-archive"
+    ],
+    "base": null
+  },
+  {
+    "id": "phyo-layy",
+    "name": "Phyo Layy",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": "Kyaukmyaung, Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Phyo Lay"
+    ],
+    "realName": "Phyo Wai Myint",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Snare member from the group's formation in 2000, later solo. From Kyaukmyaung, Yangon. Also a lyricist for Sandi Myint Lwin, Wine Su Khaing Thein and Warso Moe Oo. Snare is a group record in artists.json, not a crew, so the membership is carried as a relationship rather than a crewId.",
+    "sourceIds": [
+      "src-eleven-phyo-lay",
+      "src-wiki-nay-win",
+      "src-mhc-archive"
+    ],
+    "base": null
+  },
+  {
+    "id": "g-fatt",
+    "name": "G Fatt",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": "1992-12-31",
+    "died": null,
+    "aliases": [],
+    "realName": "Myat Thu",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Underground origins before going mainstream. Won Best Hip Hop Album and Album of the Year at Major M 2018, and Artist of the Year 2018. First one-man show at Kandawgyi, Nov 2018.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "base": null
+  },
+  {
+    "id": "floke-rose",
+    "name": "Floke Rose",
+    "type": "solo",
+    "activeFrom": 2017,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": "Kaung Myat Thaw",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Won Voice of the Youth 2017. Deliberately solo: he says he avoided joining any hip-hop group. On the scene's battle culture: 'the local underground hip-hop scene has been usually packed with lyrics on the street, rap battles to boost one's egos, girls, parties'.",
+    "sourceIds": [
+      "src-myanmore-rangoon-rhythm-floke"
+    ],
+    "base": null
+  },
+  {
+    "id": "jimmy-jacobs",
+    "name": "Jimmy Jacobs",
+    "type": "solo",
+    "activeFrom": 2008,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [
+      "James G3"
+    ],
+    "realName": "Soe Aung Kyaw",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "sme"
+    ],
+    "labelIds": [
+      "the-noise-label"
+    ],
+    "note": "Rapping from c. 2008; founded SME with Luffie in Dec 2009. He handed out CDs and cassettes at shows when internet access in Myanmar was still limited - a direct documentation of the physical-to-platform transition.",
+    "sourceIds": [
+      "src-myanmore-rangoon-rhythm-jimmy",
+      "src-mhc-archive"
+    ],
+    "base": null
+  },
+  {
+    "id": "99-symphony",
+    "name": "99 Symphony",
+    "type": "group",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "9 Symphony"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "the-noise-label"
+    ],
+    "note": "'INTERNATION' (2024) carries a very large feature list including X-Boxin, Reload and JCZ. Origin city and background are not in any source found. The band's own release misspells the name as '9 Symphony'.",
+    "sourceIds": [
+      "src-deezer-99sym-internation",
+      "src-99symphony-audiomack"
+    ],
+    "base": null
+  },
+  {
+    "id": "moe-htet",
+    "name": "Moe Htet (B+)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "B+"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Producer, rapper and writer. Wrote 'IDFC' (Sophia Everest and Sandy Myint Lwin), Best R&B Song at the Major M Music Awards 2018. 'Medusa' with Sophia Everest reached #1 on the Major M Local Top 30 in 2019.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-hiphopug-blog"
+    ],
+    "base": null
+  },
+  {
+    "id": "yair-yint-aung",
+    "name": "Yair Yint Aung",
+    "type": "solo",
+    "activeFrom": 2013,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "The anchor act of the BG18 circle, active from 2013. CONFLICTED: Apple Music hosts him under two different artist ids (1528815375 and 1194944521), so part of his catalogue sits under a split page.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo",
+      "src-mhc-archive"
+    ],
+    "base": null
+  },
+  {
+    "id": "jcz",
+    "name": "JCZ",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "Producer and artist in the BG18 circle; co-produced Yung Hugo's Sold Out mixtape with him.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo",
+      "src-99symphony-audiomack"
+    ],
+    "base": null
+  },
+  {
+    "id": "eillie",
+    "name": "Eillie",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Ellie"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "In the BG18 circle; released tracks on X-Boxin's W, Vol. 1 and features on 99 Symphony's INTERNATION.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-deezer-99sym-internation"
+    ],
+    "base": null
+  },
+  {
+    "id": "bobby-soxer",
+    "name": "Bobby Soxer",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "Duet partner of Hlwan Paing on 'Done Pyan (Rocket)' (2011), which won best music album from both Shwe FM and City FM; the 1M kyat gold prize was donated to orphans.",
+    "sourceIds": [
+      "src-wiki-bobby-soxer"
+    ],
+    "base": null
+  },
+  {
+    "id": "shwe-htoo",
+    "name": "Shwe Htoo",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-smiyanmar"
+    ],
+    "base": null,
+    "note": null
+  },
+  {
+    "id": "little-t",
+    "name": "Little T",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Little-T"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "b-clipz"
+    ],
+    "labelIds": [],
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "base": null,
+    "note": null
+  },
+  {
+    "id": "j-fire",
+    "name": "J-Fire",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "base": null,
+    "note": null
+  },
+  {
+    "id": "bunny-phyoe",
+    "name": "Bunny Phyoe",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Bunny Phyo"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Spelled Bunny Phyoe / Bunny Phyo / Bunny Phyo across sources; one canonical form is used here. A 30-track unreleased collection circulated in 2010.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-hiphopug-blog"
+    ],
+    "base": null
+  },
+  {
+    "id": "g-latt",
+    "name": "G Latt",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Thin sourcing: confirmed on Phyo Layy's 2019 album and on a 2014 release. No bio, no city.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-hiphopug-blog"
+    ],
+    "base": null
+  },
+  {
+    "id": "aung-ye-htike",
+    "name": "Aung Ye' Htike",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": "1992",
+    "died": null,
+    "aliases": [
+      "ေအာင္ရဲထိုက္"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "b-clipz"
+    ],
+    "labelIds": [],
+    "note": "B-Clipz founder. Reports producing c. 20 songs in 2011 and that the group never released an album, only songs plus planned mixtapes. Ran the MMHLS lyric-video channel.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "base": null
+  },
+  {
+    "id": "chan-myae",
+    "name": "Chan Myae",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "mrc"
+    ],
+    "labelIds": [],
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "base": null,
+    "note": null
+  },
+  {
+    "id": "eaiddhi",
+    "name": "Eaiddhi",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": "Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [],
+    "crewIds": [
+      "jam-it"
+    ],
+    "labelIds": [],
+    "note": "Jam It! co-founder. Freelance sound engineer; previously of Married For The Pain and Side Effect.",
+    "sourceIds": [
+      "src-jam-it-about",
+      "src-myanmore-underground-2015"
+    ],
+    "base": null
+  },
+  {
+    "id": "ye-ngwe-soe",
+    "name": "Ye Ngwe Soe",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "rock"
+    ],
+    "crewIds": [
+      "jam-it"
+    ],
+    "labelIds": [],
+    "note": "Jam It! co-founder. No U Turn vocalist and guitarist from 2002; FM Bagan producer; Happy Three Friends studio.",
+    "sourceIds": [
+      "src-jam-it-about",
+      "src-myanmore-underground-2015"
+    ],
+    "base": null
+  },
+  {
+    "id": "lil-kee-boi",
+    "name": "Lil Kee Boi",
+    "type": "solo",
+    "activeFrom": 2021,
+    "activeTo": null,
+    "city": "Bago",
+    "base": "Munich, Germany",
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Lil Kee boi",
+      "Kee The Balenci",
+      "keethebalenci",
+      "Lill Kee boi"
+    ],
+    "realName": "Pyi Bhone Khant",
+    "identityStatus": "named",
+    "genre": [
+      "trap"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "eagle-element"
+    ],
+    "note": "Trap artist from Bago ('BGO'), based in Munich. Self-describes as recording from his room since 2021. Founder of Eagle Element, describes himself as CEO. 'Mother Teresa' with NAY is the breakout (12M+ YouTube views). DANGER: Viberate's AI-generated bio claims he is 'from South Korea' and YouTube channel metadata lists country KR; both are wrong and the Viberate page should never be cited.",
+    "sourceIds": [
+      "src-spotify-lil-kee-boi",
+      "src-apple-ah-sar"
+    ]
+  },
+  {
+    "id": "223",
+    "name": "223",
+    "type": "duo",
+    "activeFrom": 2019,
+    "activeTo": null,
+    "city": "Taungoo",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "two-two-three"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Self-described 'Burmese Slime From Taungoo', founded 2019. Was a trio of Yungpunch, Lil Cado and Zero, all related; separated 2021 and is now a duo - which two survive is UNVERIFIED. Internal roles per official video credits: Yungpunch produces, Lil Cado mixes, NAY masters. Lil Cado is deceased by Dec 2025 and is billed '(Rip)'. LIFTED describes them as a duo on a Jersey Club beat.",
+    "sourceIds": [
+      "src-apple-223",
+      "src-lifted-2023",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "ah-sar",
+    "name": "Ah Sar",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": "Yangon",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "trap"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "eagle-element",
+      "billionaire-minds"
+    ],
+    "note": "Born and raised Yangon, began making music at 15. Describes himself as part of 'Burma's new wave rap scene' and as Eagle Element's first early member. Two full-length releases in 2025. Possible label migration Eagle Element -> Billionaire Minds Group between May and Nov 2025, inferred from (P) strings and not explicitly documented.",
+    "sourceIds": [
+      "src-apple-ah-sar",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "murkio",
+    "name": "MURKIO",
+    "type": "solo",
+    "activeFrom": 2022,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "murkio"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Earliest verifiable release 2022. The most frequent collaborator in the new wave after Lil Kee Boi: appears with him, Ah Sar, Reload and Myat Amara Maung. One EP is credited jointly to A555H and MURKIO; whether A555H is Murkio, a duo or an alias is UNVERIFIED.",
+    "sourceIds": [
+      "src-apple-murkio",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "myat-amara-maung",
+    "name": "Myat Amara Maung",
+    "type": "solo",
+    "activeFrom": 2018,
+    "activeTo": null,
+    "city": null,
+    "base": "Singapore",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Long-running crossover act and the most consistent collaborator of Reload. 34.7K monthly listeners. CREDIBILITY WARNING: Viberate's bio ('pop musician from Singapore... catchy melodies') is AI-generated filler and Viberate lists her as Singaporean on no primary evidence; the Spotify/Singapore market association is recorded as base but the Singapore residency claim is NOT verified by any cited source.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "reload",
+    "name": "Reload",
+    "type": "solo",
+    "activeFrom": 2018,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "ReLoad",
+      "RELOAD"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Solo artist, not a collective or label - confirmed. Self-describes as 'Straight out of GTL', which could not be resolved to a city, region or crew. Collaborates with Myat Amara Maung, Louz Xa Lone, PHATKIDz, KN, Yan and Murkio. His only 'album' on Apple Music, 12 Yar Thi (2018), is credited jointly to Nay & Reload and is NOT a solo album.",
+    "sourceIds": [
+      "src-apple-reload",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "mossberg-arki",
+    "name": "Mossberg Arki",
+    "type": "solo",
+    "activeFrom": 2023,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "ARKI",
+      "Mossberg"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds",
+      "the-noise-label"
+    ],
+    "note": "ONE artist, not 'Mossberg' plus 'Arki' - all releases including the self-labelled ones map to a single Apple Music id. The most substantial album/EP catalogue in the new wave: one album plus two EPs by 2026.",
+    "sourceIds": [
+      "src-apple-mossberg-arki",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "wink",
+    "name": "Wink",
+    "type": "solo",
+    "activeFrom": 2022,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "b4-records"
+    ],
+    "note": "Rapper and producer/alt-leaning artist on b4 Records; principal collaborator of bkho bain. Credited as Ye Wint Aung ('Bala') in press. DANGER: name collision with Josh Wink (US house producer) and a Japanese act; the Spotify page showing 267.8K monthly listeners is NOT this artist (ours is 12zhECtz6sIwtvL5BMkLLp).",
+    "sourceIds": [
+      "src-apple-wink",
+      "src-eleven-overflow-2025"
+    ]
+  },
+  {
+    "id": "bkho-bain",
+    "name": "bkho bain",
+    "type": "solo",
+    "activeFrom": 2023,
+    "activeTo": null,
+    "city": null,
+    "base": "Yangon",
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Bkho Bain"
+    ],
+    "realName": "Thein Min Htike",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "b4-records"
+    ],
+    "note": "Real name from press. Debut album BLUE ON BLUE (2024) on FASTLANE, charted in Australia and Thailand. Performed with Wink at the Overflow Music Festival, Eastern Yangon, Nov 2025, after which 16 people were charged under Penal Code ss. 505(b) and 294 - one of the clearest documented state/legal interventions in the archive. Album length conflicts across sources (13 vs 14 tracks).",
+    "sourceIds": [
+      "src-apple-bkho-bain",
+      "src-eleven-overflow-2025"
+    ]
+  },
+  {
+    "id": "yan",
+    "name": "Yan - ヤン",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Yan"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Display name mixes Latin and Japanese katakana, but NO source confirms any Japan connection - do not infer one. CREDIBILITY WARNING: several Apple Music release dates for this artist read 2014-2016 while carrying (P) 2024 Billionaire Minds Group strings; these are re-release or data-entry artefacts, so activeFrom is NOT established.",
+    "sourceIds": [
+      "src-apple-yan",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "toxic",
+    "name": "TOXIC",
+    "type": "solo",
+    "activeFrom": 2023,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Bills as the second half of 'Myat Amara Maung & TOXIC' with producer Ricky Pink. 15+ unrelated artists are named Toxic on Apple Music; no standalone page could be isolated, and Myanmar linkage rests entirely on one joint release. Thinly documented - treat existence as probable, not established.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung"
+    ]
+  },
+  {
+    "id": "peachy",
+    "name": "Peachy",
+    "type": "solo",
+    "activeFrom": 2026,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Debut-era act, closely linked to 28 and SLAMM - all three appear on multiple joint releases. Note Apple Music lists Peachy's primary genre as Pop while every release is tagged Hip-Hop/Rap.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "28",
+    "type": "solo",
+    "activeFrom": 2025,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Very young debut-era act: earliest release Dec 2025, one album in 2026. A purely numeric name is the most collision-prone in the dataset; the Myanmar Apple Music id is 1855905920.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "slamm",
+    "name": "SLAMM",
+    "type": "solo",
+    "activeFrom": 2025,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Slamm"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Debut-era peer of 28 and Peachy. Name collision with a Korean hip-hop act (1351947938) and a Brazilian pop act; the Myanmar Apple Music id is 1875095188.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "blazy",
+    "name": "blazy",
+    "type": "solo",
+    "activeFrom": 2023,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Blazy"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "eagle-element"
+    ],
+    "note": "Singles only, no album or EP found. Marks the earliest of the Eagle Element circle. Name collision with a trance producer (1592114070) and others; the Myanmar Apple Music id is 1831078905.",
+    "sourceIds": [
+      "src-apple-ah-sar",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "elco-dakid",
+    "name": "Elco Dakid",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Self-tags as 'Burmese rap'. Producer on the 7-way track 'Khow Khow Nam' (2026). Spotify shows 3,249 monthly listeners. Nearly all biographical fields are UNVERIFIED; two attribution lines on the Spotify page are ambiguous and are NOT recorded as a real name.",
+    "sourceIds": [
+      "src-apple-ah-sar"
+    ]
+  },
+  {
+    "id": "yungpunch",
+    "name": "Yungpunch",
+    "type": "solo",
+    "activeFrom": 2019,
+    "activeTo": null,
+    "city": "Taungoo",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Yung Punch",
+      "Yo_punch"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "From Taungoo; founding member and producer of 223. Now runs a self-released solo imprint. No album under his own name verified.",
+    "sourceIds": [
+      "src-apple-223",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "immad",
+    "name": "Immad",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Featured by Ah Sar on FLY and PARTY. Chartmetric lists Thailand as primary market, but that is audience geography, NOT residence, so base is deliberately left null. Featured on The Lot Radio (Brooklyn) in Apr 2026, the only non-platform third-party confirmation found. CAUTION: unrelated 'Immad' results (Pakistani, Bangladeshi) are a constant collision risk.",
+    "sourceIds": [
+      "src-apple-ah-sar"
+    ]
+  },
+  {
+    "id": "ye-lay",
+    "name": "Ye' Lay",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Ye Lay"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Appears in the new-wave feature network: on Zay Ye' tracks, on J-Me's 'A Rel', and on a 2023 Zay Ye' compilation. The id 'yzl' was an internal placeholder; the canonical slug is now ye-lay. Thin sourcing - no bio, no city, no independent platform page isolated.",
+    "sourceIds": [
+      "src-99symphony-audiomack",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "rap-against-junta",
+    "name": "Rap Against Junta",
+    "type": "collective",
+    "activeFrom": 2021,
+    "activeTo": null,
+    "city": "Yangon",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "RAJ"
+    ],
+    "realName": null,
+    "identityStatus": "anonymised",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Not a fixed roster. Self-description: 'an alliance of MCs, producers, DJs, sound engineers, dancers, promoters, organizers and graffiti artists' and 'We are all leaders.' Emerged from street concerts around the 1 Feb 2021 coup. YouTube channel joined 15 Mar 2021 and was originally used for scratch-DJ tutorials and short freestyles. Owns its Bandcatalogue because distribution inside Myanmar can be switched off. Also released Zayar Thaw's posthumous 'Generation Driven by Faith'.",
+    "sourceIds": [
+      "src-raj-bandcamp",
+      "src-raj-yt",
+      "src-vice-raj-2023",
+      "src-lifted-raj-2021",
+      "src-globalvoices-2021"
+    ]
+  },
+  {
+    "id": "osho",
+    "name": "Osho",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": "Yangon",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "VICE names Osho as the originator of the 'conscious musicians' network from which RAJ was assembled, aged 42 in 2023. PRESS EXPLICITLY STATES THIS IS AN ALIAS ADOPTED TO PROTECT HIS IDENTITY FROM THE MILITARY. Do not attempt to identify. Co-hosts a community and mental-health podcast with Sai Hlyan.",
+    "sourceIds": [
+      "src-vice-raj-2023"
+    ]
+  },
+  {
+    "id": "ko-aye-win",
+    "name": "Ko Aye Win",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Producer of DICKCOUNCIL; former B-boy and battler. Interviewed at length by Insight Myanmar in Dec 2021 on the album as a propaganda instrument.",
+    "sourceIds": [
+      "src-insight-raj-2021"
+    ]
+  },
+  {
+    "id": "be-amby",
+    "name": "Be Amby",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "DICKCOUNCIL contributor with a solo catalogue (Reason to Live 2022, Freedom to Dream 2023, Season to Sing 2025). The clearest RAJ-to-Chiang-Mai personnel bridge, via Triple Edge's 'BROKEN SPEAKER' (2024).",
+    "sourceIds": [
+      "src-raj-dickcouncil",
+      "src-apple-triple-edge"
+    ]
+  },
+  {
+    "id": "sai-hlyan",
+    "name": "Sai Hlyan",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": "outside Myanmar",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Myanmar DJ living outside the country; co-hosts a community and mental-health podcast with Osho. One of the few diaspora figures press has named.",
+    "sourceIds": [
+      "src-vice-raj-2023"
+    ]
+  },
+  {
+    "id": "byu-har",
+    "name": "Byu Har (Min Oat Myanmar)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": 2023,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Min Oat Myanmar",
+      "Byu Har"
+    ],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "SAFETY: INCARCERATED. Described by BBC as one of Myanmar's biggest hip-hop artists; son of songwriter Naing Myanmar. Arrested 24 May 2023 after a Facebook Live criticising power cuts and calling Min Aung Hlaing incompetent, held at North Dagon Police Station, and sentenced to 20 years on 24 Aug 2023. Press reports charge incitement (Penal Code art. 505(a)) and treason, but AP quotes a relative saying it was unclear which he was convicted of - so no single offence is asserted here. Rappler (Mar 2025) documents pro-military Telegram doxing that preceded the arrest. Stage name only; do not add family details beyond published press, and do not attempt to identify him.",
+    "sourceIds": [
+      "src-bbc-byu-har-2023",
+      "src-rfa-byu-har-2023"
+    ]
+  },
+  {
+    "id": "kan-kyi",
+    "name": "Kan Kyi",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": "Chiang Mai",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [],
+    "crewIds": [
+      "triple-edge-cm"
+    ],
+    "labelIds": [],
+    "note": "Organiser of MOB Party in Chiang Mai (annual from 2022; 4th edition documented 2025) and producer/lead emcee of Triple Edge. Frames MOB Party as building Thai-Burmese artist relations and raising funds for stateless children at risk of displacement. His verifiable record is entirely as organiser and producer; there is no solo artist page. NOT to be merged with the similarly-credited 'KYI' on the Apple Music Triple Edge page, which is unverified as the same person.",
+    "sourceIds": [
+      "src-dvb-mob-2024",
+      "src-dvb-mob-2025",
+      "src-dvb-kan-kyi-podcast"
+    ]
+  },
+  {
+    "id": "triple-edge",
+    "name": "Triple Edge",
+    "type": "group",
+    "activeFrom": 2021,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "CONFLICTED / kept deliberately separate from the Chiang Mai crew: a mass single drop on 10-11 Nov 2021 plus a run of releases through 2024, two with Thai-script titles. The Apple Music page carries no location, and the link to the Chiang Mai group is an inference, not sourced. Not merged.",
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ]
+  },
+  {
+    "id": "louz-xa-lone",
+    "name": "Louz Xa Lone",
+    "type": "solo",
+    "activeFrom": 2015,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Age 24 in Mar 2021 per Coda Story, 'making music for six years', 84,000+ Facebook followers; released 'The Voices' 3 Feb 2021 as a Facebook video. Best-documented post-coup solo act, though identity remains a pseudonym. His 2024 'Naung Kyoe' with PHATKIDz and Reload is confirmed on two independent platforms.",
+    "sourceIds": [
+      "src-apple-reload",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "vanzzzo",
+    "name": "Vanzzzo",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": "Indianapolis, USA",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "The archive's strongest diaspora datapoint: a Myanmar national who claimed asylum in the US in 2009, aged 22 in Mar 2021, released 'Rebel (Save Myanmar)' in March 2021. Coda Story is the only source and the asylum claim is self-reported. No solo artist page; appears only as a feature on other artists' records.",
+    "sourceIds": [
+      "src-lifted-2023",
+      "src-apple-reload"
+    ]
+  },
+  {
+    "id": "yung-hugo",
+    "name": "Yung Hugo",
+    "type": "solo",
+    "activeFrom": 2017,
+    "activeTo": null,
+    "city": "Mayangone township, Yangon",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Saw Alex Tu"
+    ],
+    "realName": "Saw Alex Tu",
+    "identityStatus": "named",
+    "genre": [
+      "drill"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "From the Karen ethnic group; fans called 'Yummies'. SELF-IDENTIFIES AS FOURTH GENERATION: 'The pioneer of Myanmar hip hop is Acid. I'm fourth-generation.' (HipHopDX, Mar 2022). Also: 'for me, 2010 to 2015 were the golden age of hip hop but I was told during these years, there were no shows. I want to rebuild the golden age of hip hop in Myanmar before I am gone.' His 2023 album Make Karen Great Again is a Karen-language record, an ethnic-language marker distinct from the Yangon-centre framing of earlier periods.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo",
+      "src-myanmarmix-postcoup",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "adjustor",
+    "name": "Adjustor",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "The most documented solo act in the BG18 post-coup circle: five releases 2020-2024 including four full-length projects. CREDIBILITY WARNING: Apple Music's genre field reads 'Pop' for this artist; that is a metadata error and is not recorded as a stylistic claim.",
+    "sourceIds": [
+      "src-apple-adjustor",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "gracee",
+    "name": "GRACEe",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Grace"
+    ],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop pop",
+      "R&B"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "CONFLICTED: Apple Music hosts 'GRACEe' and 'Grace' as SEPARATE artist entities with overlapping personnel, and AllMusic uses both spellings in one entry. Not merged. LIFTED highlights 'Zat Poh' as a blend of hip pop and R&B over a lo-fi beat.",
+    "sourceIds": [
+      "src-lifted-2023",
+      "src-apple-adjustor"
+    ]
+  },
+  {
+    "id": "trigger",
+    "name": "TRIGGER",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "jersey club"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "'DON'T KILL MY VIBE' with 223 on a Jersey Club beat, reviewed by LIFTED in Aug 2023.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "13-three",
+    "name": "13 THREE",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "drill"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Part of the four-way drill collaboration 'RUN' (2023) with XMA, CEYYIE and ABET - the clearest documentation of drill entering the Burmese new wave.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "xma",
+    "name": "XMA",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "drill"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Part of the four-way drill collaboration 'RUN' (2023).",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "ceyyie",
+    "name": "CEYYIE",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "drill"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Part of the four-way drill collaboration 'RUN' (2023).",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "abet",
+    "name": "ABET",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "drill"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Part of the four-way drill collaboration 'RUN' (2023).",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "arr-g",
+    "name": "Arr G",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "LIFTED's scene report notes 'SMD' as unusually animositous even by the new wave's standards.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "kn",
+    "name": "KN",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "'Eyez On Me' with Reload, an homage to 2Pac's track name.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "naw-auk",
+    "name": "N.A.W",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "N.A.W"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "billionaire-minds"
+    ],
+    "note": "Features on Myat Amara Maung's 2025 album Amygdala and on Yan's 2026 Zen Music release.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung",
+      "src-apple-yan"
+    ]
+  },
+  {
+    "id": "meemi",
+    "name": "Meemi",
+    "type": "solo",
+    "activeFrom": 2021,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "'We Got This (Myanmar Song to Fight against Military Dictatorship)', 18 Feb 2021 - a direct anti-coup single in the first weeks after 1 February.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "si-thu-aung",
+    "name": "Si Thu Aung",
+    "type": "solo",
+    "activeFrom": 2021,
+    "activeTo": null,
+    "city": null,
+    "base": "Mandalay",
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "pseudonym",
+    "genre": [
+      "graffiti"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Graffiti artist who painted coup-protest murals nationwide in early 2021. Included because the archive's scope includes graffiti as a hip-hop element, and RAJ explicitly counts graffiti artists in its alliance.",
+    "sourceIds": [
+      "src-globalvoices-2021",
+      "src-lifted-raj-2021"
+    ]
+  },
+  {
+    "id": "nay",
+    "name": "NAY",
+    "type": "solo",
+    "activeFrom": 2019,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Nay"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "UNRESOLVED IDENTITY WARNING. At least two real-name candidates circulate for NAY in platform credits: Nay Ye Khant (songwriter on Lil Kee Boi's 'Mother Teresa') and Nay Thit Nyein (writer/composer on 99 Symphony and Lil Max releases). NAY also appears to be two roles at once - an artist on feature credits, and the mastering engineer on 223's official videos ('Mastered by Nay'), with a possible third 'Nay' on 'Barback'. These are NOT merged without further evidence. A shared surname with Pyi Bhone Khant makes kinship plausible but unproven.",
+    "sourceIds": [
+      "src-spotify-lil-kee-boi",
+      "src-apple-223"
+    ]
+  },
+  {
+    "id": "thar-thar",
+    "name": "Thar Thar",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Duet partner of Htet Yan on 'Shae Mhi Nout Mhi' (2018), which contained the #1 hit 'Nway Thwar Tal'. Distinct from Thar Thar the writer/producer associated with X-Boxin.",
+    "sourceIds": [
+      "src-wiki-htet-yan",
+      "src-coconuts-imagine-dragons"
+    ]
+  },
+  {
+    "id": "li-l-max",
+    "name": "LiL Max",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Lil Max"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Co-billed with 223 on 'MOMMA I'M CRIMINAL' (2026) and on tracks from 223 Da World.",
+    "sourceIds": [
+      "src-apple-223"
+    ]
+  },
+  {
+    "id": "i-and-o",
+    "name": "I & O",
+    "type": "duo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Artist billing on Rap Against Junta's Bandcamp single 'Came From Hell' (2022). Membership unknown.",
+    "sourceIds": [
+      "src-raj-bandcamp"
+    ]
+  },
+  {
+    "id": "bxmb-the-tank",
+    "name": "BXMB The Tank",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": "Chiang Mai",
+    "born": null,
+    "died": null,
+    "aliases": [
+      "BXMB"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "triple-edge-cm"
+    ],
+    "labelIds": [],
+    "note": "Frequent Triple Edge collaborator on the 2021-2022 single run.",
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ]
+  },
+  {
+    "id": "lil-cado",
+    "name": "Lil Cado",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": 2025,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "DECEASED, date unknown. Billed as 'Lil Cado (Rip)' on the Myanmar Hip Hop Channel by December 2025. Founding member of 223 (with Yungpunch and Zero) and its mixer. A posthumous 'Lil Cado Song Collection' of 223 re-uploads appeared in Dec 2025. `died` is left null because no source gives a date; `activeTo` records only the latest year he is documented alive. Date and cause of death are not in any source found.",
+    "sourceIds": [
+      "src-apple-223",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "lil-z",
+    "name": "Lil'Z",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Lil Z"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Part of Htet Yan's four-album collective; appeared on the FIRST STEP show and on Hlwan Paing's Guitar Lesson.",
+    "sourceIds": [
+      "src-smiyanmar",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "nine-one",
+    "name": "Nine One",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "9one"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Appeared on the FIRST STEP show, May 2016.",
+    "sourceIds": [
+      "src-smiyanmar"
+    ]
+  },
+  {
+    "id": "mc-bay-gyi",
+    "name": "MC Bay Gyi",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Bay Gyi",
+      "Ba Gyi"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Recorded 'Epic Comeback' with Zay Ye' and Yan Yan in 2023 (Destino Label). Note: 'Ba Gyi' is also credited as a beatmaker in the 2010s underground circuit; whether these are one person is UNRESOLVED.",
+    "sourceIds": [
+      "src-99symphony-audiomack"
+    ]
+  },
+  {
+    "id": "slo9e",
+    "name": "SLO9E",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Collaborates with blazy on 'Number (N) Ine' and 'One for All'.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "doublej",
+    "name": "Doublej",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Double J"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "bg18"
+    ],
+    "note": "In the BG18 circle and the Full Stop live circuit; appears on Reload's 'One Hunnid' (2023) with X-Boxin and #RB2.",
+    "sourceIds": [
+      "src-myanmore-week-2016-12",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "naung-naung",
+    "name": "Naung Naung",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Named as a 4th-generation cohort act by Coconuts in 2017 and a guest performer at The Showdown freestyle battle.",
+    "sourceIds": [
+      "src-coconuts-2017",
+      "src-coconuts-showdown"
+    ]
+  },
+  {
+    "id": "hein-htet-zaw",
+    "name": "Hein Htet Zaw",
+    "type": "solo",
+    "activeFrom": 2013,
+    "activeTo": null,
+    "city": "Mandalay",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "HOT",
+      "OT the Croc",
+      "Ot da Croc",
+      "Hein Htet Zaw(WCC)"
+    ],
+    "realName": "Hein Htet Zaw",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop",
+      "trap"
+    ],
+    "crewIds": [
+      "wcc"
+    ],
+    "labelIds": [],
+    "note": "THREE NAMES, ONE PERSON. 'HOT' and 'OT the Croc' are both this artist - two independent publisher descriptions state the identity (Chartmetric's bio string-concatenates 'This is Hein Htet Zaw (a.k.a) HOT.' with 'OT the croc, born Mandalay', and the Burmese Plug Talk podcast episode description reads 'Ot the croc aka Hein Htet Zaw'). The release titles HOT BLODDED CROC and CROC MOVE (SEASON 1) corroborate the croc motif on the HOT streaming identity. Born Mandalay, grew up on the north side of the city. Rapping from 2013; producing beats from 2016, and described as 'one of the most productive beat producers from Area 952' - Area 952 is UNVERIFIED as to what it denotes. Credited as (WCC) in Jan 2014, so affiliated with that crew by then; 'Studio Mandalay' is credited on the same track. Collaborators he names: Frezzy, A Tee, Datty Dax, L.O.D, BIGG, Weei4, S-Two, Tyrant, Jerryx, JCZ, Bobby Beatz. CAUTION: do not conflate with Hein Htet (rock band Out Of The Rule) or Hein Htet Aung - three distinct Burmese artists. Do NOT record ဦးတိုက် as his script name: ဦး is the honorific 'U', making ဦးတိုက် read as 'U Toik', which is not a plausible mononym and not a transliteration of 'OT'. No source uses it.",
+    "sourceIds": [
+      "src-chartmetric-hot",
+      "src-burmese-plug-talk",
+      "src-spotify-hot"
+    ]
+  },
+  {
+    "id": "wareru",
+    "name": "Wareru",
+    "type": "solo",
+    "activeFrom": 2011,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Wagaru"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop",
+      "singer-rapper"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Singer-rapper with a substantial 2011-2017 hip-hop catalogue: collaborations with Max Yang, Sean Vidarr, Niffle Yone, Sai Thar Kyaw and J-Me, a 12-track mixtape in 2017, and a Jam It! artist listing. CITY UNVERIFIED - the archive's own earlier note placed him in Mandalay and that is NOT supported; do not assume a city. The commonly repeated 'Shan/Pa-O singer-rapper' framing is also not sourceable: no statement of ethnicity or region was found. CAUTION: a generic search for this name returns the 13th-century Mon king Wareru/Wagaru of the Martaban Kingdom, who is a different person entirely. His 2017 mixtape also appears on Spotify under the same title with a matching track list, which is a suspected re-release rather than a second release.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-jam-it-about",
+      "src-spotify-wareru"
+    ]
+  },
+  {
+    "id": "khaing-myal-kyaw-swar",
+    "name": "Khaing Myal Kyaw Swar",
+    "type": "solo",
+    "activeFrom": 2013,
+    "activeTo": null,
+    "city": "Nan Taw Shae, Mandalay",
+    "base": null,
+    "born": "1997-06-09",
+    "died": null,
+    "aliases": [
+      "Kyaw Swar"
+    ],
+    "realName": "Khaing Myal Kyaw Swar",
+    "identityStatus": "named",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [
+      "360beatz"
+    ],
+    "note": "Born and raised in Nan Taw Shae, Mandalay. RAPPER-PRODUCER, later with 360 Beatz for management and distribution. Start year CONFLICTED across two platforms - his own LinkedIn bio says early 2013, Playboard says early 2014; unresolved. His Ultrasonic Record affiliation and the 'Stoner's Book' mixtape rest on that SINGLE self-authored bio: no label page, no release page, no press. Treat as single-source. CAUTION: a Playboard 'about' paragraph praises 'Kyaw Swar 100' with no named critic or outlet; that is promotional boilerplate and is not recorded as a critical reception. Also distinct from Wareru's producer credit 'Kyaw Swar'.",
+    "sourceIds": [
+      "src-khaing-myal-linkedin",
+      "src-playboard-kyawswar"
+    ]
+  },
+  {
+    "id": "a-tee",
+    "name": "A TEE ALL CAPS",
+    "type": "solo",
+    "activeFrom": 2025,
+    "activeTo": null,
+    "city": "Mandalay",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "ATEE",
+      "A Tee"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Self-described Mandalay act on SoundCloud, releases published 2025-12-01: an A-Z numbered track series ('01 A. Cats Don't Submerge Long', '04 O. Eraserhead', '05 U. 0.5 mm Lead Refill', '06 Countess and Her Esquire', '08 I. 1_4 Days of Sodom', '10 Koyaanisqatsi'). The all-caps styling is the artist's own. A Mandalay act called A Tee demonstrably exists in Hein Htet Zaw's circle: his bio names 'A Tee' among his collaborators and the 'SWAMP THING' posse cut credits ATEE. NO SOURCE FOR 'UNOFFICIAL ATEE' in any form - whether that is a label, a mixtape-series subtitle, a crew or an error is UNVERIFIED. Heavy name collision: A-tee also resolves to a South African duo, a London DJ, a Beatport tech-house act, Lyrical A-tee, JustaTee, and ATEEZ.",
+    "sourceIds": [
+      "src-soundcloud-ateemandalay",
+      "src-chartmetric-hot"
+    ]
+  },
+  {
+    "id": "alatt",
+    "name": "Alatt",
+    "type": "solo",
+    "activeFrom": 2010,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Wildboy member and Y-Zet's duet partner on 'The Collaboration' (2010). Has his own mixtapes - Urban Revolution (2014), a 2015 mixtape and a 2016 Collector's Edition - and appears on Y-Zet's debut album ဇ. Also mixed the 2012 MRC track 'Beef လုပ်မွာလား'. No real name and no city in any source; Mandalay membership is inferred from Wildboy, which is itself Mandalay-based.",
+    "sourceIds": [
+      "src-wiki-yzet-2",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "mg-moe-aung",
+    "name": "Mg Moe Aung",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Wildboy member. The most frequent voice on the Wildboyz Entertainment Mixtape (2013), appearing on four of its twelve tracks. Collaborated with Y-Zet on 'အေဝးနှင့်ချို (Zaw Gyi)' (2013) and with Oasix on 'My Baby Boo Tax' (2013). Co-made the diss 'Shwee Die' with Y-Zet and Oasix. No real name and no city in any source.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-wiki-yzet-2"
+    ]
+  },
+  {
+    "id": "dr-13",
+    "name": "Dr.13",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Wildboy member. Appears on the Wildboyz Entertainment Mixtape (2013) and made 'Scream' with Y-Zet. No real name, city or solo discography in any source.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "j-fire-mdy",
+    "name": "J-Fire (Mandalay)",
+    "type": "solo",
+    "activeFrom": 2010,
+    "activeTo": null,
+    "city": "Mandalay",
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "DISTINCT from the Yangon J-Fire already in the archive, which appears on a 2013 Wildboy-adjacent compilation. This one self-describes as 'Burmese Hip-Hop Musician from Mandalay, Myanmar' and 'Est. 2010' on his own site. His album မႏၲေလး တပင္ေရႊထီး appears on the archived fan site. CAUTION: viberate.com publishes fabricated prose and garbled pseudo-transliterated 'song titles' for this artist (e.g. 'lng:lkpkyliu') and was explicitly excluded. Release dates unverified. Kept separate from the Yangon J-Fire because the two have no confirmed connection.",
+    "sourceIds": [
+      "src-jfire-site",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "mc-black-saturn",
+    "name": "Mc Black Saturn",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "mdy-all-stars"
+    ],
+    "labelIds": [],
+    "note": "Named on the Nov 2012 'Mdy all stars (6 Stars Ratin\") compilation with Channel Wildboy, Mg Secondz, Sai Thar Kyaw, MC Min Thant and Mr Dirt Dino. No bio.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "sai-thar-kyaw",
+    "name": "Sai Thar Kyaw",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Sai Thar"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "mdy-all-stars"
+    ],
+    "labelIds": [],
+    "note": "On the Nov 2012 MDY All Stars compilation and on the 2013 'Battle Cry' with Wareru and Sean Viddar. Also a guest performer at the 2018 Yangon Showdown freestyle battle, which is direct evidence of Mandalay-Yangon circuit traffic.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-coconuts-showdown"
+    ]
+  },
+  {
+    "id": "sean-viddar",
+    "name": "Sean Viddar",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Sean Vidarr"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Features on Wareru's 2017 mixtape and the 2013 'Battle Cry' with Wareru and Sai Thar. Also on Y-Zet's ဇ album. Burmese-script spellings in the fan archive are ရွှီးဒိုင်း (Sean Vidarr) and စီယန်ဗစ္စဒတ်ဒတ် (Sean Viddar).",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "max-yang",
+    "name": "Max Yang",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Features on Wareru's 2017 mixtape ('မွတ္တိုင္') and on the 2011 'Bruce Lee' with Wareru and Niffle Yone.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "frezzy",
+    "name": "Frezzy",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Frezzy Music",
+      "Frez"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Named as a Hein Htet Zaw collaborator and credited on the 11-way 'SWAMP THING' posse cut. Also appears on 99 Symphony's INTERNATION credit list.",
+    "sourceIds": [
+      "src-chartmetric-hot",
+      "src-deezer-99sym-internation"
+    ]
+  },
+  {
+    "id": "channel-wildboy",
+    "name": "Channel Wildboy",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Channel"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Billed 'Channel Wildboy' on the MDY All Stars track, which independently confirms Wildboy affiliation. Appears on four Wildboyz mixtape tracks and with Oasix, Alatt, TMH and Lout Lout on the posse cut 'Boucher'.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "solo-zay-ye-mdy",
+    "name": "Solo",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Mandalay Rapperz Crew member, credited on the 2011 Mandalay Rapperz Crew Mixtape. No other sourcing.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "tmh-wb",
+    "name": "TMH (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "thu-rain-wb",
+    "name": "T-Rain / Thu Rain (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "sai-nay-wb",
+    "name": "Sai Nay (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "alone-wb",
+    "name": "Alone (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "mg-hann-saw",
+    "name": "Mg Hann Saw (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "lout-lout",
+    "name": "Lout Lout (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "oo-fat",
+    "name": "Oo Fat (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "phyo-wai",
+    "name": "Phyo Wai (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "mg-pyae-phyo",
+    "name": "Mg Pyae Phyo (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "dudue",
+    "name": "Dudue (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "plus-wb",
+    "name": "Plus (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "wildboy"
+    ],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "mg-archi",
+    "name": "Mg Archi (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "aung-zoe-heinn",
+    "name": "Aung Moe Heinn (Wildboy)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "bung-phyoe",
+    "name": "Bunny Phyoe (Frenzo)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [],
+    "labelIds": [],
+    "note": "Roster placeholder: named on a Wildboyz or Frenzo release with no act-level source, no real name, no city and no solo discography. Recorded so crew membership resolves; not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "hein-min-error",
+    "name": "Hein Min (Error MDY)",
+    "type": "solo",
+    "activeFrom": null,
+    "activeTo": null,
+    "city": null,
+    "base": null,
+    "born": null,
+    "died": null,
+    "aliases": [
+      "Hein Min"
+    ],
+    "realName": null,
+    "identityStatus": "unverified",
+    "genre": [
+      "hip hop"
+    ],
+    "crewIds": [
+      "error-mdy"
+    ],
+    "labelIds": [],
+    "note": "Roster placeholder: named on the 2013 Error MDY mixtape with no act-level source, no real name, no city and no solo discography. Used as the lead credit for that crew compilation so the release resolves. Not a claim that this is a distinct documented artist.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  }
 ]

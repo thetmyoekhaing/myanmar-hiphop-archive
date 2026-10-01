@@ -1,4 +1,355 @@
 [
-  {"id": "song-one-nal-mhat-tan", "title": "One Nal Mhat Tan", "releaseId": "rel-february-mhat-tann", "artistId": "sai-sai-kham-leng", "year": 2003, "note": "Hit number one in Myanmar", "sourceIds": ["src-wiki-saisai"]},
-  {"id": "song-thu-nge-chin-myar-swar", "title": "Thu Nge Chin Myar Swar", "releaseId": null, "artistId": "sai-sai-kham-leng", "year": null, "sourceIds": ["src-wiki-saisai"]}
+  {
+    "id": "song-one-nal-mhat-tan",
+    "title": "One Nal Mhat Tan",
+    "releaseId": "rel-february-mhat-tann",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2003,
+    "note": "Hit number one in Myanmar",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ]
+  },
+  {
+    "id": "song-thu-nge-chin-myar-swar",
+    "title": "Thu Nge Chin Myar Swar",
+    "releaseId": null,
+    "artistId": "sai-sai-kham-leng",
+    "year": null,
+    "sourceIds": [
+      "src-wiki-saisai"
+    ]
+  },
+  {
+    "id": "song-a-ngweh-a-that-myar",
+    "title": "A Ngweh A That Myar (အငွေ့အသက်များ)",
+    "releaseId": "rel-ahboy-tayoketan",
+    "artistId": "ah-boy",
+    "year": 2020,
+    "note": "With ChanMyae MgCho. Peaked at #1 on the JOOX top 100 and won the JOOX 2020 Popular Song Award - the archive's clearest example of a Burmese rap single crossing into the mainstream market.",
+    "sourceIds": [
+      "src-wiki-ah-boy"
+    ]
+  },
+  {
+    "id": "song-generation-driven-by-faith",
+    "title": "Generation Driven by Faith",
+    "releaseId": null,
+    "artistId": "phyo-zeya-thaw",
+    "year": 2022,
+    "note": "Posthumous. Opens with a voice note of Zayar Thaw saying he wrote the bars while serving his prison sentence and never finished them. Released through Rap Against Junta.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-11-11",
+    "title": "11:11",
+    "releaseId": "rel-yunghugo-soldout",
+    "artistId": "yung-hugo",
+    "year": 2018,
+    "note": "With JCZ; the hit that raised his profile before Blessed.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo"
+    ]
+  },
+  {
+    "id": "song-nway-thwar-tal",
+    "title": "Nway Thwar Tal",
+    "releaseId": "rel-htetyan-shae",
+    "artistId": "htet-yan",
+    "year": 2018,
+    "note": "With Thar Thar. #1 hit; went viral on TikTok in early 2019 with 50,000+ user videos and was later sampled in an Imagine Dragons melody, per Coconuts.",
+    "sourceIds": [
+      "src-wiki-htet-yan",
+      "src-coconuts-imagine-dragons"
+    ]
+  },
+  {
+    "id": "song-yabwar-kalu",
+    "title": "Yabwar Kalu (My People)",
+    "releaseId": null,
+    "artistId": "yung-hugo",
+    "year": null,
+    "note": "A S'gaw Karen-language hit. Part of the ethnic-language rap evidence behind the fourth-generation framing.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo"
+    ]
+  },
+  {
+    "id": "song-waytaku",
+    "title": "Waytaku Bwar Kanyaw",
+    "releaseId": null,
+    "artistId": "yung-hugo",
+    "year": 2023,
+    "note": "Drill; featured by LIFTED, who note the video is shot on a basketball court.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-thit-sar",
+    "title": "Thit Sar",
+    "releaseId": "rel-pink",
+    "artistId": "myat-amara-maung",
+    "year": 2023,
+    "note": "With RELOAD; produced by Ricky Pink. Music video 1.1M views.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung"
+    ]
+  },
+  {
+    "id": "song-push-up",
+    "title": "Push Up",
+    "releaseId": null,
+    "artistId": "223",
+    "year": 2025,
+    "note": "With Lil Kee Boi and Ah Sar; cited by Ah Sar's bio as the breakthrough collaboration of the Eagle Element circle.",
+    "sourceIds": [
+      "src-apple-ah-sar"
+    ]
+  },
+  {
+    "id": "song-eyez-on-me",
+    "title": "Eyez On Me",
+    "releaseId": null,
+    "artistId": "reload",
+    "year": 2023,
+    "note": "With KN. Named as a homage to 2Pac's 'Eyez on Me'.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-zat-poh",
+    "title": "Zat Poh",
+    "releaseId": null,
+    "artistId": "gracee",
+    "year": 2023,
+    "note": "Hip pop and R&B over a lo-fi beat; highlighted by LIFTED as a marker of the widened new-wave sound.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-smd",
+    "title": "SMD",
+    "releaseId": null,
+    "artistId": "arr-g",
+    "year": 2023,
+    "note": "LIFTED singles this track out for its ferocity as the archive's one documented example of the new wave's harder end.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-crash-out",
+    "title": "crash out",
+    "releaseId": "rel-lilkee-boi-b4ktbc",
+    "artistId": "lil-kee-boi",
+    "year": 2024,
+    "note": "With Murkio.",
+    "sourceIds": [
+      "src-spotify-lil-kee-boi"
+    ]
+  },
+  {
+    "id": "song-wegotthis",
+    "title": "We Got This (Myanmar Song to Fight against Military Dictatorship)",
+    "releaseId": "rel-meemi-wegotthis",
+    "artistId": "meemi",
+    "year": 2021,
+    "note": "Released 18 Feb 2021, within weeks of the coup.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-rebel-save-myanmar",
+    "title": "Rebel (Save Myanmar)",
+    "releaseId": "rel-vanzzzo-rebel",
+    "artistId": "vanzzzo",
+    "year": 2021,
+    "note": "March 2021, from Indianapolis.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-atl-flow",
+    "title": "ATL Flow",
+    "releaseId": "rel-99sym-internation",
+    "artistId": "99-symphony",
+    "year": 2024,
+    "note": "With X-Boxin. One of the few explicit diaspora signals in the catalogue (Atlanta).",
+    "sourceIds": [
+      "src-deezer-99sym-internation"
+    ]
+  },
+  {
+    "id": "song-nothing-will-happen",
+    "title": "'Nothing will happen when we are together'",
+    "releaseId": null,
+    "artistId": "phyo-zeya-thaw",
+    "year": 2022,
+    "note": "Lyric quoted by Rap Against Junta in its tribute to Zayar Thaw. Recorded as a quotation in the collective's statement, not as a verified release.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-yay-shay",
+    "title": "ရေရှည်",
+    "releaseId": "rel-223-daworld",
+    "artistId": "nay",
+    "year": 2024,
+    "note": "223 feature with NAY, from 223 Da World. A per-track feature on a lead artist's album, so it resolves the artist through Song rather than through the release's lead credit.",
+    "sourceIds": [
+      "src-apple-223"
+    ]
+  },
+  {
+    "id": "song-dont-trap",
+    "title": "Don't Trap",
+    "releaseId": "rel-223-daworld",
+    "artistId": "223",
+    "year": 2024,
+    "note": "With Yan and LiL Max on a 223 Da World track.",
+    "sourceIds": [
+      "src-apple-223"
+    ]
+  },
+  {
+    "id": "song-sin4me",
+    "title": "sin4me",
+    "releaseId": "rel-223-daworld",
+    "artistId": "yan",
+    "year": 2024,
+    "note": "With 223 on a 223 Da World track.",
+    "sourceIds": [
+      "src-apple-223"
+    ]
+  },
+  {
+    "id": "song-yupyar-shin",
+    "title": "ရုပ်ရှင်",
+    "releaseId": "rel-ahsar-prodigy",
+    "artistId": "lil-kee-boi",
+    "year": 2025,
+    "note": "Lil Kee Boi feature on Ah Sar's debut EP - the clearest correction of the common aggregator error that Prodigy Kid is a Kee Boi release.",
+    "sourceIds": [
+      "src-apple-ah-sar"
+    ]
+  },
+  {
+    "id": "song-be-yar",
+    "title": "ဘယ်ညာ",
+    "releaseId": "rel-ahsar-free",
+    "artistId": "lil-kee-boi",
+    "year": 2025,
+    "note": "With Lil Kee Boi, on Ah Sar's album Freemefromeverything. ISRC NL3M12528203.",
+    "sourceIds": [
+      "src-apple-ah-sar"
+    ]
+  },
+  {
+    "id": "song-momma-im-criminal",
+    "title": "MOMMA I'M CRIMINAL",
+    "releaseId": "rel-223-momma",
+    "artistId": "li-l-max",
+    "year": 2026,
+    "note": "223 with LiL Max on Zen Music.",
+    "sourceIds": [
+      "src-apple-223"
+    ]
+  },
+  {
+    "id": "song-green-green",
+    "title": "Green Green",
+    "releaseId": "rel-mossberg-darkhorse",
+    "artistId": "ah-sar",
+    "year": 2026,
+    "note": "Ah Sar feature on Mossberg Arki's album STORY OF A DARK HORSE.",
+    "sourceIds": [
+      "src-apple-mossberg-arki"
+    ]
+  },
+  {
+    "id": "song-aye-say",
+    "title": "အေးဆေး",
+    "releaseId": "rel-mossberg-egostone",
+    "artistId": "yungpunch",
+    "year": 2026,
+    "note": "Yungpunch feature on Mossberg Arki's EGO STONE EP.",
+    "sourceIds": [
+      "src-apple-mossberg-arki"
+    ]
+  },
+  {
+    "id": "song-bal-thu-ko-chit-lal-amygdala",
+    "title": "Bal Thu Ko Chit Lal",
+    "releaseId": "rel-myatamara-amygdala",
+    "artistId": "myat-amara-maung",
+    "year": 2025,
+    "note": "With Reload, N.A.W and 8Ten, from Amygdala.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung"
+    ]
+  },
+  {
+    "id": "song-lost-my-way",
+    "title": "Lost My Way",
+    "releaseId": "rel-myatamara-amygdala",
+    "artistId": "reload",
+    "year": 2025,
+    "note": "With Myat Amara Maung, from Amygdala.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung"
+    ]
+  },
+  {
+    "id": "song-litt",
+    "title": "Litt",
+    "releaseId": "rel-xboxin-99",
+    "artistId": "nay",
+    "year": 2018,
+    "note": "With Moe Htet and Nay Ye Khant, from X-Boxin's album 99. One of the few records that bridges the fourth generation and the post-coup scene; note that 'Nay Ye Khant' here may or may not be the same person as 'NAY' - see artists.json.",
+    "sourceIds": [
+      "src-apple-x-boxin"
+    ]
+  },
+  {
+    "id": "song-brained-gain-fossil",
+    "title": "Fossil",
+    "releaseId": "rel-braingain",
+    "artistId": "yung-hugo",
+    "year": 2024,
+    "note": "Yung Hugo feature on the BG18 project BRAIN GAIN.",
+    "sourceIds": [
+      "src-apple-adjustor"
+    ]
+  },
+  {
+    "id": "song-naung-kyoe",
+    "title": "Naung Kyoe",
+    "releaseId": null,
+    "artistId": "louz-xa-lone",
+    "year": 2024,
+    "note": "With PHATKIDz and Reload. Confirmed independently on two platforms - the best-evidenced cross-circle collaboration in the post-coup period.",
+    "sourceIds": [
+      "src-apple-reload",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "song-generation-wave-dedicated",
+    "title": "Generation Driven by Faith",
+    "releaseId": "rel-zayarthaw-faith",
+    "artistId": "rap-against-junta",
+    "year": 2022,
+    "note": "The posthumous Zayar Thaw release, credited to RAJ as the party that published it rather than to Phyo Zeya Thaw as a performer.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  }
 ]

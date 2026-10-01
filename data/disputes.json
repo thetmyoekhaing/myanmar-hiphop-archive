@@ -1,0 +1,396 @@
+[
+  {
+    "id": "dsp-shwee-die",
+    "type": "diss track",
+    "parties": [
+      "yzet",
+      "oasix",
+      "mg-moe-aung"
+    ],
+    "targetNames": [
+      "Hlwan Paing"
+    ],
+    "period": "2011",
+    "claim": "'Shwee Die' (ရွှီးဒိုင်း, 'flying firecracker') was made by Y-Zet with Wildboy members Oasix and Mg Moe Aung, and is described as dissing Hlwan Paing's song 'Done Pyan' (Rocket).",
+    "response": "None recorded. Hlwan Paing has no published reply in any source found.",
+    "evidence": "The track's existence is plausible and consistent - all three artists and both target tracks are documented - but the ONLY narrative framing found is one sentence on Wikipedia, citing a single Burmese article (Kumudra, 21 May 2019) that is now unreachable and has no Wayback capture. A Korean-language mirror of the same sentence renders the verb as 'strengthened' rather than 'beefed', which suggests 'beefing' may itself be an editor's interpolation.",
+    "corroboration": "single-source, and the primary is dead. No lyrics, no press coverage, no second account.",
+    "status": "unresolved",
+    "corroboratingDetail": "Separately, the fan archive shows ရွှီးဒိုင်း was already contested in the underground: a diss track aimed at it, အဆင့္ ('A Sint') by Devil Y & Thar Latt (Y.S.R), appears in the 2012 archive. That is a diss OF the track, which is a different dispute from the track being a diss.",
+    "safety": "none known",
+    "sourceIds": [
+      "src-wiki-yzet-2",
+      "src-mhc-archive"
+    ],
+    "targetDescription": "hlwan-paing"
+  },
+  {
+    "id": "dsp-shwee-die-response",
+    "type": "diss track",
+    "parties": [],
+    "targetNames": [
+      "Y-Zet",
+      "Devil Y",
+      "Thar Latt (Y.S.R)"
+    ],
+    "period": "2012",
+    "claim": "A diss track titled အဆင့္ ('A Sint') was made in response to ရွှီးဒိုင်း, i.e. against 'Shwee Die' itself. The archived post title reads 'A Sint For Fucking Shwee Die'.",
+    "response": "none recorded",
+    "evidence": "The archived post exists in the fan archive with a Burmese subtitle marking it as a response track. The parties credited on it are Devil Y and Thar Latt (Y.S.R).",
+    "corroboration": "fan archive only; no press or second account.",
+    "status": "unresolved",
+    "corroboratingDetail": "Worth keeping as its own dispute: it shows 'Shwee Die' was a contested object within the underground, not just a diss aimed outward.",
+    "safety": "none known",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "targetDescription": "yzet",
+    "partyNames": [
+      "Devil Y",
+      "Thar Latt (Y.S.R)"
+    ]
+  },
+  {
+    "id": "dsp-bobby-hlwanpaing-2022",
+    "type": "diss track",
+    "parties": [
+      "bobby-soxer"
+    ],
+    "targetNames": [
+      "Hlwan Paing"
+    ],
+    "thirdPartiesNamed": [
+      "an unnamed actress, reported in press"
+    ],
+    "period": "2022",
+    "claim": "Bobby Soxer (Htet Htet Aung, b. 22 May 1993) and Hlwan Paing were in a relationship from 2009. She declared on Facebook at the end of 2022 that it had ended, stating the cause was Hlwan Paing's involvement with an actress. Wikipedia summarises this as having 'sparked intense online backlash, prompting Hlwan Paing to later admit to the affair'. She responded with the song 'Amyi Tat Pe Pyaw Paing Kwint Mashi' (နာမည်တပ်ပြီးပြောပိုင့်ခွင့်မရှိ - 'No Right to Speak Without Naming Names'), which indirectly blamed the actress.",
+    "response": "Hlwan Paing is reported to have admitted the affair. The actress has no recorded response. Note the song's own title is a claim of indirectness - she denied naming names, so reading it as a direct diss is inference.",
+    "evidence": "Wikipedia (Bobby Soxer) citing a Burmese outlet, NP News, 'အနုပညာဖန်တီးမှု အမည်တပ် လိင်အသားပေး ဖျော်ဖြေမှုများ' ('Artistic creation without naming names / singing obliquely'). The earlier relationship is documented by Shwe Mom, 2017.",
+    "corroboration": "Wikipedia plus one Burmese outlet. The affair admission is SINGLE-SOURCED and not independently verified. The widely syndicated biography pages all appear to derive from Wikipedia rather than independent reporting.",
+    "status": "disputed",
+    "corroboratingDetail": "This is the clearest documented case in the archive of the scene's actual dispute mechanism: a veiled, deniable diss whose title announces its own indirectness. Combined with the absent copyright law and invisible lyricists, it suggests this scene resolves credit and personal conflicts through the song, not through a lawsuit or a public statement.",
+    "safety": "The third party is a living person who is NOT named in the song and must not be named here. Do not extend allegations to her.",
+    "sourceIds": [
+      "src-wiki-bobby-soxer-2",
+      "src-npnews-bobby"
+    ],
+    "targetDescription": "hlwan-paing"
+  },
+  {
+    "id": "dsp-ahboy-vip-exit",
+    "type": "crew exit",
+    "parties": [
+      "ah-boy"
+    ],
+    "targetNames": [
+      "VIP (Rock$tar)",
+      "Jouk Jack",
+      "Htein Win",
+      "Kyaw Htut Swe"
+    ],
+    "period": "by 2013",
+    "claim": "Ah Boy is listed as 'Formerly of Rock$tar' and 'former lead vocalist' of the group. Two Burmese headlines document that his absence was noticed: Yatanarpon News, 'the Rock Star group has been keeping an eye on Ah boy for a long time' (a now-dead link), and a Feb 2013 Myanmar Hip Hop Channel headline roughly meaning 'Ah boy, who has flourished in connection with his not-fulfilling-his-duty'. The second phrasing implies a grievance about him not pulling his weight, not a dramatic rupture.",
+    "response": "None recorded. He continued solo and, by 2020, had a #1 JOOX hit.",
+    "evidence": "Group composition is well corroborated: a 2009 Myanmar Hip Hop Channel interview has Kyaw Htut Swe stating the group began in 2007 with Ah Boy and Htein Win, that Htein Win is his younger brother, and that Jouk Jack was added; the collective track 'Revison (Rock Star)' credits all four members; and Wikipedia renders the name 'VIP (Rock$tar)'. Kyaw Htut Swe also states candidly that the members joined for the sample CDs rather than for musical ability.",
+    "corroboration": "Moderate for the facts, weak for the grievance. The departure is well evidenced; the reason rests on two headlines, one dead, and reading a grievance into Burmese phrasing about a departing member is interpretive.",
+    "status": "unresolved",
+    "corroboratingDetail": "The archive previously carried a SEPARATE 'Rock$tar' crew alongside a 'VIP' group, treating the shared name as a collision. It is not: they are one group with two names, and Ah Boy's departure is the real event.",
+    "safety": "low",
+    "sourceIds": [
+      "src-wiki-ah-boy",
+      "src-mhc-archive",
+      "src-wiki-burmese-hiphop"
+    ],
+    "targetDescription": "vip",
+    "statusNote": "departure settled, reason unresolved"
+  },
+  {
+    "id": "dsp-g-tone-2007",
+    "type": "legal/censorship",
+    "parties": [
+      "g-tone"
+    ],
+    "period": "2007-11-18",
+    "claim": "At a hip-hop concert, G-Tone removed his shirt mid-performance to reveal a tattoo. Police officials handcuffed him as soon as he left the stage - reportedly having been persuaded by other musicians to let him finish his set. He was NOT taken into custody, but the police action 'provoked an angry reaction from the crowd'; police then beat audience members, escalating the incident into a riot. Hip-hop star Yatha intervened and was warned not to get involved again. The Myanmar Music Association banned G-Tone, Thuta and Pyi Tha from performing for one year.",
+    "response": "None recorded. G-Tone remains active; he appears on the MHA 'Knockout' posse cut of March 2025.",
+    "evidence": "Democratic Voice of Burma, 22 Nov 2007, reporting by Aye Nai. Sanction: a one-year ban by the Music Association.",
+    "corroboration": "Single-source (DVB) for the incident. The Independent (2013) and de Bakker independently confirm that Myanmar rappers were targeted over tattoos, but with a DIFFERENT description: de Bakker, quoting Yan Yan Chan, describes 'a bald guy wearing Christian rosary beads on his wrist, but he looked sort of like a monk'. The two accounts of the tattoo do not match.",
+    "status": "settled",
+    "corroboratingDetail": "CORRECTION to an earlier archive note: this was a BAN, not an arrest, and it happened in 2007 not 2008. Coconuts (2015) separately garbles it as 'in 2008, a Burmese rapper was arrested for the crime of having a tattoo supporting the Saffron Revolution' - wrong on both year and sanction. Wikipedia's 'G-Tone from Cyclone called to question during performing in concert' appears to derive from the same retellings.",
+    "safety": "low (historical). G-Tone is alive and active.",
+    "sourceIds": [
+      "src-dvb-g-tone-ban",
+      "src-debakker-beat-of-yangon",
+      "src-wiki-burmese-hiphop",
+      "src-lifted-mha-knockout"
+    ],
+    "targetDescription": "the Myanmar Music Association and the police",
+    "partyNames": [
+      "G-Tone",
+      "Thuta",
+      "Pyi Tha"
+    ],
+    "statusNote": "ban settled; the tattoo's content is disputed between sources"
+  },
+  {
+    "id": "dsp-9mm-name-ban",
+    "type": "legal/censorship",
+    "parties": [
+      "9mm",
+      "mfg"
+    ],
+    "period": "mid-2000s",
+    "claim": "Wikipedia's Burmese hip-hop article gives TWO DIFFERENT REASONS in two sentences for the same ban: (i) 'because of the group's alleged political activism, even the name 9mm was banned by the censor board'; and (ii) 'The name 9mm is banned from use in public because they distributed sample CDs of underground group MFG in one of their performance.'",
+    "response": "none found",
+    "evidence": "Single-source: one Wikipedia footnote, itself [7]. Every downstream mirror (owiki, wiki2.org) reproduces the same text.",
+    "corroboration": "None. No primary or press source located. The two stated reasons are mutually inconsistent.",
+    "status": "unresolved",
+    "safety": "low (historical, group long inactive)",
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ],
+    "targetDescription": "the Burmese censor board",
+    "statusNote": "unresolved. The existence of a ban is asserted only by Wikipedia; the reason is internally contradictory and is recorded here as two competing claims rather than a fact."
+  },
+  {
+    "id": "dsp-yan-yan-chan-2008",
+    "type": "legal/censorship",
+    "parties": [
+      "yan-yan-chan"
+    ],
+    "period": "2008-2011",
+    "claim": "English pro-democracy papers widely reported Yan Yan Chan's April 2008 arrest as democracy-related. Wikipedia's Acid article states that 'the military junta claims that he was actually arrested on drug charges', flagged [citation needed] in the source itself. He was released without charges on 7 January 2009.",
+    "response": "No response on record.",
+    "evidence": "Wikipedia's Acid article, with the competing junta claim explicitly uncited. Wikipedia's main article adds a [when?] tag to the release date.",
+    "corroboration": "The arrest and release are documented. The REASON is two incompatible claims, neither independently established.",
+    "status": "disputed",
+    "corroboratingDetail": "Recorded because this is the only place in the archive where two state and opposition accounts of the same arrest are both live and irreconcilable. Neither is adopted here.",
+    "safety": "low (historical). Yan Yan Chan is alive; the disputed drug-charge claim is a serious allegation from an unprovenanced state source and should not be repeated as fact.",
+    "sourceIds": [
+      "src-wiki-acid",
+      "src-wiki-burmese-hiphop"
+    ],
+    "targetDescription": "the military junta"
+  },
+  {
+    "id": "dsp-byu-har-2023",
+    "type": "legal/censorship",
+    "parties": [
+      "byu-har"
+    ],
+    "period": "2023-05-23 to 2023-08-23",
+    "claim": "On 23 May 2023 Byu Har posted a four-minute Facebook video from his home in Yangon's North Dagon Township criticising four-hours-on/four-hours-off loadshedding, calling the electricity minister 'a fool' and Min Aung Hlaing 'a stupid incompetent fool', comparing the junta period unfavourably to Aung San Suu Kyi's, and stating his home address in the caption, inviting arrest. Arrested by soldiers and police that night; held at North Dagon Police Station, then Insein. Charged under Penal Code s.505(a); the junta's statement cited incitement to disrupt peace and stability and spreading propaganda. Sentenced to 20 years on 23 August 2023 - reported as the harshest celebrity sentence of the crackdown.",
+    "response": "Byu Har made no public response after arrest. The junta's framing is the response on record.",
+    "evidence": "Documented sequence, from independent sources: calls for his arrest circulated on pro-military Telegram channels on 23 May; the channel Ka Ka Han (created Oct 2022) described him as 'a low-class dog who swears because there is a blackout in Yangon'; arrest photos were posted to junta Telegram channels on 24 May.",
+    "corroboration": "STRONG - five or more independent outlets: AP, BBC, RFA, Mizzima, The Irrawaddy, Bangkok Post, VOA, PEN America, plus Rappler's investigation of the doxing infrastructure. Rappler documents 32 arrests in Jan-May 2023 from Ka Ka Han posts alone, and a FOEIM school data leak exposing hundreds of students' details.",
+    "status": "settled",
+    "corroboratingDetail": "CORRECTION: the archive's earlier note dated the Rappler investigation to March 2025. It is 22 August 2023, and the arrest was May 2023. The doxing posts are dated the same day as the video, not as a preceding campaign. AP quotes a family member and says it was unclear which charge he was convicted of, so no single offence is asserted here.",
+    "safety": "SEVERE. Living prisoner, 20-year sentence. Do not publish his home address, family details, or the specific Telegram channel handles - the doxing mechanism is the documented cause of the arrest. UN Special Rapporteurs called out Telegram's moderation failure in Myanmar in March 2023.",
+    "sourceIds": [
+      "src-bbc-byu-har-2023",
+      "src-rfa-byu-har-arrest",
+      "src-mizzima-byu-har",
+      "src-voa-byu-har",
+      "src-ap-byu-har",
+      "src-rappler-doxing-2023",
+      "src-pen-byu-har"
+    ],
+    "targetDescription": "the Myanmar military government",
+    "statusNote": "settled as to arrest and sentence"
+  },
+  {
+    "id": "dsp-overflow-2025",
+    "type": "legal/censorship",
+    "parties": [
+      "wink",
+      "bkho-bain"
+    ],
+    "period": "2025-11-02 to 2025-11-09",
+    "claim": "At the Overflow Music Festival, Eastern Yangon Event Park, Thingangyun Township, a group led by Wink (Ye Wint Aung, aka Bala) and bkho bain (Thein Min Htike) performed twelve songs including '5.55566'. During that song they used obscene language causing public alarm and scattered condoms into the audience, with thirteen people on stage. Police arrested participants between 3 and 6 November; sixteen people were charged.",
+    "response": "No artist response on record. Authorities said legal action would proceed 'to ensure appropriate punishment'.",
+    "evidence": "CHARGE SECTION CONFLICT: the Myanmar Police Force statement (via Positive Angle News, 8 Nov 2025) gives case file (P)213/2025, Thuwunna PS, sections 505-A, 294 and 114. Eleven Media Group (9 Nov 2025) reports '505(b) and 294'. The primary police statement says 505-A, so that is used here. Separately, DVB names a different performer, Yul Nay Lwin, in the same 'condoms on stage' story - the two namings are NOT merged.",
+    "corroboration": "Independent Burmese and English-language outlets agree on the facts and diverge only on the section number.",
+    "status": "unresolved",
+    "safety": "HIGH. Named individuals under active prosecution.",
+    "sourceIds": [
+      "src-eleven-overflow-2025",
+      "src-dvb-gfatt-warrant-2021"
+    ],
+    "targetDescription": "the Myanmar police",
+    "statusNote": "unresolved - charges open, no verdict found. Note the NDSC granted amnesty to 724 prisoners serving 505-A sentences on 26 Nov 2025; whether these sixteen fall in that cohort is UNVERIFIED."
+  },
+  {
+    "id": "dsp-gfatt-warrant-2021",
+    "type": "legal/censorship",
+    "parties": [
+      "g-fatt"
+    ],
+    "period": "2021-04-03",
+    "claim": "On 3 April 2021 the SAC announced warrants under Penal Code s.505(a) for twenty individuals including G Fatt, accused of encouraging participation in the Civil Disobedience Movement, supporting the CRPH, and inciting disturbance. DVB published the list on 4 April 2021.",
+    "response": "None recorded in the sources reached.",
+    "evidence": "Primary: the SAC announcement, published by DVB. A second SAC/MRTV list of around twenty more names under s.505(a) followed on 2 April.",
+    "corroboration": "Primary for the warrant itself.",
+    "status": "settled",
+    "corroboratingDetail": "SEPARATE AND UNRESOLVED: G Fatt was publicly criticised after appearing at the military-held Thingyan festival in Naypyidaw on 13 April 2023. This rests on a single source, Mizzima's Spring Revolution Daily News, a resistance-linked daily; the live page could not be fetched and there is no independent confirmation that the criticism was directed at G Fatt rather than another festival performer. Recorded as unresolved rather than as fact.",
+    "safety": "HIGH. G Fatt was a s.505(a) warrant subject in 2021 and a target of public denunciation in 2023. The April 2023 Thingyan period is a documented high-risk window for the whole scene.",
+    "sourceIds": [
+      "src-wiki-gfatt",
+      "src-dvb-gfatt-warrant-2021"
+    ],
+    "targetDescription": "the State Administration Council",
+    "statusNote": "settled as to the warrant"
+  },
+  {
+    "id": "dsp-yzet-concert-death-2017",
+    "type": "legal/other",
+    "parties": [
+      "yzet"
+    ],
+    "period": "2017-06-10",
+    "claim": "At a FREE album-promotion concert for his album ဇ in Mandalay, with thousands attending, mostly teenagers, multiple fights broke out. A group of four beat a 19-year-old with a two-foot steel pipe after an incidental elbowing on the dance floor. The victim died of head injuries at Mandalay General Hospital. Four attackers aged 17-20 were arrested on site. Eight police and 30 private security (MMC Security) were on duty. A friend filed under ss.114 and 302. The event was shut down.",
+    "response": "Y-Zet's own on-record apology, in a Burmese interview of 29 March 2018: he said he did nothing wrong but a young man died, and that he accepts his share of the responsibility.",
+    "evidence": "Coconuts Yangon, 12 June 2017; The Irrawaddy (Burmese), 12 June 2017, reporting the arrests; 7Day News, 13 June 2017 (cited via Wayback).",
+    "corroboration": "STRONG - three independent accounts including two Burmese-language outlets.",
+    "status": "settled",
+    "corroboratingDetail": "IMPORTANT CORRECTION: this is NOT a beef killing and must never be linked causally to the 2011 'Shwee Die' diss. The fight began with accidental physical contact while dancing, six years after the track. Wikipedia places the two facts in adjacent sections with no causal link, and the earlier archive note that juxtaposed them has been corrected.",
+    "safety": "Record only the published facts. The victim is not named in any source and should not be identified beyond 'a 19-year-old'.",
+    "sourceIds": [
+      "src-coconuts-yzet-brawl",
+      "src-irrawaddy-yzet-death",
+      "src-mhc-7day-yzet",
+      "src-yzet-apology-2018"
+    ],
+    "targetDescription": null
+  },
+  {
+    "id": "dsp-zeya-thaw-2008",
+    "type": "legal/censorship",
+    "parties": [
+      "phyo-zeya-thaw"
+    ],
+    "period": "2008-2011",
+    "claim": "Arrested 12 March 2008 at a restaurant in Yangon with five friends. Sentenced 20 November 2008 by the Lanmadaw Township court to five years under SLORC Law 6/88 (illegal organising) plus one year for foreign currency - his lawyer stated the currency total was under 10,000 kyat. Transferred to Kawthaung prison. Amnesty International named him a prisoner of conscience. Released 17 May 2011. Minutes before sentencing he wrote: 'I feel sad, but not because of my imprisonment... I feel sad for the future of our country and people... Have the courage to reject the things you don't like.'",
+    "response": "His own statements, quoted above. Post-release he said: 'While I was in prison, I reconsidered some of my past actions and I felt very uneasy... I don't feel that I've used my full capabilities to help the country.' In August 2011 police in Mingala Taungnyunt Township banned him from performing at a show on Hmyawzin Island, which he called 'doubly punishing'.",
+    "evidence": "Mizzima, Amnesty International, The Irrawaddy, BBC, moemaka (an interview with Khet Mar), multiple.",
+    "corroboration": "very strong",
+    "status": "settled",
+    "corroboratingDetail": "Continued repression after release is part of the record, and matters: a state that releases a dissident and then bans him from performing is a different situation from one that imprisons him.",
+    "safety": "Deceased by state execution 25 July 2022. Widow and surviving Acid members are at risk and Acid is under surveillance. Do not name safe houses, family, or current members' locations.",
+    "sourceIds": [
+      "src-wiki-phyo-zeya-thaw",
+      "src-nyt-zayar-thaw-2022",
+      "src-debakker-beat-of-yangon"
+    ],
+    "targetDescription": "the SLORC government",
+    "statusNote": "settled as to imprisonment and release"
+  },
+  {
+    "id": "dsp-zeya-thaw-resistance-role",
+    "type": "legal/censorship",
+    "parties": [
+      "phyo-zeya-thaw"
+    ],
+    "period": "2021-2022",
+    "claim": "Rearrested November 2021, charged under the Counterterrorism Law and the Public Property Protection Act, sentenced to death January 2022, and executed 23 July 2022 with Ko Jimmy (Kyaw Min Yu) and two others. The Daily Beast reported, citing four anonymous sources with knowledge of the Yangan underground, that he was top commander of the armed resistance in Yangon.",
+    "response": "The resistance movement never publicly acknowledged the claim.",
+    "evidence": "The arrest, charge, sentence and execution are documented by NYT, AP, BBC, Mizzima, The Irrawaddy, DVB and others. The resistance-role claim rests on four anonymous sources and has never been publicly confirmed by the movement.",
+    "corroboration": "very strong for the execution; the resistance role is anonymous-sourced and unconfirmed.",
+    "status": "unresolved",
+    "corroboratingDetail": "Recorded because it is exactly the kind of claim an archive should carry WITH its uncertainty attached. Anonymous sourcing from a conflict zone is not the same as a refuted claim, and it is not the same as a verified one either.",
+    "safety": "MAXIMUM. Deceased by state execution. Do not name safe houses or family. Note the Observer's evidence that Telenor data located his safe house.",
+    "sourceIds": [
+      "src-nyt-zayar-thaw-2022",
+      "src-vice-raj-2023",
+      "src-dw-rapper-junta-2026"
+    ],
+    "targetDescription": "the Myanmar military government",
+    "statusNote": "execution settled; resistance role unresolved and contested in character"
+  },
+  {
+    "id": "dsp-raj-battle-pivot-2021",
+    "type": "legal/political",
+    "parties": [
+      "rap-against-junta",
+      "ko-aye-win"
+    ],
+    "period": "2021",
+    "claim": "DICKCOUNCIL producer Ko Aye Win, a former B-boy who used to battle frequently, told Insight Myanmar: 'Before the coup I was a B-Boy, I liked to battle a lot. But not anymore... Hip hop rap battles, they always like to provoke each other and talk to each other. So I thought, how about we switch the arrow direction in Dickcouncil, to take on the military junta and Min Aung Hlaing or whoever, like every tyrant across the globe!' The interview host frames it as repurposing an adversarial battle form against a target not accustomed to being spoken to that way. DICKCOUNCIL is described as achieving an unprecedented dynamic of Burmese youth openly dissing Min Aung Hlaing.",
+    "response": "The junta's response is the broader crackdown, documented elsewhere in this archive.",
+    "evidence": "Extended interview with Ko Aye Win by Shwe Lan Ga Lay, Insight Myanmar, 26 December 2021, published on the blog and as a podcast episode.",
+    "corroboration": "STRONG - a named, on-record producer explaining the intent in his own words.",
+    "status": "settled",
+    "corroboratingDetail": "THE CLEANEST BEEF ANALOGUE IN THE ARCHIVE. Almost every other 'beef' here is a genre label, a veiled personal diss, or a censorship record. This one is a dispute in battle form, aimed at the state, with a named participant explaining the pivot on the record. It is also the pivot point of the whole dataset: the target of the adversarial form migrated from other rappers to the regime.",
+    "safety": "Do not characterise any platform as safe. Telegram carried the music and was also the doxing channel that led to arrests.",
+    "sourceIds": [
+      "src-insight-raj-battle-2021",
+      "src-raj-dickcouncil",
+      "src-globalvoices-2021"
+    ],
+    "targetDescription": "the Myanmar military government and Min Aung Hlaing",
+    "statusNote": "settled as a statement of intent"
+  },
+  {
+    "id": "dsp-mdy-djs-2025",
+    "type": "legal/censorship",
+    "parties": [],
+    "period": "2025-07-31",
+    "claim": "At Cover Club, 36th Street and 36x53 Street, Yemon South Ward, Mahaaungmye Township, MANDALAY, from 1-2am on 31 July 2025, three DJs - reported as intoxicated and in indecent clothing - played 'Buddham Saranam Gacchami' as a DJ mix and danced in a way that 'disrespected Buddhism, with the intent to cause outrage towards the Buddhist religion'. Charged under s.505(a), case (P)214/2025, No. (9) Myoma Police Station. Arrested 11 and 13 September 2025; reported 14 September 2025.",
+    "response": "None recorded.",
+    "evidence": "Eleven Media Group, quoting the Myanmar Police Force.",
+    "corroboration": "single-source",
+    "status": "unresolved",
+    "corroboratingDetail": "Included despite not being hip-hop, because it is a Mandalay case and because it shows the legal architecture reaching DJs for a religious-desecration charge - the same s.505(a) used against rappers. It is the archive's only documented Mandalay prosecution of a music performer.",
+    "safety": "Named individuals under prosecution. One is 24 and reported with a ka title and a name.",
+    "sourceIds": [
+      "src-eleven-mdy-djs-2025"
+    ],
+    "targetDescription": "the Myanmar police",
+    "partyNames": [
+      "DJ Violet (Khin Htwe Htwe Mon, 24)",
+      "DJ manager Phyo Hein Ko Ko (Min Htike, 28)",
+      "Dice (Nyan Lin Htet)",
+      "club owner Thet Lwin Aung (49)",
+      "club manager Zin Su Ra (31)"
+    ]
+  },
+  {
+    "id": "dsp-election-law-2025",
+    "type": "legal/censorship",
+    "parties": [],
+    "period": "2025-07-29 onward",
+    "claim": "SAC Law No. 48/2025, the Law on the Prevention of Obstruction, Disruption and Sabotage of Multiparty Democratic General Election, was enacted 29 July 2025 with penalties from three years to the death penalty. From 27 October 2025 artists, actors, comedians and directors were arrested for supporting social-media criticism of the state election-awareness film 'Khit Thamine Ko Done Saing Myi Thu Myar'. Khit Thit Media and other outlets were charged as organisations.",
+    "response": "The state framing, per Global New Light of Myanmar.",
+    "evidence": "GNLM, the law text and the arrest notices; Myanmar Internet Project's running tally; Reuters.",
+    "corroboration": "STRONG, but the totals diverge by counting method: Myanmar Internet Project documented 32 named individuals by 14 Nov 2025; the junta claimed 88 charged by 29 Oct 2025; Reuters reported at least 229 by Dec 2025.",
+    "status": "unresolved",
+    "corroboratingDetail": "Mostly film and comedy rather than hip-hop, but it is the same s.505-A plus election-law architecture that catches rappers, and it establishes that by 2025 the legal environment had widened well beyond performance. No artist with a record in this dataset has been charged under it.",
+    "safety": "high. No hip-hop artist in this dataset is named as charged.",
+    "sourceIds": [
+      "src-gnlm-election-law",
+      "src-myanmar-internet-project",
+      "src-reuters-election-2025"
+    ],
+    "targetDescription": "the State Administration Council",
+    "statusNote": "settled as to the arrests; totals unresolved"
+  },
+  {
+    "id": "dsp-copyright-absence",
+    "type": "credit dispute",
+    "parties": [],
+    "period": "documented 2016, ongoing",
+    "claim": "STRUCTURAL, NOT INTERPERSONAL. Thar Si Thaw, a famous singer then head of internal affairs at the Myanmar Music Association, testified to VOA in Burmese on 5 October 2016: 'the existing laws cannot give the necessary protection'. He said he was waiting for the government to fulfil its promise to draft a new copyright law and had been writing and revising the draft himself. He cited enforcement against film and song piracy as the immediate crisis, the music industry resisting, and s.32(a)/(c) as the tools police use. A ministry editorial adviser, Maung Shey, said the ministry was 'personally writing' the law. Separately, the state's cultural quarantine created the 'copy thachin' (copy song) genre - foreign hits rewritten into Burmese - with Lay Phyu's Metallica rewrite of 'Enter Sandman' known domestically as 'Exits'.",
+    "response": "The state, via the ministry, was drafting a law as of 2016. Whether it was enacted is UNVERIFIED.",
+    "evidence": "VOA Burmese, 5 Oct 2016; The World/PRX on copy-track culture; NBC News/AP; The Independent; de Bakker; J.M. Ferguson in Asia Pacific Journal of Anthropology.",
+    "corroboration": "STRONG",
+    "status": "structurally unresolved",
+    "corroboratingDetail": "THE MOST IMPORTANT FRAME IN THE ARCHIVE. In this scene a credit dispute is usually not a quarrel between artists but an absent legal category. Phyo Layy writes invisibly as a lyricist for Sandi Myint Lwin, Wine Su Khaing Thein and Warso Moe Oo with no public credit and no documented grievance. A specific investigation of credit disputes involving 99 Symphony's INTERNATION and Phyo Layy found NO dispute exists: Phyo Layy does not appear in that album's writer credits at all. Recorded here so the null result is documented rather than mistaken for an oversight.",
+    "safety": "low",
+    "sourceIds": [
+      "src-voa-copyright-2016",
+      "src-world-mock-stars-2016",
+      "src-eleven-phyo-lay",
+      "src-debakker-beat-of-yangon"
+    ],
+    "targetDescription": "the Myanmar state and the Myanmar Music Association"
+  }
+]

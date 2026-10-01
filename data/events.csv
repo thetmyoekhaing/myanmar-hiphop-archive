@@ -1,3 +1,21 @@
-id,name,date,venueId,performerIds,sourceIds,confidence,note
-ev-straight-outta-yangon-2,Full Stop's Straight Outta Yangon: Chapter 2,2017-09-15,ven-clubhouse,acid,src-coconuts-2017,medium,ACID reunion show; exact date approximate (announced as 'tonight' in Sep 2017 article)
-ev-saisai-birthday-show,Sai Sai Birthday Show,2004-04-10,,sai-sai-kham-leng,src-wiki-saisai,high,Annual outdoor concert starting 10 April 2004
+id,name,date,venueId,confidence
+ev-straight-outta-yangon-2,Full Stop's Straight Outta Yangon: Chapter 2,2017-09-15,ven-clubhouse,medium
+ev-saisai-birthday-show,Sai Sai Birthday Show,2004-04-10,,high
+ev-yzet-violent-2017,Y-Zet album promotion concert (Mandalay),2017-06-10,,high
+ev-first-step-2016,FIRST STEP Hip Hop Music Show,2016-05-21,ven-myaw-sin-island,high
+ev-monsoon-ii-2016,Monsoon II (Full Stop),2016-08-27,ven-yih,high
+ev-soy-r3-2016,Straight Outta Yangon Round 3 (Full Stop),2016-12,ven-clubhouse,medium
+ev-soy-ch2b-2017,"Straight Outta Yangon: Chapter 2 (ACID reunion, Full Stop lineup)",2017-09-22,ven-clubhouse,high
+ev-showdown-freestyle,The Showdown Freestyle Battle,,ven-urban-asia,medium
+ev-break-the-night-2019,Break the Night,2019-12,ven-ifb-yangon,high
+ev-bohtet-heavyweight-2020,Heavy Weight album promotion show (Time City Yangon),2020-02-05,,medium
+ev-mob-party-2024,MOB Party (3rd annual),2024-11-30,ven-cool-muang,high
+ev-mob-party-2025,MOB Party (4th annual),2025-11-29,ven-democrazy-cm,high
+ev-overflow-2025,Overflow Music Festival,2025-11-02,ven-overflow-park,high
+ev-jamit-first-2012,Jam It! first show (Kan Daw Gyi Park),2012,ven-kandawgyi-park,high
+ev-raj-firstshow-2021,Rap Against Junta first public show,2021-02,,high
+ev-raj-secondshow-2021,Rap Against Junta second show,2021-03,,high
+ev-raj-dickcouncil-party-2021,DICKCOUNCIL album listening party,2021-10-21,,medium
+ev-xboxin-houseparty-2018,X-BOXIN's House Party,2018-05,ven-hard-rock-yangon,medium
+ev-scarr-2026,SCARR - Resilience Arts Exhibition,2026-06-27,,high
+ev-newburma-4elements-2026,4 Elements residency exhibition (A New Burma),2026-05-21,,high

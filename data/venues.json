@@ -1,3 +1,138 @@
 [
-  {"id": "ven-clubhouse", "name": "The Clubhouse", "city": "Yangon", "sourceIds": ["src-coconuts-2017"]}
+  {
+    "id": "ven-clubhouse",
+    "name": "The Clubhouse",
+    "city": "Yangon",
+    "sourceIds": [
+      "src-coconuts-2017"
+    ]
+  },
+  {
+    "id": "ven-urban-asia",
+    "name": "Urban Asia Center",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-coconuts-showdown"
+    ]
+  },
+  {
+    "id": "ven-kandawgyi-park",
+    "name": "Kan Daw Gyi Park",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-jam-it-about",
+      "src-myanmore-underground-2015"
+    ]
+  },
+  {
+    "id": "ven-yih",
+    "name": "Yangon International Hotel",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-myanmore-monsoon-ii-2016"
+    ]
+  },
+  {
+    "id": "ven-ifb-yangon",
+    "name": "French Institute Yangon (IFB)",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-irrawaddy-break-night-2019"
+    ]
+  },
+  {
+    "id": "ven-myaw-sin-island",
+    "name": "Myaw Sin Island, Kandawgyi Park",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-smiyanmar"
+    ]
+  },
+  {
+    "id": "ven-overflow-park",
+    "name": "Eastern Yangon Event Park",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-eleven-overflow-2025"
+    ]
+  },
+  {
+    "id": "ven-hard-rock-yangon",
+    "name": "Hard Rock Cafe Yangon",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "ven-democrazy-cm",
+    "name": "Democrazy!",
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "sourceIds": [
+      "src-dvb-mob-2025"
+    ]
+  },
+  {
+    "id": "ven-cool-muang",
+    "name": "Cool Muang Coffee (parking lot near Tha Phae Gate)",
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "sourceIds": [
+      "src-dvb-mob-2024"
+    ]
+  },
+  {
+    "id": "ven-rk-mdy",
+    "name": "RK Bar & Music Theatre",
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-gnlm-rk-showdown-2025"
+    ]
+  },
+  {
+    "id": "ven-cover-club-mdy",
+    "name": "Cover Club, 36th St / 36x53 St, Mahaaungmye Township",
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-eleven-mdy-djs-2025"
+    ]
+  },
+  {
+    "id": "ven-hmyawzin-island",
+    "name": "Hmyawzin Island, Kandawgyi Lake",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-wiki-phyo-zeya-thaw"
+    ]
+  },
+  {
+    "id": "ven-tkg-studio-mdy",
+    "name": "Studio TKG (Mandalay)",
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "ven-tun-htin-mm",
+    "name": "Tun Htin Na, North Dagon Township",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "sourceIds": [
+      "src-rfa-byu-har-arrest"
+    ],
+    "note": "Recorded because it is where Byu Har was arrested and where he had published his address - SAFETY: the address itself is not recorded here and must never be published."
+  }
 ]

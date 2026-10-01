@@ -1,35 +1,1067 @@
 [
-  {"from": "phyo-zeya-thaw", "type": "member_of", "to": "acid", "source": "src-wiki-acid", "status": "VERIFIED", "confidence": "high"},
-  {"from": "yan-yan-chan", "type": "member_of", "to": "acid", "source": "src-wiki-acid", "status": "VERIFIED", "confidence": "high"},
-  {"from": "annaga", "type": "member_of", "to": "acid", "source": "src-wiki-acid", "status": "VERIFIED", "confidence": "high"},
-  {"from": "hein-zaw", "type": "member_of", "to": "acid", "source": "src-wiki-acid", "status": "VERIFIED", "confidence": "high"},
-  {"from": "acid", "type": "released", "to": "rel-beginning", "source": "src-wiki-acid", "status": "VERIFIED", "confidence": "high"},
-  {"from": "acid", "type": "pioneer_of", "to": "burmese-hiphop", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "high"},
-  {"from": "nay-win", "type": "member_of", "to": "snare", "source": "src-myanmore-2017", "status": "AI_EXTRACTED", "confidence": "medium"},
-  {"from": "nay-win", "type": "released", "to": "rel-hip-hop-vibration", "source": "src-myanmore-2017", "status": "AI_EXTRACTED", "confidence": "medium"},
-  {"from": "barbu", "type": "member_of", "to": "theory", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "high"},
-  {"from": "thxa-soe", "type": "member_of", "to": "theory", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "high"},
-  {"from": "kyaw-thu-soe", "type": "member_of", "to": "ns", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "high"},
-  {"from": "lin-lin", "type": "member_of", "to": "ns", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "high"},
-  {"from": "g-tone", "type": "member_of", "to": "cyclone", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "medium"},
-  {"from": "jouk-jack", "type": "member_of", "to": "vip", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "medium"},
-  {"from": "kyaw-htut-swe", "type": "member_of", "to": "vip", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "medium"},
-  {"from": "ah-boy", "type": "member_of", "to": "vip", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "medium"},
-  {"from": "hlwan-paing", "type": "associated_with", "to": "vip", "source": "src-wiki-burmese-hiphop", "status": "AI_EXTRACTED", "confidence": "medium"},
-  {"from": "j-me", "type": "member_of", "to": "mha", "source": "src-wiki-burmese-hiphop", "status": "AI_EXTRACTED", "confidence": "low"},
-  {"from": "phyo-zeya-thaw", "type": "member_of", "to": "generation-wave", "source": "src-wiki-acid", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-chocolate-yaung-yayge", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-thangegyin-myar-swar", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-february-mhat-tann", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-saisai-live-in-yangon", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-saisai-hu-khaw-thi", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-happy-saisai-birthday", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-ever-golli", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "released", "to": "rel-date-date-kye", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "acid", "type": "performed_at", "to": "ev-straight-outta-yangon-2", "source": "src-coconuts-2017", "status": "VERIFIED", "confidence": "high"},
-  {"from": "sai-sai-kham-leng", "type": "performed_at", "to": "ev-saisai-birthday-show", "source": "src-wiki-saisai", "status": "VERIFIED", "confidence": "high"},
-  {"from": "myo-kyawt-myaing", "type": "pioneer_of", "to": "burmese-hiphop", "source": "src-wiki-burmese-hiphop", "status": "VERIFIED", "confidence": "medium"},
-  {"from": "yan-yan-chan", "type": "mentioned_in", "to": "src-insight-604", "source": "src-insight-604", "status": "AI_EXTRACTED", "confidence": "medium"},
-  {"from": "acid", "type": "documented_in", "to": "src-yt-acid-doc", "source": "src-yt-acid-doc", "status": "VERIFIED", "confidence": "medium"},
-  {"from": "burmese-hiphop", "type": "documented_in", "to": "src-street-magazine", "source": "src-street-magazine", "status": "AI_EXTRACTED", "confidence": "low"}
+  {
+    "from": "phyo-zeya-thaw",
+    "type": "member_of",
+    "to": "acid",
+    "source": "src-wiki-acid",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "yan-yan-chan",
+    "type": "member_of",
+    "to": "acid",
+    "source": "src-wiki-acid",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "annaga",
+    "type": "member_of",
+    "to": "acid",
+    "source": "src-wiki-acid",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "hein-zaw",
+    "type": "member_of",
+    "to": "acid",
+    "source": "src-wiki-acid",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "acid",
+    "type": "released",
+    "to": "rel-beginning",
+    "source": "src-wiki-acid",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "acid",
+    "type": "pioneer_of",
+    "to": "burmese-hiphop",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "nay-win",
+    "type": "member_of",
+    "to": "snare",
+    "source": "src-myanmore-2017",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium"
+  },
+  {
+    "from": "nay-win",
+    "type": "released",
+    "to": "rel-hip-hop-vibration",
+    "source": "src-myanmore-2017",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium"
+  },
+  {
+    "from": "barbu",
+    "type": "member_of",
+    "to": "theory",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "thxa-soe",
+    "type": "member_of",
+    "to": "theory",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "kyaw-thu-soe",
+    "type": "member_of",
+    "to": "ns",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "lin-lin",
+    "type": "member_of",
+    "to": "ns",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "g-tone",
+    "type": "member_of",
+    "to": "cyclone",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "medium"
+  },
+  {
+    "from": "jouk-jack",
+    "type": "member_of",
+    "to": "vip",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "medium"
+  },
+  {
+    "from": "kyaw-htut-swe",
+    "type": "member_of",
+    "to": "vip",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "medium"
+  },
+  {
+    "from": "ah-boy",
+    "type": "member_of",
+    "to": "vip",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "medium"
+  },
+  {
+    "from": "hlwan-paing",
+    "type": "associated_with",
+    "to": "vip",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium"
+  },
+  {
+    "from": "j-me",
+    "type": "member_of",
+    "to": "mha",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "AI_EXTRACTED",
+    "confidence": "low"
+  },
+  {
+    "from": "phyo-zeya-thaw",
+    "type": "member_of",
+    "to": "generation-wave",
+    "source": "src-wiki-acid",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-chocolate-yaung-yayge",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-thangegyin-myar-swar",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-february-mhat-tann",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-saisai-live-in-yangon",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-saisai-hu-khaw-thi",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-happy-saisai-birthday",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-ever-golli",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "released",
+    "to": "rel-date-date-kye",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "acid",
+    "type": "performed_at",
+    "to": "ev-straight-outta-yangon-2",
+    "source": "src-coconuts-2017",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "sai-sai-kham-leng",
+    "type": "performed_at",
+    "to": "ev-saisai-birthday-show",
+    "source": "src-wiki-saisai",
+    "status": "VERIFIED",
+    "confidence": "high"
+  },
+  {
+    "from": "myo-kyawt-myaing",
+    "type": "pioneer_of",
+    "to": "burmese-hiphop",
+    "source": "src-wiki-burmese-hiphop",
+    "status": "VERIFIED",
+    "confidence": "medium"
+  },
+  {
+    "from": "yan-yan-chan",
+    "type": "mentioned_in",
+    "to": "src-insight-604",
+    "source": "src-insight-604",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium"
+  },
+  {
+    "from": "acid",
+    "type": "documented_in",
+    "to": "src-yt-acid-doc",
+    "source": "src-yt-acid-doc",
+    "status": "VERIFIED",
+    "confidence": "medium"
+  },
+  {
+    "from": "burmese-hiphop",
+    "type": "documented_in",
+    "to": "src-street-magazine",
+    "source": "src-street-magazine",
+    "status": "AI_EXTRACTED",
+    "confidence": "low"
+  },
+  {
+    "from": "oasix",
+    "type": "member_of",
+    "to": "wildboy",
+    "source": "src-wiki-oasix",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "yzet",
+    "type": "member_of",
+    "to": "wildboy",
+    "source": "src-wiki-yzet-2",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "oasix",
+    "type": "released",
+    "to": "rel-pyaw-san-par",
+    "source": "src-wiki-oasix",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Duo album with Y-Zet."
+  },
+  {
+    "from": "yzet",
+    "type": "released",
+    "to": "rel-pyaw-san-par",
+    "source": "src-wiki-oasix",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Duo album with Oasix."
+  },
+  {
+    "from": "oasix",
+    "type": "released",
+    "to": "rel-oasix-first",
+    "source": "src-wiki-oasix",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "oasix",
+    "type": "released",
+    "to": "rel-oasix-running",
+    "source": "src-wiki-oasix",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "oasix",
+    "type": "released",
+    "to": "rel-oasix-1992",
+    "source": "src-wiki-oasix",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "yzet",
+    "type": "released",
+    "to": "rel-yzet-za",
+    "source": "src-wiki-yzet-2",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "yzet",
+    "type": "released",
+    "to": "rel-yzet-mistake",
+    "source": "src-wiki-yzet-2",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "yzet",
+    "type": "released",
+    "to": "rel-yzet-collab",
+    "source": "src-wiki-yzet-2",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "ah-boy",
+    "type": "released",
+    "to": "rel-ahboy-tayoketan",
+    "source": "src-wiki-ah-boy",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "ah-boy",
+    "type": "pioneer_of",
+    "to": "burmese-hiphop",
+    "source": "src-wiki-ah-boy",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": "Wikipedia calls him a 'pioneer of the third generation of Burmese hip hop'; the archive's 3G bucket follows src-wiki-burmese-hiphop, so this edge is recorded separately and rated medium."
+  },
+  {
+    "from": "phyo-layy",
+    "type": "member_of",
+    "to": "snare",
+    "source": "src-eleven-phyo-lay",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Member from the group's formation in 2000."
+  },
+  {
+    "from": "phyo-layy",
+    "type": "released",
+    "to": "rel-phyo-lay-bar",
+    "source": "src-mhc-archive",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "htet-yan",
+    "type": "released",
+    "to": "rel-htetyan-shae",
+    "source": "src-wiki-htet-yan",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Duo album with Thar Thar."
+  },
+  {
+    "from": "thar-thar",
+    "type": "released",
+    "to": "rel-htetyan-shae",
+    "source": "src-wiki-htet-yan",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Duo album with Htet Yan."
+  },
+  {
+    "from": "x-boxin",
+    "type": "member_of",
+    "to": "b-lord-family",
+    "source": "src-mhc-archive",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "x-boxin",
+    "type": "released",
+    "to": "rel-xboxin-99",
+    "source": "src-apple-x-boxin",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "x-boxin",
+    "type": "signed_to",
+    "to": "boombox-ent",
+    "source": "src-boombox-ent",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "jimmy-jacobs",
+    "type": "founded",
+    "to": "sme",
+    "source": "src-myanmore-rangoon-rhythm-jimmy",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Founded with Luffie in Dec 2009."
+  },
+  {
+    "from": "eaiddhi",
+    "type": "founded",
+    "to": "jam-it",
+    "source": "src-jam-it-about",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "ye-ngwe-soe",
+    "type": "founded",
+    "to": "jam-it",
+    "source": "src-jam-it-about",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "aung-ye-htike",
+    "type": "founded",
+    "to": "b-clipz",
+    "source": "src-mhc-archive",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "lil-kee-boi",
+    "type": "founded",
+    "to": "eagle-element",
+    "source": "src-spotify-lil-kee-boi",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": "Self-described founder and CEO."
+  },
+  {
+    "from": "yung-hugo",
+    "type": "signed_to",
+    "to": "bg18",
+    "source": "src-hiphopdx-yunghugo",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "adjustor",
+    "type": "signed_to",
+    "to": "bg18",
+    "source": "src-apple-adjustor",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "gracee",
+    "type": "signed_to",
+    "to": "bg18",
+    "source": "src-apple-adjustor",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "yair-yint-aung",
+    "type": "signed_to",
+    "to": "bg18",
+    "source": "src-mhc-archive",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "223",
+    "type": "signed_to",
+    "to": "billionaire-minds",
+    "source": "src-apple-223",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": "Inferred from (P) copyright strings, not a published roster."
+  },
+  {
+    "from": "ah-sar",
+    "type": "signed_to",
+    "to": "eagle-element",
+    "source": "src-apple-ah-sar",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": "Described as Eagle Element's first early member."
+  },
+  {
+    "from": "ah-sar",
+    "type": "signed_to",
+    "to": "billionaire-minds",
+    "source": "src-apple-ah-sar",
+    "status": "AI_EXTRACTED",
+    "confidence": "low",
+    "note": "Possible label migration from Eagle Element between May and Nov 2025, inferred from (P) strings; no source documents a transfer."
+  },
+  {
+    "from": "myat-amara-maung",
+    "type": "signed_to",
+    "to": "billionaire-minds",
+    "source": "src-apple-myat-amara-maung",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "reload",
+    "type": "signed_to",
+    "to": "billionaire-minds",
+    "source": "src-apple-reload",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "murkio",
+    "type": "signed_to",
+    "to": "billionaire-minds",
+    "source": "src-apple-murkio",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "mossberg-arki",
+    "type": "signed_to",
+    "to": "billionaire-minds",
+    "source": "src-apple-mossberg-arki",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "yan",
+    "type": "signed_to",
+    "to": "billionaire-minds",
+    "source": "src-apple-yan",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "lil-kee-boi",
+    "type": "signed_to",
+    "to": "eagle-element",
+    "source": "src-spotify-lil-kee-boi",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "wink",
+    "type": "signed_to",
+    "to": "b4-records",
+    "source": "src-apple-wink",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "bkho-bain",
+    "type": "signed_to",
+    "to": "b4-records",
+    "source": "src-eleven-overflow-2025",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "bkho-bain",
+    "type": "signed_to",
+    "to": "fastlane-records",
+    "source": "src-apple-bkho-bain",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": "Debut album label."
+  },
+  {
+    "from": "lil-cado",
+    "type": "associated_with",
+    "to": "223",
+    "source": "src-apple-223",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": "Founding member and mixer; deceased by Dec 2025."
+  },
+  {
+    "from": "yungpunch",
+    "type": "associated_with",
+    "to": "223",
+    "source": "src-apple-223",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Founding member and producer, from Taungoo."
+  },
+  {
+    "from": "myat-amara-maung",
+    "type": "part_of",
+    "to": "billionaire-minds",
+    "source": "src-apple-myat-amara-maung",
+    "status": "AI_EXTRACTED",
+    "confidence": "low",
+    "note": "Not a crew member; recorded here only to mark the recurring joint-billing pattern 'Myat Amara Maung & TOXIC'."
+  },
+  {
+    "from": "toxic",
+    "type": "part_of",
+    "to": "billionaire-minds",
+    "source": "src-apple-myat-amara-maung",
+    "status": "AI_EXTRACTED",
+    "confidence": "low",
+    "note": "Same joint-billing pattern."
+  },
+  {
+    "from": "billionaire-minds",
+    "type": "part_of",
+    "to": "kg18-scene",
+    "source": "src-lifted-2023",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": "The new wave is a label network, not a crew or a city scene."
+  },
+  {
+    "from": "eagle-element",
+    "type": "part_of",
+    "to": "kg18-scene",
+    "source": "src-apple-ah-sar",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "bkho-bain",
+    "type": "performed_at",
+    "to": "ev-overflow-2025",
+    "source": "src-eleven-overflow-2025",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "wink",
+    "type": "performed_at",
+    "to": "ev-overflow-2025",
+    "source": "src-eleven-overflow-2025",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "x-boxin",
+    "type": "performed_at",
+    "to": "ev-first-step-2016",
+    "source": "src-smiyanmar",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "g-fatt",
+    "type": "performed_at",
+    "to": "ev-first-step-2016",
+    "source": "src-smiyanmar",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "htet-yan",
+    "type": "performed_at",
+    "to": "ev-first-step-2016",
+    "source": "src-smiyanmar",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "j-me",
+    "type": "performed_at",
+    "to": "ev-monsoon-ii-2016",
+    "source": "src-myanmore-monsoon-ii-2016",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "g-tone",
+    "type": "performed_at",
+    "to": "ev-monsoon-ii-2016",
+    "source": "src-myanmore-monsoon-ii-2016",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "yzet",
+    "type": "performed_at",
+    "to": "ev-yzet-violent-2017",
+    "source": "src-wiki-yzet-2",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "bo-htet",
+    "type": "performed_at",
+    "to": "ev-showdown-freestyle",
+    "source": "src-coconuts-showdown",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "annaga",
+    "type": "performed_at",
+    "to": "ev-showdown-freestyle",
+    "source": "src-coconuts-showdown",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": "Judge."
+  },
+  {
+    "from": "yan-yan-chan",
+    "type": "performed_at",
+    "to": "ev-showdown-freestyle",
+    "source": "src-coconuts-showdown",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "g-tone",
+    "type": "performed_at",
+    "to": "ev-showdown-freestyle",
+    "source": "src-coconuts-showdown",
+    "status": "VERIFIED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "osho",
+    "type": "founded",
+    "to": "rap-against-junta",
+    "source": "src-vice-raj-2023",
+    "status": "CONFLICTED",
+    "confidence": "medium",
+    "note": "EDITORIAL TENSION, PRESERVED: VICE names Osho as the originator, while RAJ's own Bandcamp bio and manifesto insist there is no hierarchy ('We are all leaders', 'an alliance of...'). Both accounts are kept; neither is adopted as the sole truth."
+  },
+  {
+    "from": "ko-aye-win",
+    "type": "part_of",
+    "to": "rap-against-junta",
+    "source": "src-insight-raj-2021",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "Producer of DICKCOUNCIL."
+  },
+  {
+    "from": "be-amby",
+    "type": "part_of",
+    "to": "rap-against-junta",
+    "source": "src-raj-dickcouncil",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "be-amby",
+    "type": "part_of",
+    "to": "triple-edge-cm",
+    "source": "src-apple-triple-edge",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": "'BROKEN SPEAKER' (2024) - the clearest RAJ-to-Chiang-Mai personnel bridge."
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-dickcouncil",
+    "source": "src-raj-dickcouncil",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-blood",
+    "source": "src-raj-bandcamp",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-dictators",
+    "source": "src-raj-bandcamp",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-leecoup",
+    "source": "src-raj-bandcamp",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-lee199",
+    "source": "src-raj-bandcamp",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-out",
+    "source": "src-raj-bandcamp",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-yaltayar",
+    "source": "src-raj-bandcamp",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "released",
+    "to": "rel-raj-camefromhell",
+    "source": "src-raj-bandcamp",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "rap-against-junta",
+    "type": "documented_in",
+    "to": "src-raj-dickcouncil",
+    "source": "src-raj-dickcouncil",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "osho",
+    "type": "performed_at",
+    "to": "ev-raj-firstshow-2021",
+    "source": "src-vice-raj-2023",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "kan-kyi",
+    "type": "founded",
+    "to": "triple-edge-cm",
+    "source": "src-dvb-mob-2024",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": "DVB reports Kan Kyi as organiser and producer/lead emcee; the exact formation of the group is not stated."
+  },
+  {
+    "from": "kan-kyi",
+    "type": "produced_for",
+    "to": "ev-mob-party-2024",
+    "source": "src-dvb-mob-2024",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": "MOB Party organiser."
+  },
+  {
+    "from": "kan-kyi",
+    "type": "produced_for",
+    "to": "ev-mob-party-2025",
+    "source": "src-dvb-mob-2025",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "triple-edge",
+    "type": "released",
+    "to": "rel-tripleedge-drop",
+    "source": "src-apple-triple-edge",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "triple-edge",
+    "type": "released",
+    "to": "rel-tripleedge-broken",
+    "source": "src-apple-triple-edge",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "louz-xa-lone",
+    "type": "released",
+    "to": "rel-raj-thevoices",
+    "source": "src-globalvoices-2021",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": "Attributed by Coda Story to individual artists, not to RAJ as an act."
+  },
+  {
+    "from": "vanzzzo",
+    "type": "released",
+    "to": "rel-vanzzzo-rebel",
+    "source": "src-lifted-2023",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "meemi",
+    "type": "released",
+    "to": "rel-meemi-wegotthis",
+    "source": "src-lifted-2023",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": null
+  },
+  {
+    "from": "si-thu-aung",
+    "type": "associated_with",
+    "to": "rap-against-junta",
+    "source": "src-globalvoices-2021",
+    "status": "AI_EXTRACTED",
+    "confidence": "low",
+    "note": "Graffiti artist; RAJ's self-description counts graffiti artists in the alliance, but no source places him in it specifically."
+  },
+  {
+    "from": "trigger",
+    "type": "released",
+    "to": "rel-trigger-dontkill",
+    "source": "src-lifted-2023",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "223",
+    "type": "featured_on",
+    "to": "rel-trigger-dontkill",
+    "source": "src-lifted-2023",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "13-three",
+    "type": "released",
+    "to": "rel-13three-run",
+    "source": "src-lifted-2023",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "xma",
+    "type": "featured_on",
+    "to": "rel-13three-run",
+    "source": "src-lifted-2023",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "ceyyie",
+    "type": "featured_on",
+    "to": "rel-13three-run",
+    "source": "src-lifted-2023",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "abet",
+    "type": "featured_on",
+    "to": "rel-13three-run",
+    "source": "src-lifted-2023",
+    "status": "VERIFIED",
+    "confidence": "high",
+    "note": null
+  },
+  {
+    "from": "yung-hugo",
+    "type": "pioneer_of",
+    "to": "burmese-hiphop",
+    "source": "src-hiphopdx-yunghugo",
+    "status": "AI_EXTRACTED",
+    "confidence": "medium",
+    "note": "Self-identifies as fourth generation: 'The pioneer of Myanmar hip hop is Acid. I'm fourth-generation.' This is the archive's sole source for a 4G category and is artist-asserted, not press-imposed."
+  },
+  {
+    "from": "byu-har",
+    "type": "associated_with",
+    "to": "rap-against-junta",
+    "source": "src-bbc-byu-har-2023",
+    "status": "REJECTED",
+    "confidence": "low",
+    "note": "NOT a member. Recorded to make explicit that a major post-coup rapper is absent from RAJ, and to carry his incarceration status. No source places him in the collective."
+  }
 ]

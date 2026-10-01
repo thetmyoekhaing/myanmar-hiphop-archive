@@ -1,11 +1,102 @@
-id,title,artistId,year,type,sourceIds,confidence
-rel-beginning,Beginning (Sa-Tin-Gyin),acid,2000,album,src-wiki-acid;src-wiki-burmese-hiphop,high
-rel-chocolate-yaung-yayge,Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams),sai-sai-kham-leng,2000,album,src-wiki-saisai,high
-rel-thangegyin-myar-swar,Thangegyin Myar Swar (Friends),sai-sai-kham-leng,2001,album,src-wiki-saisai,high
-rel-february-mhat-tann,February Mhat Tann,sai-sai-kham-leng,2003,album,src-wiki-saisai,high
-rel-saisai-live-in-yangon,Sai Sai Live in Yangon,sai-sai-kham-leng,2004,album,src-wiki-saisai,high
-rel-saisai-hu-khaw-thi,Sai Sai Hu Khaw Thi,sai-sai-kham-leng,2005,album,src-wiki-saisai,high
-rel-hip-hop-vibration,Hip Hop Vibration Pya Htan Chat,nay-win,2005,album,src-myanmore-2017,medium
-rel-happy-saisai-birthday,Happy Sai Sai Birthday,sai-sai-kham-leng,2007,album,src-wiki-saisai,high
-rel-ever-golli,Ever Golli (Always Dwifter),sai-sai-kham-leng,2009,album,src-wiki-saisai,high
-rel-date-date-kye,Date Date Kye (Topnotch),sai-sai-kham-leng,2012,album,src-wiki-saisai,high
+id,title,artistId,artistIdB,year,type,labelId,trackCount,confidence
+rel-beginning,Beginning (Sa-Tin-Gyin),acid,,2000,album,,,high
+rel-chocolate-yaung-yayge,Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams),sai-sai-kham-leng,,2000,album,,,high
+rel-thangegyin-myar-swar,Thangegyin Myar Swar (Friends),sai-sai-kham-leng,,2001,album,,,high
+rel-february-mhat-tann,February Mhat Tann,sai-sai-kham-leng,,2003,album,,,high
+rel-saisai-live-in-yangon,Sai Sai Live in Yangon,sai-sai-kham-leng,,2004,album,,,high
+rel-saisai-hu-khaw-thi,Sai Sai Hu Khaw Thi,sai-sai-kham-leng,,2005,album,,,high
+rel-hip-hop-vibration,Hip Hop Vibration Pya Htan Chat,nay-win,,2005,album,,,medium
+rel-happy-saisai-birthday,Happy Sai Sai Birthday,sai-sai-kham-leng,,2007,album,,,high
+rel-ever-golli,Ever Golli (Always Dwifter),sai-sai-kham-leng,,2009,album,,,high
+rel-date-date-kye,Date Date Kye (Topnotch),sai-sai-kham-leng,,2012,album,,,high
+rel-oasix-first,The First,oasix,,2011,mixtape,,,high
+rel-oasix-running,The Running (Runnin),oasix,,2013,mixtape,,,high
+rel-pyaw-san-par,Pyaw San Par (Just say it),oasix,,2015,album,,,high
+rel-oasix-1992,1992,oasix,,2018,album,,,high
+rel-yzet-collab,The Collaboration,yzet,,2010,mixtape,,,high
+rel-yzet-mistake,My Mistake,yzet,,2013,mixtape,,,high
+rel-yzet-za,Za (Gene),yzet,,2017,album,,,high
+rel-zay-ye-respect,Respect,zay-ye,,2011,album,,,high
+rel-zay-ye-i-me,"I, Me, My, Mine",zay-ye,,2014,album,,13,high
+rel-bo-htet-heavy,Heavy Weight,bo-htet,,,album,the-noise-label,,medium
+rel-htetyan-new,New,htet-yan,,2016,album,,,high
+rel-htetyan-oct18,October 18,htet-yan,,2016,album,,,high
+rel-htetyan-shae,Shae Mhi Nout Mhi (ရှေ့မှီနောက်မှီ),htet-yan,thar-thar,2018,album,legacy-music,10,high
+rel-htetyan-inmylife,In My Life (Live Show),htet-yan,,2018,live,,,high
+rel-xboxin-9,9,x-boxin,,2016,album,,,high
+rel-xboxin-99,99,x-boxin,,2018,album,,10,high
+rel-xboxin-9b,9,x-boxin,,2019,album,,14,medium
+rel-xboxin-future,Future,x-boxin,,2020,album,,12,medium
+rel-xboxin-w1,"W, Vol. 1",x-boxin,,2026,album,boombox-ent,7,high
+rel-xhibition,X-Hibition (JOOX Original Album),x-boxin,,2021,compilation,boombox-ent,,medium
+rel-phyo-lay-bar,Bar Tway Phyit?,phyo-layy,,2019,album,,13,high
+rel-phyo-lay-what,What Happened?,phyo-layy,,2019,album,,,medium
+rel-phyo-lay-solo,Solo Live Show Concert Disc 2,phyo-layy,,2017,live,,,medium
+rel-snare-bagyi,Ba Gyi Phyo and U Nay Win,snare,,2013,album,,,high
+rel-snare-rapgame,Rap Game,snare,,2010,album,,,medium
+rel-gfatt-gin,Gin,g-fatt,,2016,album,,,medium
+rel-gfatt-120b,120/B,g-fatt,,2018,album,,,medium
+rel-floke-mental,Mental Masturbation,floke-rose,,,mixtape,,,medium
+rel-floke-find,Find Your Way Out of the Blue,floke-rose,,2022,album,,,medium
+rel-jimmy-hooligans,Hooligans (လန်းတလေ),jimmy-jacobs,,2017,album,,,medium
+rel-99sym-internation,INTERNATION,99-symphony,,2024,album,the-noise-label,,high
+rel-hlwanpaing-donepyan,Done Pyan (Rocket),hlwan-paing,bobby-soxer,2011,album,,,high
+rel-hlwanpaing-guitar,ဂီတစာဆို လွှမ်းပိုင် (Guitar Lesson),hlwan-paing,,2014,album,,16,high
+rel-yunghugo-soldout,Sold Out,yung-hugo,jcz,2018,mixtape,bg18,,high
+rel-yunghugo-blessed,Blessed,yung-hugo,,2019,album,bg18,,high
+rel-yunghugo-mkga,Make Karen Great Again,yung-hugo,,2023,album,bg18,8,high
+rel-yunghugo-rookie,Rookie Of Every Year,yung-hugo,,2025,album,bg18,16,medium
+rel-braingain,BRAIN GAIN,adjustor,,2024,album,bg18,18,high
+rel-adjustor-compoptable,Compoptable,adjustor,,2020,album,,11,high
+rel-adjustor-findyou,Find Your Way Out of the Blue,adjustor,,2022,album,,11,high
+rel-adjustor-bonfire,Bonfire,adjustor,,2023,EP,,5,high
+rel-adjustor-mixtape1,The First MIxtape,adjustor,,2024,mixtape,,11,high
+rel-louz-desire,Desire,louz-xa-lone,,2019,single,,,high
+rel-louz-fyf,FYF.,louz-xa-lone,,2023,album,,,high
+rel-louz-backtobasics,BACK TO THE BASICS,louz-xa-lone,,2024,album,,,high
+rel-louz-iloverap,I LOVE RAP,louz-xa-lone,,2025,album,,,high
+rel-gracee-you,You,gracee,,2019,EP,,,medium
+rel-ahboy-tayoketan,Ta Yoke Tan (Chinatown) (တရုတ်တန်း),ah-boy,,2007,album,,,high
+rel-nay-classic,Classic Tunez,nay,,2019,album,solatido,,medium
+rel-223-daworld,223 Da World,223,,2024,album,billionaire-minds,12,high
+rel-ahsar-prodigy,Prodigy Kid,ah-sar,,2025,EP,eagle-element,6,high
+rel-ahsar-free,Freemefromeverything,ah-sar,,2025,album,billionaire-minds,9,high
+rel-bkho-bluonblue,BLUE ON BLUE,bkho-bain,,2024,album,fastlane-records,,high
+rel-mossberg-darkhorse,STORY OF A DARK HORSE,mossberg-arki,,2026,album,billionaire-minds,13,high
+rel-mossberg-egostone,EGO STONE,mossberg-arki,,2026,EP,billionaire-minds,4,high
+rel-mossberg-paintmywrld,Paintmywrld,mossberg-arki,,2025,EP,billionaire-minds,5,high
+rel-myatamara-amygdala,Amygdala,myat-amara-maung,,2025,album,billionaire-minds,9,high
+rel-myatamara-223s,223S,myat-amara-maung,,2023,album,,11,high
+rel-pink,Pink,myat-amara-maung,toxic,2023,EP,billionaire-minds,3,high
+rel-wink-cd,CD,wink,,2025,album,b4-records,35,high
+rel-wink-drafts,Drafts,wink,,2022,album,b4-records,8,medium
+rel-28-idomyway,I Do My Way,28,,2026,album,billionaire-minds,9,medium
+rel-slamm-dramatic,Dramatic,slamm,,2026,album,billionaire-minds,8,medium
+rel-slamm-midnight,Midnight Journals,slamm,,2026,EP,billionaire-minds,5,medium
+rel-peachy-kan,ကံဘောင်,peachy,,2026,EP,billionaire-minds,4,medium
+rel-lilkee-boi-b4ktbc,##B4KTBC,lil-kee-boi,,2024,EP,eagle-element,6,high
+rel-lilkee-boi-motherteresa,Mother Teresa,lil-kee-boi,nay,2025,single,,,high
+rel-223-momma,MOMMA I'M CRIMINAL,223,li-l-max,2026,single,zen-music,,high
+rel-trigger-dontkill,DON'T KILL MY VIBE,trigger,223,2023,single,,,high
+rel-13three-run,RUN,13-three,xma,2023,single,,,high
+rel-13three-run-full,RUN,ceyyie,abet,2023,single,,,medium
+rel-beamby-reason,Reason to Live,be-amby,,2022,EP,,,medium
+rel-beamby-freedom,Freedom to Dream,be-amby,,2023,EP,,,medium
+rel-beamby-season,Season to Sing,be-amby,,2025,EP,,,medium
+rel-raj-dickcouncil,DICKCOUNCIL,rap-against-junta,,2021,album,,12,high
+rel-raj-endgame,End Game,rap-against-junta,,2021,single,,,high
+rel-raj-thevoices,The Voices,louz-xa-lone,,2021,single,,,high
+rel-raj-leecoup,Lee Coup,rap-against-junta,,2021,single,,1,high
+rel-raj-lee199,Lee 199,rap-against-junta,,2021,single,,1,high
+rel-raj-dictators,Dictators Must Die,rap-against-junta,,2021,single,,1,high
+rel-raj-blood,Blood,rap-against-junta,,2022,single,,1,high
+rel-raj-out,Out!,rap-against-junta,,2022,single,,1,high
+rel-raj-yaltayar,YalTaYar ThaChin,rap-against-junta,,2022,single,,1,high
+rel-raj-camefromhell,Came From Hell,rap-against-junta,i-and-o,2022,single,,1,high
+rel-zayarthaw-faith,Generation Driven by Faith,phyo-zeya-thaw,,2022,single,,,high
+rel-meemi-wegotthis,We Got This (Myanmar Song to Fight against Military Dictatorship),meemi,,2021,single,,,medium
+rel-vanzzzo-rebel,Rebel (Save Myanmar),vanzzzo,,2021,single,,,medium
+rel-tripleedge-drop,Triple Edge mass single drop (A LONG WAY / CLASS WAR / RICE FOR LIFE / BUILT ON BLOOD / CNX BABY / DYNAMITE / AGAINST THE ODDS / DEK DOI / HERO),triple-edge,,2021,EP,,9,medium
+rel-tripleedge-191,191,triple-edge,bxmb-the-tank,2022,single,,,medium
+rel-tripleedge-broken,BROKEN SPEAKER,triple-edge,,2024,single,,,medium
+rel-tripleedge-root,รากหญ้า (GRASSROOTS),triple-edge,,2024,single,,,medium

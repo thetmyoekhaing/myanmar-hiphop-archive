@@ -1,0 +1,21 @@
+{
+  "name": "myanmar-hiphop-archive",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "data": "node ../scripts/build.mjs",
+    "predev": "node ../scripts/build.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "prebuild": "node ../scripts/build.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  }
+}

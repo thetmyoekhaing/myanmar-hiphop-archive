@@ -1,37 +1,116 @@
-id,name,type,activeFrom,activeTo,city,born,died,aliases,sourceIds
-acid,Acid,group,2000,,Yangon,,,ACID;အက်စစ်,src-wiki-acid;src-wiki-burmese-hiphop
-phyo-zeya-thaw,Phyo Zeya Thaw,solo,2000,2022,Yangon,1981-03-26,2022-07-23,Zayar Thaw,src-wiki-acid
-yan-yan-chan,Yan Yan Chan,solo,2000,,Yangon,1979-05-12,,Anegga (podcast alias),src-wiki-acid;src-insight-604
-annaga,Annaga,solo,2000,,Yangon,1979-05-19,,,src-wiki-acid
-hein-zaw,Hein Zaw,solo,2000,2006,Yangon,1981-06-12,2006-04-10,,src-wiki-acid
-nay-win,Nay Win,solo,2000,,Yangon,,,နေဝင်း;Rap Master,src-myanmore-2017
-snare,Snare,group,2000,,Yangon,,,,src-myanmore-2017
-myo-kyawt-myaing,Myo Kyawt Myaing,solo,1988,,,,,,src-wiki-burmese-hiphop
-sai-sai-kham-leng,Sai Sai Kham Leng,solo,1998,,Yangon,1979-04-10,,Sai Sai Kham Hlaing;စိုင်းစိုင်းခမ်းလှိုင်,src-wiki-saisai
-theory,Theory,group,2000,,Yangon,,,,src-wiki-burmese-hiphop
-barbu,Barbu,solo,2000,,Yangon,,,,src-wiki-burmese-hiphop
-thxa-soe,Thxa Soe,solo,2000,,Yangon,,,,src-wiki-burmese-hiphop
-ns,NS,group,2000,,Yangon,,,,src-wiki-burmese-hiphop
-kyaw-thu-soe,Kyaw Thu Soe,solo,2000,,Yangon,,,,src-wiki-burmese-hiphop
-lin-lin,Lin Lin,solo,2000,,Yangon,,,,src-wiki-burmese-hiphop
-too-big,Too Big,group,2000,,Yangon,,,,src-wiki-burmese-hiphop
-9mm,9mm,group,2001,,Yangon,,,,src-wiki-burmese-hiphop
-project-1,Project-1,group,2002,,Yangon,,,,src-wiki-burmese-hiphop
-byauk-oh,Byauk-Oh,group,2002,,Yangon,,,Firecracker,src-wiki-burmese-hiphop
-examplz,Examplz,group,2002,,Yangon,,,,src-wiki-burmese-hiphop
-g-family,G-Family,group,2002,,Yangon,,,,src-wiki-burmese-hiphop
-on-track,On-Track,group,2002,,Yangon,,,,src-wiki-burmese-hiphop
-lee,L.E.E,group,2002,,Yangon,,,,src-wiki-burmese-hiphop
-cyclone,Cyclone,group,2002,,Yangon,,,,src-wiki-burmese-hiphop
-j-me,J-Me,solo,2002,,Yangon,,,,src-wiki-burmese-hiphop
-bigg-y,Bigg-Y,solo,2002,,Yangon,,,,src-wiki-burmese-hiphop
-g-tone,G-Tone,solo,2002,,Yangon,,,,src-wiki-burmese-hiphop
-kyak-pha,Kyak Pha,solo,2002,,Yangon,,,,src-wiki-burmese-hiphop
-yatha,YaTha,solo,2002,,Yangon,,,,src-wiki-burmese-hiphop
-thuta-aye,Thuta Aye,solo,2002,,Yangon,,,,src-wiki-burmese-hiphop
-jouk-jack,Jouk Jack,solo,2006,,Yangon,,,,src-wiki-burmese-hiphop
-kyaw-htut-swe,Kyaw Htut Swe,solo,2006,,Yangon,,,,src-wiki-burmese-hiphop
-vip,VIP,group,2006,,Yangon,,,Rock$tar,src-wiki-burmese-hiphop
-ah-boy,Ah Boy,solo,2006,,Yangon,,,,src-wiki-burmese-hiphop
-htein-win-p-crew,Htein Win P Crew,group,2006,,Yangon,,,,src-wiki-burmese-hiphop
-hlwan-paing,Hlwan Paing,solo,2006,,Yangon,,,,src-wiki-burmese-hiphop
+id,name,type,activeFrom,activeTo,city,base,born,died,identityStatus,aliases,genre,crewIds,labelIds,realName
+acid,Acid,group,2000,,Yangon,,,,unverified,"['ACID', 'အက်စစ်']",[],[],[],
+phyo-zeya-thaw,Phyo Zeya Thaw,solo,2000,2022,Yangon,,1981-03-26,2022-07-25,unverified,['Zayar Thaw'],[],[],[],
+yan-yan-chan,Yan Yan Chan,solo,2000,,Yangon,,1979-05-12,,unverified,['Anegga (podcast alias)'],[],[],[],
+annaga,Annaga,solo,2000,,Yangon,,1979-05-19,,unverified,[],[],[],[],
+hein-zaw,Hein Zaw,solo,2000,2006,Yangon,,1981-06-12,2006-04-10,unverified,[],[],[],[],
+nay-win,Nay Win,solo,2000,,Yangon,,,,unverified,"['နေဝင်း', 'Rap Master']",[],[],[],
+snare,Snare,group,2000,,Yangon,,,,unverified,[],[],[],[],
+myo-kyawt-myaing,Myo Kyawt Myaing,solo,1988,,,,,,unverified,[],[],[],[],
+sai-sai-kham-leng,Sai Sai Kham Leng,solo,1998,,Yangon,,1979-04-10,,unverified,"['Sai Sai Kham Hlaing', 'စိုင်းစိုင်းခမ်းလှိုင်']",[],[],[],
+theory,Theory,group,2000,,Yangon,,,,unverified,[],[],[],[],
+barbu,Barbu,solo,2000,,Yangon,,,,unverified,[],[],[],[],
+thxa-soe,Thxa Soe,solo,2000,,Yangon,,,,unverified,[],[],[],[],
+ns,NS,group,2000,,Yangon,,,,unverified,[],[],[],[],
+kyaw-thu-soe,Kyaw Thu Soe,solo,2000,,Yangon,,,,unverified,[],[],[],[],
+lin-lin,Lin Lin,solo,2000,,Yangon,,,,unverified,[],[],[],[],
+too-big,Too Big,group,2000,,Yangon,,,,unverified,[],[],[],[],
+9mm,9mm,group,2001,,Yangon,,,,unverified,[],[],[],[],
+project-1,Project-1,group,2002,,Yangon,,,,unverified,[],[],[],[],
+byauk-oh,Byauk-Oh,group,2002,,Yangon,,,,unverified,['Firecracker'],[],[],[],
+examplz,Examplz,group,2002,,Yangon,,,,unverified,[],[],[],[],
+g-family,G-Family,group,2002,,Yangon,,,,unverified,[],[],[],[],
+on-track,On-Track,group,2002,,Yangon,,,,unverified,[],[],[],[],
+lee,L.E.E,group,2002,,Yangon,,,,unverified,[],[],[],[],
+cyclone,Cyclone,group,2002,,Yangon,,,,unverified,[],[],[],[],
+j-me,J-Me,solo,2002,,Yangon,,,,unverified,[],[],[],[],
+bigg-y,Bigg-Y,solo,2002,,Yangon,,,,unverified,[],[],[],[],
+g-tone,G-Tone,solo,2002,,Yangon,,,,unverified,[],[],[],[],
+kyak-pha,Kyak Pha,solo,2002,,Yangon,,,,unverified,[],[],[],[],
+yatha,YaTha,solo,2002,,Yangon,,,,unverified,[],[],[],[],
+thuta-aye,Thuta Aye,solo,2002,,Yangon,,,,unverified,[],[],[],[],
+jouk-jack,Jouk Jack,solo,2006,,Yangon,,,,unverified,[],[],[],[],
+kyaw-htut-swe,Kyaw Htut Swe,solo,2006,,Yangon,,,,unverified,[],[],[],[],
+vip,VIP,group,2006,,Yangon,,,,unverified,['Rock$tar'],[],[],[],
+ah-boy,Ah Boy,solo,2002,,Myeik,,1986-01-13,,named,['အာဘွိုင်း'],['hip hop'],['rockstar'],[],Kyaw Phyo Tun
+htein-win-p-crew,Htein Win P Crew,group,2006,,Yangon,,,,unverified,[],[],[],[],
+hlwan-paing,Hlwan Paing,solo,2006,,Yangon,,,,unverified,[],[],[],[],
+oasix,Oasix,solo,2009,,Mandalay,,1992-12-18,,named,['အိုအေစစ်'],['hip hop'],['wildboy'],[],Thet Ko Tun
+yzet,Y-Zet,solo,2009,,Mandalay,,1989-05-28,,named,['ဝိုင်ဇက်'],['hip hop'],['wildboy'],[],Htet Nway Oo
+zay-ye,Zay Ye',solo,2004,,Yangon,,,,unverified,"['ဇေရဲ', ""MC Zay Ye'""]",['hip hop'],[],[],
+bo-htet,Bo Htet,solo,2017,,Yangon,,,,unverified,[],['hip hop'],[],['the-noise-label'],
+htet-yan,Htet Yan,solo,2011,,Meiktila,,1994-10-18,,named,['ထက်ယံ'],['hip hop'],[],['legacy-music'],Nyein Htet Aung
+x-boxin,X-Boxin,solo,2013,,Yangon,,,,unverified,"['X-BOX', 'X-Box', 'B-Lord']",['hip hop'],['b-lord-family'],['boombox-ent'],
+phyo-layy,Phyo Layy,solo,,,"Kyaukmyaung, Yangon",,,,named,['Phyo Lay'],['hip hop'],['snare'],[],Phyo Wai Myint
+g-fatt,G Fatt,solo,,,,,1992-12-31,,named,[],['hip hop'],[],[],Myat Thu
+floke-rose,Floke Rose,solo,2017,,Yangon,,,,named,[],['hip hop'],[],[],Kaung Myat Thaw
+jimmy-jacobs,Jimmy Jacobs,solo,2008,,Yangon,,,,named,['James G3'],['hip hop'],['sme'],['the-noise-label'],Soe Aung Kyaw
+99-symphony,99 Symphony,group,,,,,,,unverified,['9 Symphony'],['hip hop'],[],['the-noise-label'],
+moe-htet,Moe Htet (B+),solo,,,,,,,unverified,['B+'],['hip hop'],[],['billionaire-minds'],
+yair-yint-aung,Yair Yint Aung,solo,2013,,,,,,unverified,[],['hip hop'],[],['bg18'],
+jcz,JCZ,solo,,,,,,,unverified,[],['hip hop'],[],['bg18'],
+eillie,Eillie,solo,,,,,,,unverified,['Ellie'],['hip hop'],[],['bg18'],
+bobby-soxer,Bobby Soxer,solo,,,,,,,unverified,[],['hip hop'],[],['bg18'],
+shwe-htoo,Shwe Htoo,solo,,,,,,,unverified,[],['hip hop'],[],[],
+little-t,Little T,solo,,,,,,,unverified,['Little-T'],['hip hop'],['b-clipz'],[],
+j-fire,J-Fire,solo,,,,,,,unverified,[],['hip hop'],[],[],
+bunny-phyoe,Bunny Phyoe,solo,,,,,,,unverified,['Bunny Phyo'],['hip hop'],[],[],
+g-latt,G Latt,solo,,,,,,,unverified,[],['hip hop'],[],[],
+aung-ye-htike,Aung Ye' Htike,solo,,,Yangon,,1992,,unverified,['ေအာင္ရဲထိုက္'],['hip hop'],['b-clipz'],[],
+chan-myae,Chan Myae,solo,,,,,,,unverified,[],['hip hop'],['mrc'],[],
+eaiddhi,Eaiddhi,solo,,,Yangon,,,,unverified,[],[],['jam-it'],[],
+ye-ngwe-soe,Ye Ngwe Soe,solo,,,,,,,unverified,[],['rock'],['jam-it'],[],
+lil-kee-boi,Lil Kee Boi,solo,2021,,Bago,"Munich, Germany",,,named,"['Lil Kee boi', 'Kee The Balenci', 'keethebalenci', 'Lill Kee boi']",['trap'],[],['eagle-element'],Pyi Bhone Khant
+223,223,duo,2019,,Taungoo,,,,unverified,['two-two-three'],['hip hop'],[],['billionaire-minds'],
+ah-sar,Ah Sar,solo,,,Yangon,,,,unverified,[],['trap'],[],"['eagle-element', 'billionaire-minds']",
+murkio,MURKIO,solo,2022,,,,,,unverified,['murkio'],['hip hop'],[],['billionaire-minds'],
+myat-amara-maung,Myat Amara Maung,solo,2018,,,Singapore,,,unverified,[],['hip hop'],[],['billionaire-minds'],
+reload,Reload,solo,2018,,,,,,unverified,"['ReLoad', 'RELOAD']",['hip hop'],[],['billionaire-minds'],
+mossberg-arki,Mossberg Arki,solo,2023,,,,,,unverified,"['ARKI', 'Mossberg']",['hip hop'],[],"['billionaire-minds', 'the-noise-label']",
+wink,Wink,solo,2022,,,,,,unverified,[],['hip hop'],[],['b4-records'],
+bkho-bain,bkho bain,solo,2023,,,Yangon,,,named,['Bkho Bain'],['hip hop'],[],['b4-records'],Thein Min Htike
+yan,Yan - ヤン,solo,,,,,,,unverified,['Yan'],['hip hop'],[],['billionaire-minds'],
+toxic,TOXIC,solo,2023,,,,,,unverified,[],['hip hop'],[],['billionaire-minds'],
+peachy,Peachy,solo,2026,,,,,,unverified,[],['hip hop'],[],['billionaire-minds'],
+28,28,solo,2025,,,,,,unverified,[],['hip hop'],[],['billionaire-minds'],
+slamm,SLAMM,solo,2025,,,,,,unverified,['Slamm'],['hip hop'],[],['billionaire-minds'],
+blazy,blazy,solo,2023,,,,,,unverified,['Blazy'],['hip hop'],[],['eagle-element'],
+elco-dakid,Elco Dakid,solo,,,,,,,unverified,[],['hip hop'],[],[],
+yungpunch,Yungpunch,solo,2019,,Taungoo,,,,unverified,"['Yung Punch', 'Yo_punch']",['hip hop'],[],[],
+immad,Immad,solo,,,,,,,unverified,[],['hip hop'],[],[],
+ye-lay,Ye' Lay,solo,,,,,,,unverified,['Ye Lay'],['hip hop'],[],['billionaire-minds'],
+rap-against-junta,Rap Against Junta,collective,2021,,Yangon,,,,anonymised,['RAJ'],['hip hop'],[],[],
+osho,Osho,solo,,,Yangon,,,,pseudonym,[],[],[],[],
+ko-aye-win,Ko Aye Win,solo,,,,,,,pseudonym,[],['hip hop'],[],[],
+be-amby,Be Amby,solo,,,,,,,pseudonym,[],['hip hop'],[],[],
+sai-hlyan,Sai Hlyan,solo,,,,outside Myanmar,,,pseudonym,[],[],[],[],
+byu-har,Byu Har (Min Oat Myanmar),solo,,2023,,,,,pseudonym,"['Min Oat Myanmar', 'Byu Har']",['hip hop'],[],[],
+kan-kyi,Kan Kyi,solo,,,,Chiang Mai,,,pseudonym,[],[],['triple-edge-cm'],[],
+triple-edge,Triple Edge,group,2021,,,,,,unverified,[],['hip hop'],[],[],
+louz-xa-lone,Louz Xa Lone,solo,2015,,,,,,pseudonym,[],['hip hop'],[],[],
+vanzzzo,Vanzzzo,solo,,,,"Indianapolis, USA",,,pseudonym,[],['hip hop'],[],[],
+yung-hugo,Yung Hugo,solo,2017,,"Mayangone township, Yangon",,,,named,['Saw Alex Tu'],['drill'],[],['bg18'],Saw Alex Tu
+adjustor,Adjustor,solo,,,,,,,pseudonym,[],['hip hop'],[],['bg18'],
+gracee,GRACEe,solo,,,,,,,pseudonym,['Grace'],"['hip hop pop', 'R&B']",[],['bg18'],
+trigger,TRIGGER,solo,,,,,,,unverified,[],['jersey club'],[],[],
+13-three,13 THREE,solo,,,,,,,unverified,[],['drill'],[],[],
+xma,XMA,solo,,,,,,,unverified,[],['drill'],[],[],
+ceyyie,CEYYIE,solo,,,,,,,unverified,[],['drill'],[],[],
+abet,ABET,solo,,,,,,,unverified,[],['drill'],[],[],
+arr-g,Arr G,solo,,,,,,,unverified,[],['hip hop'],[],[],
+kn,KN,solo,,,,,,,unverified,[],['hip hop'],[],[],
+naw-auk,N.A.W,solo,,,,,,,unverified,['N.A.W'],['hip hop'],[],['billionaire-minds'],
+meemi,Meemi,solo,2021,,,,,,pseudonym,[],['hip hop'],[],[],
+si-thu-aung,Si Thu Aung,solo,2021,,,Mandalay,,,pseudonym,[],['graffiti'],[],[],
+nay,NAY,solo,2019,,,,,,unverified,['Nay'],['hip hop'],[],[],
+thar-thar,Thar Thar,solo,,,,,,,unverified,[],['hip hop'],[],[],
+li-l-max,LiL Max,solo,,,,,,,unverified,['Lil Max'],['hip hop'],[],[],
+i-and-o,I & O,duo,,,,,,,unverified,[],['hip hop'],[],[],
+bxmb-the-tank,BXMB The Tank,solo,,,,Chiang Mai,,,unverified,['BXMB'],['hip hop'],['triple-edge-cm'],[],
+lil-cado,Lil Cado,solo,,2025,,,,,unverified,[],['hip hop'],[],[],
+lil-z,Lil'Z,solo,,,,,,,unverified,['Lil Z'],['hip hop'],[],[],
+nine-one,Nine One,solo,,,,,,,unverified,['9one'],['hip hop'],[],[],
+mc-bay-gyi,MC Bay Gyi,solo,,,,,,,unverified,"['Bay Gyi', 'Ba Gyi']",['hip hop'],[],[],
+slo9e,SLO9E,solo,,,,,,,unverified,[],['hip hop'],[],[],
+doublej,Doublej,solo,,,,,,,unverified,['Double J'],['hip hop'],[],['bg18'],
+naung-naung,Naung Naung,solo,,,,,,,unverified,[],['hip hop'],[],[],

@@ -1,2 +1,11 @@
-id,name,city,sourceIds
-ven-clubhouse,The Clubhouse,Yangon,src-coconuts-2017
+id,name,city,country
+ven-clubhouse,The Clubhouse,Yangon,
+ven-urban-asia,Urban Asia Center,Yangon,Myanmar
+ven-kandawgyi-park,Kan Daw Gyi Park,Yangon,Myanmar
+ven-yih,Yangon International Hotel,Yangon,Myanmar
+ven-ifb-yangon,French Institute Yangon (IFB),Yangon,Myanmar
+ven-myaw-sin-island,"Myaw Sin Island, Kandawgyi Park",Yangon,Myanmar
+ven-overflow-park,Eastern Yangon Event Park,Yangon,Myanmar
+ven-hard-rock-yangon,Hard Rock Cafe Yangon,Yangon,Myanmar
+ven-democrazy-cm,Democrazy!,Chiang Mai,Thailand
+ven-cool-muang,Cool Muang Coffee (parking lot near Tha Phae Gate),Chiang Mai,Thailand

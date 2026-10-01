@@ -1,0 +1,42 @@
+[
+  {
+    "id": "img-acid-beginning",
+    "path": "/media/acid-beginning.jpg",
+    "alt": "ACID members seated on concrete steps, from a historical video still",
+    "credit": "The History of Myanmar Hip Hop / ACID: The Beginning",
+    "publisher": "YouTube",
+    "url": "https://www.youtube.com/watch?v=XHU7xXY-VKo",
+    "sourceIds": ["src-yt-acid-doc"],
+    "note": "Editorial reference image; verify permission before redistribution."
+  },
+  {
+    "id": "img-yangon-rap-club",
+    "path": "/media/yangon-rap-club.jpeg",
+    "alt": "Myanmar rappers gathered in a dark club",
+    "credit": "Jeroen de Bakker / VICE",
+    "publisher": "VICE",
+    "url": "https://www.vice.com/en/article/myanmar-rappers-photographs-876/",
+    "sourceIds": ["src-vice-myanmar-rappers"],
+    "note": "Editorial reference image; verify permission before redistribution."
+  },
+  {
+    "id": "img-live-rap",
+    "path": "/media/live-rap.jpg",
+    "alt": "A rapper performing beside a DJ in a small venue",
+    "credit": "Jeroen de Bakker / VICE",
+    "publisher": "VICE",
+    "url": "https://www.vice.com/en/article/myanmar-rappers-photographs-876/",
+    "sourceIds": ["src-vice-myanmar-rappers"],
+    "note": "Editorial reference image; verify permission before redistribution."
+  },
+  {
+    "id": "img-acid-archive",
+    "path": "/media/acid-archive.jpg",
+    "alt": "Myanmar musicians standing in front of a record collection",
+    "credit": "South China Morning Post / Acid photo",
+    "publisher": "South China Morning Post",
+    "url": "https://www.scmp.com/magazines/post-magazine/arts-music/article/3197010/hip-hop-changed-his-life-songs-myanmar-band-acid-inspired-hong-kong-restaurant-founder-never-give",
+    "sourceIds": ["src-scmp-acid"],
+    "note": "Editorial reference image; verify permission before redistribution."
+  }
+]

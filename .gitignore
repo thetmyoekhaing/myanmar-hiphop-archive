@@ -1,0 +1,8 @@
+node_modules/
+myanmar-hiphop-archive/dist/
+.DS_Store
+*.log
+
+# NOTE: the repo-root dist/ is intentionally NOT ignored. dist/myanmar-hiphop.json
+# is the published single-file payload and is committed on purpose. Only the
+# app's own build output (myanmar-hiphop-archive/dist/) is a throwaway.

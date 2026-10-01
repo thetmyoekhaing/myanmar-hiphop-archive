@@ -1,3 +1,33 @@
-id,title,releaseId,artistId,year,note,sourceIds
-song-one-nal-mhat-tan,One Nal Mhat Tan,rel-february-mhat-tann,sai-sai-kham-leng,2003,Hit number one in Myanmar,src-wiki-saisai
-song-thu-nge-chin-myar-swar,Thu Nge Chin Myar Swar,,sai-sai-kham-leng,,,src-wiki-saisai
+id,title,artistId,releaseId,year
+song-one-nal-mhat-tan,One Nal Mhat Tan,sai-sai-kham-leng,rel-february-mhat-tann,2003
+song-thu-nge-chin-myar-swar,Thu Nge Chin Myar Swar,sai-sai-kham-leng,,
+song-a-ngweh-a-that-myar,A Ngweh A That Myar (အငွေ့အသက်များ),ah-boy,rel-ahboy-tayoketan,2020
+song-generation-driven-by-faith,Generation Driven by Faith,phyo-zeya-thaw,,2022
+song-11-11,11:11,yung-hugo,rel-yunghugo-soldout,2018
+song-nway-thwar-tal,Nway Thwar Tal,htet-yan,rel-htetyan-shae,2018
+song-yabwar-kalu,Yabwar Kalu (My People),yung-hugo,,
+song-waytaku,Waytaku Bwar Kanyaw,yung-hugo,,2023
+song-thit-sar,Thit Sar,myat-amara-maung,rel-pink,2023
+song-push-up,Push Up,223,,2025
+song-eyez-on-me,Eyez On Me,reload,,2023
+song-zat-poh,Zat Poh,gracee,,2023
+song-smd,SMD,arr-g,,2023
+song-crash-out,crash out,lil-kee-boi,rel-lilkee-boi-b4ktbc,2024
+song-wegotthis,We Got This (Myanmar Song to Fight against Military Dictatorship),meemi,rel-meemi-wegotthis,2021
+song-rebel-save-myanmar,Rebel (Save Myanmar),vanzzzo,rel-vanzzzo-rebel,2021
+song-atl-flow,ATL Flow,99-symphony,rel-99sym-internation,2024
+song-nothing-will-happen,'Nothing will happen when we are together',phyo-zeya-thaw,,2022
+song-yay-shay,ရေရှည်,nay,rel-223-daworld,2024
+song-dont-trap,Don't Trap,223,rel-223-daworld,2024
+song-sin4me,sin4me,yan,rel-223-daworld,2024
+song-yupyar-shin,ရုပ်ရှင်,lil-kee-boi,rel-ahsar-prodigy,2025
+song-be-yar,ဘယ်ညာ,lil-kee-boi,rel-ahsar-free,2025
+song-momma-im-criminal,MOMMA I'M CRIMINAL,li-l-max,rel-223-momma,2026
+song-green-green,Green Green,ah-sar,rel-mossberg-darkhorse,2026
+song-aye-say,အေးဆေး,yungpunch,rel-mossberg-egostone,2026
+song-bal-thu-ko-chit-lal-amygdala,Bal Thu Ko Chit Lal,myat-amara-maung,rel-myatamara-amygdala,2025
+song-lost-my-way,Lost My Way,reload,rel-myatamara-amygdala,2025
+song-litt,Litt,nay,rel-xboxin-99,2018
+song-brained-gain-fossil,Fossil,yung-hugo,rel-braingain,2024
+song-naung-kyoe,Naung Kyoe,louz-xa-lone,,2024
+song-generation-wave-dedicated,Generation Driven by Faith,rap-against-junta,rel-zayarthaw-faith,2022

@@ -1,4 +1,651 @@
 [
-  {"id": "mha", "name": "Myanmar HipHop Association (M.H.A.)", "formed": 2002, "city": "Yangon", "memberIds": ["j-me", "bigg-y", "g-tone", "kyak-pha", "yatha", "thuta-aye"], "status": "unofficial", "sourceIds": ["src-wiki-burmese-hiphop"]},
-  {"id": "generation-wave", "name": "Generation Wave", "formed": 2007, "city": "Yangon", "memberIds": ["phyo-zeya-thaw"], "status": "youth movement (not a rap group)", "sourceIds": ["src-wiki-acid"]}
+  {
+    "id": "b-clipz",
+    "name": "B-Clipz (B Clipz Recordz)",
+    "kind": "crew",
+    "formed": 2008,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "aung-ye-htike",
+      "little-t"
+    ],
+    "status": "9 members at formation, 5 by late 2011",
+    "note": "Never released an album; circulated songs plus planned B-Clipz and solo mixtapes. Aung Ye' Htike ran the MMHLS lyric-video channel and credited beats to Ba Gyi and MC Nay. Names recorded in the source but without their own entity record: maung-thein-htik, htoo-pyayt, oo-htet, little-zoe, zwint, taljie, yung-nick.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "mrc",
+    "name": "M.R.C (Nine Win)",
+    "kind": "crew",
+    "formed": null,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "chan-myae"
+    ],
+    "status": "active by 2011-2013; operated MRC Music Production",
+    "note": "A 15-name roster is documented in the fan archive; individual careers are largely unrecorded. Names recorded in the source but without their own entity record: aung-phyo-mrc, kzt, nga-ye, doe-z, g-miner, soe-shar, yan-naing, ye-myat, naing-ngan, melody, thiha-swe, phyo-thu, ko-hein, tha-hla.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "yhs",
+    "name": "Y.H.S",
+    "kind": "studio",
+    "formed": 2011,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [],
+    "status": "recording studio, active 2011-2013",
+    "note": "Studio rather than a rap group. Htet Mon signed studio email addresses and recorded with $tringz and Pa South Production. Names recorded in the source but without their own entity record: htet-mon, kk, thu-ta.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "wildboy",
+    "name": "Wildboy (Wildboyz Entertainment)",
+    "kind": "crew",
+    "formed": null,
+    "dissolved": null,
+    "city": "Mandalay",
+    "memberIds": [
+      "alatt",
+      "alone-wb",
+      "aung-zoe-heinn",
+      "channel-wildboy",
+      "dr-13",
+      "dudue",
+      "lout-lout",
+      "mg-archi",
+      "mg-hann-saw",
+      "mg-moe-aung",
+      "mg-pyae-phyo",
+      "oasix",
+      "oo-fat",
+      "phyo-wai",
+      "plus-wb",
+      "sai-nay-wb",
+      "thu-rain-wb",
+      "tmh-wb",
+      "yzet"
+    ],
+    "status": "active c. 2009-2013; disbanded 'in some year' (per Oasix's Wikipedia article)",
+    "note": "Mandalay's principal underground crew. Released a 12-track Wildboyz Entertainment Mixtape in Feb 2013. The clearest documented underground-to-mainstream pipeline in the archive: Oasix and Y-Zet both came out of it. Names recorded in the source but without their own entity record: mg-moe-aung, alatt, dr-13, channel-wb, oo-fat, lout-lout, mg-hann-saw, thu-rain, sai-nay, alone-wb, mg-pyae-phyo, phyo-wai. FULL ROSTER RECOVERED from two independent fan-archive mirrors (mmhiphopchannel and nelmyolay): Oasix, Y-Zet, Mg Moe Aung, Alatt, Dr.13, Channel, TMH, T-Rain/Thu Rain, Sai Nay, Alone, Mg Hann Saw, Lout Lout, Oo Fat, Phyo Wai, Mg Pyae Phyo, Dudue, Plus, Mg Archi and Aung Moe Heinn. Most have no entity record; their ids here are placeholders pending act-level sourcing, and no solo discography exists for any of them. 'Channel Wildboy' appears on the Nov 2012 MDY All Stars compilation, which independently confirms Wildboy membership for Channel. A Mandalay base is INFERRED from Oasix and Y-Zet, not stated on the mixtape page itself.",
+    "sourceIds": [
+      "src-wiki-oasix",
+      "src-wiki-yzet-2",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "b-lord-family",
+    "name": "B-Lord Family (BLF)",
+    "kind": "crew",
+    "formed": 2009,
+    "dissolved": 2018,
+    "city": "Yangon",
+    "memberIds": [
+      "x-boxin",
+      "ah-boy"
+    ],
+    "status": "active 2009-2018",
+    "note": "Operated BLF collections and an unreleased-album tape. Names recorded in the source but without their own entity record: ba-chit, kyaw-swar-sett. Ah Boy's presence is inferred from the 2011 'The Reunion - Rock Star + BLF' joint release, not from a BLF roster.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-apple-x-boxin"
+    ]
+  },
+  {
+    "id": "sme",
+    "name": "SME (Swag Music Entertainment)",
+    "kind": "label",
+    "formed": 2009,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "jimmy-jacobs"
+    ],
+    "status": "founded Dec 2009 by Jimmy Jacobs and Luffie; 200+ shows",
+    "sourceIds": [
+      "src-myanmore-rangoon-rhythm-jimmy"
+    ],
+    "note": "Names recorded in the source but without their own entity record: luffie."
+  },
+  {
+    "id": "bg18",
+    "name": "BG18 Record Label",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "yair-yint-aung",
+      "yung-hugo",
+      "adjustor",
+      "jcz",
+      "doublej",
+      "eillie",
+      "bobby-soxer"
+    ],
+    "status": "active from c. 2018",
+    "note": "The label network behind the 2019-2026 Yangon rap cohort. Roster is reconstructed from release credits and may be incomplete; the BG18 website does not publish a roster. Names recorded in the source but without their own entity record: player-k, shine-bg18.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo",
+      "src-myanmarmix-postcoup",
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "eagle-element",
+    "name": "Eagle Element",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "lil-kee-boi",
+      "ah-sar"
+    ],
+    "status": "active from 2024",
+    "note": "Founded by Lil Kee Boi, who describes himself as CEO; Ah Sar is described as its first early member. Copyright strings vary between keethebalenci/ADAR24, Eagleelement@recordlabel, @Keethebalenci//Eagleelement and YoungCeo.",
+    "sourceIds": [
+      "src-apple-ah-sar",
+      "src-spotify-lil-kee-boi"
+    ]
+  },
+  {
+    "id": "billionaire-minds",
+    "name": "Billionaire Minds Group (BMG)",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "223",
+      "28",
+      "ah-sar",
+      "blazy",
+      "moe-htet",
+      "mossberg-arki",
+      "murkio",
+      "myat-amara-maung",
+      "peachy",
+      "reload",
+      "slamm",
+      "slo9e",
+      "toxic",
+      "yan"
+    ],
+    "status": "active from 2023",
+    "note": "The dominant copyright label across the 2023-2026 new wave. Membership is inferred from (P) copyright strings, not from a published roster. Names recorded in the source but without their own entity record: jan-gyi, lil-l-max, slomm, ye-lay.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung",
+      "src-apple-mossberg-arki",
+      "src-apple-yan",
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "b4-records",
+    "name": "b4 Records",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "wink",
+      "bkho-bain"
+    ],
+    "status": "active from c. 2022",
+    "sourceIds": [
+      "src-apple-wink",
+      "src-apple-bkho-bain"
+    ],
+    "note": "UNVERIFIED - no source could be found for a label of this name, and it may be a garbling of Lil Kee Boi's '##B4KTBC' EP. Platform metadata attributes Wink's CD and bkho bain's work to b4 Records, but no label page, press or corporate record exists. Recorded so the attribution is not lost, and flagged so it is not treated as established. bkho bain's debut album is independently documented on FASTLANE Records."
+  },
+  {
+    "id": "the-noise-label",
+    "name": "The NOISE Records (The NOISE Label)",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "bo-htet",
+      "99-symphony",
+      "mossberg-arki",
+      "reload"
+    ],
+    "status": "releases from 2017",
+    "sourceIds": [
+      "src-apple-bkho-bain",
+      "src-deezer-99sym-internation"
+    ]
+  },
+  {
+    "id": "boombox-ent",
+    "name": "The Boombox Entertainment (Boombox Ent)",
+    "kind": "label",
+    "formed": 2021,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "x-boxin"
+    ],
+    "status": "active from 2021; director U Pyae Soe",
+    "note": "Released the X-Hibition JOOX original album (2021). Names recorded in the source but without their own entity record: alex-dmora, lanbar, benjamin-sum, iron-zin-mar-myint.",
+    "sourceIds": [
+      "src-boombox-ent"
+    ]
+  },
+  {
+    "id": "legacy-music",
+    "name": "Legacy Music Network (Legacy Music Co., Ltd)",
+    "kind": "label",
+    "formed": 2011,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "htet-yan",
+      "oasix",
+      "reload"
+    ],
+    "status": "active from 2011; distributor and digital aggregator",
+    "note": "One of the few organised distribution routes out of the underground era.",
+    "sourceIds": [
+      "src-legacy-music"
+    ]
+  },
+  {
+    "id": "360beatz",
+    "name": "360Beatz",
+    "kind": "label",
+    "formed": 2017,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "khaing-myal-kyaw-swar"
+    ],
+    "status": "Myanmar's first professional music agency; management and digital aggregation",
+    "note": "Describes representing 'traditional, alternative and underground to trending' artists. No public roster.",
+    "sourceIds": [
+      "src-360beatz"
+    ]
+  },
+  {
+    "id": "jam-it",
+    "name": "Jam It!",
+    "kind": "association",
+    "formed": 2012,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "eaiddhi",
+      "ye-ngwe-soe"
+    ],
+    "status": "active from late 2012; 20+ gigs by 2015, 40+ acts",
+    "note": "Yangon's best-documented underground live platform, founded by Eaiddhi and Ye Ngwe Soe. Began as an acoustic gig at Kan Daw Gyi Park; works with Wathann Film Festival, the first Yangon Street Art Festival and MTV World. Cross-genre: punk, metal and hip hop on the same bill. A hip-hop label released its first full-length album in 2015.",
+    "sourceIds": [
+      "src-jam-it-about",
+      "src-myanmore-underground-2015"
+    ]
+  },
+  {
+    "id": "ultrasonic",
+    "name": "Ultrasonic record",
+    "kind": "crew",
+    "formed": null,
+    "dissolved": null,
+    "city": "Mandalay",
+    "memberIds": [
+      "khaing-myal-kyaw-swar"
+    ],
+    "status": "released the mixtape Stoner's Book",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "note": "Names recorded in the source but without their own entity record: khaing-myal, louzy, tricky, ozie, rich-t. SINGLE-SOURCE: the Ultrasonic Record affiliation and the 'Stoner's Book' mixtape rest entirely on Khaing Myal Kyaw Swar's self-authored LinkedIn bio. No label page, no release page, no press."
+  },
+  {
+    "id": "mfg",
+    "name": "M.F.G (Myanmar Future Generations)",
+    "kind": "crew",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [],
+    "status": "underground group; 9mm were said to have distributed their sample CDs at a performance",
+    "note": "Named in the Wikipedia politics section as the reason 9mm's name was banned. Roster unknown.",
+    "sourceIds": [
+      "src-wiki-burmese-hiphop"
+    ]
+  },
+  {
+    "id": "kg18-scene",
+    "name": "New wave label circle (Billionaire Minds Group + Eagle Element)",
+    "kind": "association",
+    "formed": 2023,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [],
+    "status": "a copyright-label network rather than a genre scene",
+    "note": "The 2020s new wave resolves into a tight label network rather than a geographic or crew-based scene. This pseudo-crew exists to record that finding; it has no membership and no releases of its own.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ]
+  },
+  {
+    "id": "triple-edge-cm",
+    "name": "Triple Edge (Chiang Mai)",
+    "kind": "collective",
+    "formed": 2021,
+    "dissolved": null,
+    "city": "Chiang Mai",
+    "memberIds": [
+      "kan-kyi",
+      "bxmb-the-tank"
+    ],
+    "status": "active from Nov 2021",
+    "note": "A Chiang Mai collective led by Kan Kyi, organiser of MOB Party. Recorded a mass single drop on 10-11 Nov 2021. DVB is the only outlet with a sustained beat on this scene. Membership is inferred from recurring joint billing on the group's 2021-2022 releases; no source publishes a roster, and 'KYI' on the platform credits is NOT established as Kan Kyi.",
+    "sourceIds": [
+      "src-dvb-mob-2024",
+      "src-dvb-mob-2025",
+      "src-dvb-kan-kyi-podcast"
+    ]
+  },
+  {
+    "id": "a-new-burma",
+    "name": "A New Burma",
+    "kind": "association",
+    "formed": null,
+    "dissolved": null,
+    "city": "Chiang Mai",
+    "memberIds": [],
+    "status": "exile arts collective; shows in Bangkok, London, Manchester, Melbourne",
+    "note": "Not rap-specific, but the main Chiang Mai infrastructure for exiled Myanmar artists, and therefore the nearest thing the diaspora has to a scene organiser. Names recorded in the source but without their own entity record: hnin-win.",
+    "sourceIds": [
+      "src-anewburma",
+      "src-dvb-newburma-2026"
+    ]
+  },
+  {
+    "id": "fastlane-records",
+    "name": "FASTLANE Records",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "bkho-bain"
+    ],
+    "status": "bkho bain's debut album label (2024)",
+    "sourceIds": [
+      "src-apple-bkho-bain"
+    ]
+  },
+  {
+    "id": "zen-music",
+    "name": "Zen Music",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "223",
+      "yan"
+    ],
+    "status": "credits 2026 releases including 223's 'MOMMA I'M CRIMINAL' and Yan's 'SCG'",
+    "sourceIds": [
+      "src-apple-223",
+      "src-apple-yan"
+    ]
+  },
+  {
+    "id": "destino-label",
+    "name": "Destino Label",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "zay-ye",
+      "mc-bay-gyi"
+    ],
+    "status": "released 'Epic Comeback' (2023)",
+    "sourceIds": [
+      "src-99symphony-audiomack"
+    ]
+  },
+  {
+    "id": "solatido",
+    "name": "Solatido Entertainment",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "nay",
+      "reload"
+    ],
+    "status": "released '12 Yar Thi' (2018) as a joint Nay & Reload album",
+    "sourceIds": [
+      "src-apple-reload",
+      "src-spotify-lil-kee-boi"
+    ]
+  },
+  {
+    "id": "sg-music",
+    "name": "SG Music",
+    "kind": "label",
+    "formed": 2023,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [],
+    "status": "active from 2023",
+    "sourceIds": [
+      "src-wiki-sophia-everest"
+    ]
+  },
+  {
+    "id": "mha",
+    "name": "Myanmar HipHop Association (M.H.A.)",
+    "kind": "association",
+    "formed": 2002,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "j-me",
+      "bigg-y",
+      "g-tone",
+      "kyak-pha",
+      "yatha",
+      "thuta-aye"
+    ],
+    "status": "unofficial",
+    "note": "Formed unofficially; many youths joined and were inspired to become hip-hop artists. LIFTED's 2023 scene report covers an MHA 'Knockout' release, so the association still functions as a live brand decades after the 2002 wave.",
+    "sourceIds": [
+      "src-wiki-burmese-hiphop",
+      "src-lifted-mha-knockout"
+    ]
+  },
+  {
+    "id": "generation-wave",
+    "name": "Generation Wave",
+    "kind": "association",
+    "formed": 2007,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "phyo-zeya-thaw"
+    ],
+    "status": "youth movement (not a rap group)",
+    "note": "A pro-democracy youth network using music, graffiti and pamphlets. Phyo Zeya Thaw was a member and served six years, released 17 May 2011; he was executed on 25 July 2022. Must not be collapsed into any rap crew.",
+    "sourceIds": [
+      "src-wiki-acid",
+      "src-nyt-zayar-thaw-2022"
+    ]
+  },
+  {
+    "id": "vip",
+    "name": "VIP (Rock$tar)",
+    "kind": "crew",
+    "formed": 2007,
+    "dissolved": null,
+    "city": "Yangon",
+    "memberIds": [
+      "ah-boy",
+      "jouk-jack",
+      "kyaw-htut-swe"
+    ],
+    "status": "active; Ah Boy is a former member",
+    "note": "ONE GROUP, TWO NAMES - not a name collision. A 2009 Myanmar Hip Hop Channel interview has Kyaw Htut Swe stating the group began in 2007 with Ah Boy and Htein Win, that Htein Win is Kyaw Htut Swe's younger brother, and that for various reasons only three stayed long-term, with Jouk Jack added. The 2009 mixtape 'Titans (G-Fam, BNW, Fire-Cracker, Rockstar)' places Rock$tar alongside three OTHER crews, and the collective track 'Revison (Rock Star)' credits all four members. Wikipedia renders the name as 'VIP (Rock$tar)'. Htein Win is not given his own artist record, so the four-member group appears as three member ids. Kyaw Htut Swe also states candidly that the members joined for the sample CDs, not for musical ability. Ah Boy's exit is the documented event: his Wikipedia article lists him as 'Formerly of Rock$tar' and 'former lead vocalist', and a Feb 2013 Burmese headline implies a grievance about him not pulling his weight rather than a rupture. No response from the group is on record.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-wiki-ah-boy",
+      "src-wiki-burmese-hiphop"
+    ]
+  },
+  {
+    "id": "mandalay-rapperz-crew",
+    "name": "Mandalay Rapperz Crew (MRC)",
+    "kind": "crew",
+    "formed": 2011,
+    "dissolved": null,
+    "city": "Mandalay",
+    "memberIds": [
+      "chan-myae",
+      "solo-zay-ye-mdy"
+    ],
+    "status": "active from 2011; self-labelled 'Crew' on the release",
+    "note": "MANDALAY, not Yangon - and distinct from the Yangon M.R.C (Nine Win) crew already in the archive, which shares the initials. Corroborated by a member's own contact address ending '.mdy' (the standard Mandalay abbreviation). Members: Ye' Myat, Na Yem, Na Jyam, Nga Ye', Aung Phyo, Kyaw Zin, Yan Naing, Doe-Z, Thiri Yadanar, Su Thet Nge, plus special guest No No. Recorded at studio TKG with lyrics and beats by MRC. NOTE: their 'Mandalay Love & Hate' Vol-1+2 (Sep 2012) is pop/R&B, not rap, and is flagged as such. Names recorded here but without their own entity record: Na Yem, Na Jyam, Nga Ye', Kyaw Zin, Yan Naing, Doe-Z, Thiri Yadanar, Su Thet Nge, No No.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "error-mdy",
+    "name": "Error MDY",
+    "kind": "crew",
+    "formed": 2013,
+    "dissolved": null,
+    "city": "Mandalay",
+    "memberIds": [
+      "hein-min-error"
+    ],
+    "status": "active from 2013",
+    "note": "Mandalay collective - 'mdy' is the standard city abbreviation. Members: Heinz, K-Square, NTZ, M2K, Mc R-K, Hein Min, Phone Myat, Wai Phyo Lin, Ko Peter. Released a 14-track mixtape in Aug 2013 and a Thingyan mixtape in 2015. No member has an entity record, so memberIds is empty and the roster is preserved here.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "thar-nge-mcfamily",
+    "name": "Thar Nge (MC Family)",
+    "kind": "crew",
+    "formed": 2012,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "chan-myae",
+      "solo-zay-ye-mdy"
+    ],
+    "status": "active 2012-2015; city UNVERIFIED",
+    "note": "The strongest Mandalay-scene evidence in the fan archive: two of Oasix's and Y-Zet's seven guest appearances on the 2013 mixtape, from the crew they both belonged to at the time. Members and associates: Joe Joe, B-Boi, Khaing Soe, Timmy, Wailin Phyo, Thaw Thaw, and Chan Myae (Mandalay Rapperz Crew). CITY UNVERIFIED - no source states Mandalay, though the crossover with both Wildboy members makes it plausible. CAUTION: at least three distinct Burmese artists are called Thar Nge - this rap crew, the Myanmar Idol S2 winner Thar Nge (b. Zaw Win Htun 1992, pop/R&B), and jazz vocalist Thar Nge IV (b. 1988, Yangon). Never merge. Also distinct from Thar Thar, Htet Yan's duet partner.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "mdy-all-stars",
+    "name": "MDY All Stars (6 Stars Ratin')",
+    "kind": "crew",
+    "formed": 2012,
+    "dissolved": null,
+    "city": "Mandalay",
+    "memberIds": [
+      "mc-black-saturn",
+      "channel-wildboy",
+      "sai-thar-kyaw"
+    ],
+    "status": "compilation, Nov 2012",
+    "note": "Various-artists compilation: Mc Black Saturn, Channel Wildboy, Mg Secondz, Sai Thar Kyaw, MC Min Thant and Mr Dirt Dino. Its value is as cross-city evidence - Channel Wildboy independently confirms Wildboy membership, and Sai Thar Kyaw and MC Min Thant both appear at Yangon's 2018 Showdown battle.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-coconuts-showdown"
+    ]
+  },
+  {
+    "id": "wcc",
+    "name": "WCC",
+    "kind": "crew",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "hein-htet-zaw"
+    ],
+    "status": "affiliation documented Jan 2014",
+    "note": "Crew or affiliation tag on the archived fan site. Hein Htet Zaw is billed 'Hein Htet Zaw(WCC)' on 'Welcome 2 Mandalay' (Jan 2014, studio Studio Mandalay) and Joe Joez is tagged (WCC) too. No roster, no city, no releases. Mandalay inferred from the track's title and studio only.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "studio-mandalay",
+    "name": "Studio Mandalay",
+    "kind": "studio",
+    "formed": null,
+    "dissolved": null,
+    "city": "Mandalay",
+    "memberIds": [],
+    "status": "recording studio, documented 2012-2014",
+    "note": "Recording studio credited on Hein Htet Zaw's 'Welcome 2 Mandalay' (2014) and on the 2012 'Second Battle' recording with MC Mic, Hein Htet Zaw, Shine Khant and Soe K. One of the few named Mandalay studios in the record.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ]
+  },
+  {
+    "id": "frenzo",
+    "name": "Frenzo",
+    "kind": "label",
+    "formed": 2010,
+    "dissolved": 2016,
+    "city": null,
+    "memberIds": [
+      "g-fatt",
+      "phyo-layy",
+      "bung-phyoe",
+      "hlwan-paing"
+    ],
+    "status": "a music production company owned by Sai Sai Kham Leng, 2010-2016",
+    "note": "CORRECTED: Frenzo is not a 'Yangon collective' as the archive previously implied. It is a music production company owned by Sai Sai Kham Leng, and G Fatt, Nay Win, Bunny Phyoe and Phyo Lay were artists signed to it from 2010-2016. Aung Thu is Nay Win's cousin and a Snare member, not central to Frenzo. No dispute involving Frenzo was found in any source searched.",
+    "sourceIds": [
+      "src-wiki-gfatt",
+      "src-eleven-phyo-lay",
+      "src-wiki-nay-win"
+    ]
+  },
+  {
+    "id": "ultra-b4k",
+    "name": "b4 Records",
+    "kind": "label",
+    "formed": null,
+    "dissolved": null,
+    "city": null,
+    "memberIds": [
+      "wink",
+      "bkho-bain"
+    ],
+    "status": "UNVERIFIED - could not be located",
+    "note": "FLAGGED AS UNVERIFIED. No source for a label called 'b4 Records' could be found in this research pass, and it is possibly a garbling of Lil Kee Boi's '##B4KTBC' EP. bkho bain's debut album BLUE ON BLUE is independently documented on FASTLANE Records, and Wink's CD is attributed to b4 Records in platform metadata - but no corporate, press or platform page for the label itself exists. Recorded so the two artists' platform labels are not lost, and so this can be corrected when a real source appears.",
+    "sourceIds": [
+      "src-apple-wink",
+      "src-apple-bkho-bain"
+    ]
+  }
 ]

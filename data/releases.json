@@ -1,12 +1,1893 @@
 [
-  {"id": "rel-beginning", "title": "Beginning (Sa-Tin-Gyin)", "artistId": "acid", "year": 2000, "type": "album", "sourceIds": ["src-wiki-acid", "src-wiki-burmese-hiphop"], "confidence": "high"},
-  {"id": "rel-chocolate-yaung-yayge", "title": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)", "artistId": "sai-sai-kham-leng", "year": 2000, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
-  {"id": "rel-thangegyin-myar-swar", "title": "Thangegyin Myar Swar (Friends)", "artistId": "sai-sai-kham-leng", "year": 2001, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
-  {"id": "rel-february-mhat-tann", "title": "February Mhat Tann", "artistId": "sai-sai-kham-leng", "year": 2003, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
-  {"id": "rel-saisai-live-in-yangon", "title": "Sai Sai Live in Yangon", "artistId": "sai-sai-kham-leng", "year": 2004, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
-  {"id": "rel-saisai-hu-khaw-thi", "title": "Sai Sai Hu Khaw Thi", "artistId": "sai-sai-kham-leng", "year": 2005, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
-  {"id": "rel-hip-hop-vibration", "title": "Hip Hop Vibration Pya Htan Chat", "artistId": "nay-win", "year": 2005, "type": "album", "sourceIds": ["src-myanmore-2017"], "confidence": "medium"},
-  {"id": "rel-happy-saisai-birthday", "title": "Happy Sai Sai Birthday", "artistId": "sai-sai-kham-leng", "year": 2007, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
-  {"id": "rel-ever-golli", "title": "Ever Golli (Always Dwifter)", "artistId": "sai-sai-kham-leng", "year": 2009, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"},
-  {"id": "rel-date-date-kye", "title": "Date Date Kye (Topnotch)", "artistId": "sai-sai-kham-leng", "year": 2012, "type": "album", "sourceIds": ["src-wiki-saisai"], "confidence": "high"}
+  {
+    "id": "rel-beginning",
+    "title": "Beginning (Sa-Tin-Gyin)",
+    "artistId": "acid",
+    "year": 2000,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-acid",
+      "src-wiki-burmese-hiphop"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-chocolate-yaung-yayge",
+    "title": "Chocolate Yaung Yayge Einmet (Chocolate-Colored Ice Dreams)",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2000,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-thangegyin-myar-swar",
+    "title": "Thangegyin Myar Swar (Friends)",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2001,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-february-mhat-tann",
+    "title": "February Mhat Tann",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2003,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-saisai-live-in-yangon",
+    "title": "Sai Sai Live in Yangon",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2004,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-saisai-hu-khaw-thi",
+    "title": "Sai Sai Hu Khaw Thi",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2005,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-hip-hop-vibration",
+    "title": "Hip Hop Vibration Pya Htan Chat",
+    "artistId": "nay-win",
+    "year": 2005,
+    "type": "album",
+    "sourceIds": [
+      "src-myanmore-2017"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rel-happy-saisai-birthday",
+    "title": "Happy Sai Sai Birthday",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2007,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-ever-golli",
+    "title": "Ever Golli (Always Dwifter)",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2009,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-date-date-kye",
+    "title": "Date Date Kye (Topnotch)",
+    "artistId": "sai-sai-kham-leng",
+    "year": 2012,
+    "type": "album",
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-oasix-first",
+    "title": "The First",
+    "artistId": "oasix",
+    "year": 2011,
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Solo mixtape, released while Oasix was still a Wildboy member and a university student.",
+    "sourceIds": [
+      "src-wiki-oasix"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-oasix-running",
+    "title": "The Running (Runnin)",
+    "artistId": "oasix",
+    "year": 2013,
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Second solo mixtape. The band later disbanded 'in some year'.",
+    "sourceIds": [
+      "src-wiki-oasix"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-pyaw-san-par",
+    "title": "Pyaw San Par (ပြောစမ်းပါ / Let Me Speak)",
+    "artistId": "oasix",
+    "year": 2015,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 11,
+    "note": "Debut album, a DUET with singer Y-Zet, released 24 Dec 2015. Gave Oasix nationwide recognition.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-wiki-oasix"
+    ],
+    "confidence": "high",
+    "yearNote": "Wikipedia titles this Dec 2015 Oasix & Y-Zet album 'Pyaw San Par (Just say it)'; the fan archive titles the same 11-track album ပြောစမ်းပါ ('Let Me Speak'). Tracklists align and both contain the breakthrough hit ပုခက္လႊဲေသာလက္, so these are ONE release under two titles, not two releases. Note also that '1992' is Oasix's BIRTH YEAR, not a release title.",
+    "artistIdB": null
+  },
+  {
+    "id": "rel-oasix-1992",
+    "title": "1992",
+    "artistId": "oasix",
+    "year": 2018,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Solo album, released December 2018 and named for his birth year.",
+    "sourceIds": [
+      "src-wiki-oasix"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-yzet-collab",
+    "title": "The Collaboration",
+    "artistId": "yzet",
+    "year": 2010,
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Duet mixtape with Alatt.",
+    "sourceIds": [
+      "src-wiki-yzet-2"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-yzet-mistake",
+    "title": "My Mistake",
+    "artistId": "yzet",
+    "year": 2013,
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Solo mixtape.",
+    "sourceIds": [
+      "src-wiki-yzet-2"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-yzet-za",
+    "title": "ဇ (Za)",
+    "artistId": "yzet",
+    "year": 2017,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 14,
+    "note": "Solo album, June 2017. Also released 'Shwee Die', a beef track with Oasix and Mg Moe Aung dissing Hlwan Paing's 'Done Pyan'.",
+    "sourceIds": [
+      "src-wiki-yzet-2"
+    ],
+    "confidence": "high",
+    "yearNote": "Debut solo album, released 10 June 2017, 13 tracks plus a bonus. Wikipedia glosses ဇ as 'Gene'; ဇ is the Burmese letter *za*, so 'Gene' is a machine mistranslation and is not used here.",
+    "artistIdB": null
+  },
+  {
+    "id": "rel-zay-ye-respect",
+    "title": "Respect",
+    "artistId": "zay-ye",
+    "year": 2011,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Zay Ye's most documented release; also appears on a 37-song streaming compilation and on 'One Hunnid' (2023).",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-zay-ye-i-me",
+    "title": "I, Me, My, Mine",
+    "artistId": "zay-ye",
+    "year": 2014,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 13,
+    "note": "13 tracks, featuring MHL and others. Archived at myanmarhiphopalbums.net, a domain later hijacked - cite the Wayback copy only.",
+    "sourceIds": [
+      "src-myanmarhiphopalbums-archive"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-bo-htet-heavy",
+    "title": "Heavy Weight",
+    "artistId": "bo-htet",
+    "year": null,
+    "yearNote": "CONFLICTED: an Audiomack fan upload is dated 2020-03-23 and a promo show was held 5 Feb 2020, while Deezer and Amazon list 2023-02-11. Suspected re-release; both dates are preserved here rather than resolved.",
+    "type": "album",
+    "labelId": "the-noise-label",
+    "trackCount": null,
+    "note": "On The NOISE Records.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-zipevent-bohtet-2020"
+    ],
+    "confidence": "medium",
+    "artistIdB": null
+  },
+  {
+    "id": "rel-htetyan-new",
+    "title": "New",
+    "artistId": "htet-yan",
+    "year": 2016,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Released 20 Feb 2016.",
+    "sourceIds": [
+      "src-wiki-htet-yan"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-htetyan-oct18",
+    "title": "October 18",
+    "artistId": "htet-yan",
+    "year": 2016,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Released 18 Oct 2016, on his birthday. CAVEAT: an album titled 'Thu' is often attributed to him in aggregator listings and is NOT verified; do not create it.",
+    "sourceIds": [
+      "src-wiki-htet-yan"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-htetyan-shae",
+    "title": "Shae Mhi Nout Mhi (ရှေ့မှီနောက်မှီ)",
+    "artistId": "htet-yan",
+    "artistIdB": "thar-thar",
+    "year": 2018,
+    "type": "album",
+    "labelId": "legacy-music",
+    "trackCount": 10,
+    "note": "Duo album with Thar Thar, Oct 2018. Contains #1 hit 'Nway Thwar Tal', which went viral on TikTok in early 2019 with 50,000+ user videos - the clearest documented example of a Myanmar underground-to-mainstream pipeline via short-form video.",
+    "sourceIds": [
+      "src-wiki-htet-yan",
+      "src-coconuts-imagine-dragons"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-htetyan-inmylife",
+    "title": "In My Life (Live Show)",
+    "artistId": "htet-yan",
+    "year": 2018,
+    "type": "live",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Live album from a one-man show in Mandalay on 9 June 2017 with Yair Yint Aung, Shwe Htoo, X-Box, Lil'Z, Oasix and Y-Zet.",
+    "sourceIds": [
+      "src-wiki-htet-yan"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-xboxin-9",
+    "title": "9",
+    "artistId": "x-boxin",
+    "year": 2016,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-apple-x-boxin"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-xboxin-99",
+    "title": "99",
+    "artistId": "x-boxin",
+    "year": 2018,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 10,
+    "note": "Includes 'Litt' with Moe Htet and Nay Ye Khant, a useful bridge between the 4G and post-coup scenes.",
+    "sourceIds": [
+      "src-apple-x-boxin",
+      "src-mhc-archive"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-xboxin-9b",
+    "title": "9",
+    "artistId": "x-boxin",
+    "year": 2019,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 14,
+    "note": "Platform metadata gives 14 tracks for a 2019 release titled '9', while the fan archive lists a 2016 album of the same title. The two are kept separate rather than merged.",
+    "sourceIds": [
+      "src-apple-x-boxin"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-xboxin-future",
+    "title": "Future",
+    "artistId": "x-boxin",
+    "year": 2020,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 12,
+    "note": "Includes 'Age 60 Remix' with Yung Hugo, and GRACEe.",
+    "sourceIds": [
+      "src-apple-x-boxin"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-xboxin-w1",
+    "title": "W, Vol. 1",
+    "artistId": "x-boxin",
+    "year": 2026,
+    "type": "album",
+    "labelId": "boombox-ent",
+    "trackCount": 7,
+    "note": "Released 27 May 2026. Includes 'Poppin' with Yung Hugo. Partially fills the archive's stated 2026 gap.",
+    "sourceIds": [
+      "src-apple-x-boxin",
+      "src-boombox-ent"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-xhibition",
+    "title": "X-Hibition (JOOX Original Album)",
+    "artistId": "x-boxin",
+    "year": 2021,
+    "type": "compilation",
+    "labelId": "boombox-ent",
+    "trackCount": null,
+    "note": "Boombox Entertainment compilation with Alex Dmora, LanBar, Benjamin Sum and Iron Zin Mar Myint.",
+    "sourceIds": [
+      "src-boombox-ent"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-phyo-lay-bar",
+    "title": "Bar Tway Phyit?",
+    "artistId": "phyo-layy",
+    "year": 2019,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 13,
+    "note": "Solo album with a heavy local feature list (Bunny Phyoe, Snare, Warso Moe Oo, G Fatt, G Latt, Moe Moe, Saw Nyi Nyi, Aung Thu, G-Family).",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-eleven-phyo-lay"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-phyo-lay-what",
+    "title": "What Happened?",
+    "artistId": "phyo-layy",
+    "year": 2019,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-phyo-lay-solo",
+    "title": "Solo Live Show Concert Disc 2",
+    "artistId": "phyo-layy",
+    "year": 2017,
+    "type": "live",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-myanmarhiphopalbums-archive"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-snare-bagyi",
+    "title": "Ba Gyi Phyo and U Nay Win",
+    "artistId": "snare",
+    "year": 2013,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Snare with Nay Win and Phyo Layy; the clearest documented trail for the 2005 Hip Hop Vibration solo/group credit dispute.",
+    "sourceIds": [
+      "src-myanmarhiphopalbums-archive",
+      "src-mhc-archive"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-snare-rapgame",
+    "title": "Rap Game",
+    "artistId": "snare",
+    "year": 2010,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-myanmarhiphopalbums-archive"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-gfatt-gin",
+    "title": "Gin",
+    "artistId": "g-fatt",
+    "year": 2016,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Best-selling album of the year (2016).",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-gfatt-120b",
+    "title": "120/B",
+    "artistId": "g-fatt",
+    "year": 2018,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Won Best Hip Hop Album and Album of the Year at Major M 2018, where G Fatt was also Artist of the Year.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-floke-mental",
+    "title": "Mental Masturbation",
+    "artistId": "floke-rose",
+    "year": null,
+    "yearNote": "Promoted 2019; exact year not stated in the source.",
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-myanmore-rangoon-rhythm-floke"
+    ],
+    "confidence": "medium",
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-floke-find",
+    "title": "Find Your Way Out of the Blue",
+    "artistId": "floke-rose",
+    "year": 2022,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-myanmore-rangoon-rhythm-floke"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-jimmy-hooligans",
+    "title": "Hooligans (လန်းတလေ)",
+    "artistId": "jimmy-jacobs",
+    "year": 2017,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-myanmore-rangoon-rhythm-jimmy",
+      "src-mhc-archive"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-99sym-internation",
+    "title": "INTERNATION",
+    "artistId": "99-symphony",
+    "year": 2024,
+    "type": "album",
+    "labelId": "the-noise-label",
+    "trackCount": null,
+    "note": "Released 1 June 2024, c. 69 minutes, with a very large feature list including X-Boxin ('ATL Flow'), Reload and JCZ. The 'ATL' reference is one of the few diaspora signals in the dataset. NOT a 2010s underground release.",
+    "sourceIds": [
+      "src-deezer-99sym-internation"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-hlwanpaing-donepyan",
+    "title": "Done Pyan (Rocket)",
+    "artistId": "hlwan-paing",
+    "artistIdB": "bobby-soxer",
+    "year": 2011,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Duet album, 21 Nov 2011. Won best music album from both Shwe FM and City FM; the 1M kyat gold prize was donated to orphans.",
+    "sourceIds": [
+      "src-wiki-bobby-soxer"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-hlwanpaing-guitar",
+    "title": "ဂီတစာဆို လွှမ်းပိုင် (Guitar Lesson)",
+    "artistId": "hlwan-paing",
+    "year": 2014,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 16,
+    "note": "16 tracks featuring Bobby Soxer, Lil'Z, Bunny Phyoe and others. NOTE: this is Hlwan Paing's album, not Htet Yan's.",
+    "sourceIds": [
+      "src-myanmarhiphopalbums-archive",
+      "src-mhc-archive"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-yunghugo-soldout",
+    "title": "Sold Out",
+    "artistId": "yung-hugo",
+    "artistIdB": "jcz",
+    "year": 2018,
+    "type": "mixtape",
+    "labelId": "bg18",
+    "trackCount": null,
+    "note": "Mixtape with JCZ that 'raised my profile'; '11:11' was a hit from it.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-yunghugo-blessed",
+    "title": "Blessed",
+    "artistId": "yung-hugo",
+    "year": 2019,
+    "type": "album",
+    "labelId": "bg18",
+    "trackCount": null,
+    "note": "Debut official album, produced by BG18 around Dec 2019; 'sold well in Myanmar' per the artist.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-yunghugo-mkga",
+    "title": "Make Karen Great Again",
+    "artistId": "yung-hugo",
+    "year": 2023,
+    "yearNote": "CONFLICTED: announced for July 2022, tracklist shared 8 Jan 2023, released 28 Feb 2023. Recorded as 2023; the slip is noted rather than resolved.",
+    "type": "album",
+    "labelId": "bg18",
+    "trackCount": 8,
+    "note": "A KAREN-LANGUAGE album - the archive's clearest case of ethnic-language rap as a fourth-generation marker. Includes 'Yabwar Kalu' (My People), a S'gaw Karen hit, and tracks with Kaung Kaung, Tae Tae and Hashi.",
+    "sourceIds": [
+      "src-hiphopdx-yunghugo"
+    ],
+    "confidence": "high",
+    "artistIdB": null
+  },
+  {
+    "id": "rel-yunghugo-rookie",
+    "title": "Rookie Of Every Year",
+    "artistId": "yung-hugo",
+    "year": 2025,
+    "type": "album",
+    "labelId": "bg18",
+    "trackCount": 16,
+    "note": "Includes 'Kok Yyo Mi' with X-Boxin. Partially fills the archive's 2026-adjacent gap.",
+    "sourceIds": [
+      "src-myanmarmix-postcoup"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-braingain",
+    "title": "BRAIN GAIN",
+    "artistId": "adjustor",
+    "year": 2024,
+    "type": "album",
+    "labelId": "bg18",
+    "trackCount": 18,
+    "note": "18-track BG18 release credited across the circle, including GRACEE, Eillie and BLUSH. Yung Hugo appears on tracks including 'Fossil', 'Upgrade' and 'One More Time'.",
+    "sourceIds": [
+      "src-apple-adjustor",
+      "src-hiphopdx-yunghugo"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-adjustor-compoptable",
+    "title": "Compoptable",
+    "artistId": "adjustor",
+    "year": 2020,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 11,
+    "note": "Adjustor's earliest verified release.",
+    "sourceIds": [
+      "src-apple-adjustor"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-adjustor-findyou",
+    "title": "Find Your Way Out of the Blue",
+    "artistId": "adjustor",
+    "year": 2022,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 11,
+    "sourceIds": [
+      "src-apple-adjustor"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-adjustor-bonfire",
+    "title": "Bonfire",
+    "artistId": "adjustor",
+    "year": 2023,
+    "type": "EP",
+    "labelId": null,
+    "trackCount": 5,
+    "sourceIds": [
+      "src-apple-adjustor"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-adjustor-mixtape1",
+    "title": "The First MIxtape",
+    "artistId": "adjustor",
+    "year": 2024,
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": 11,
+    "note": "Spelled 'MIxtape' on the platform.",
+    "sourceIds": [
+      "src-apple-adjustor"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-louz-desire",
+    "title": "Desire",
+    "artistId": "louz-xa-lone",
+    "year": 2019,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-louz-fyf",
+    "title": "FYF.",
+    "artistId": "louz-xa-lone",
+    "year": 2023,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-louz-backtobasics",
+    "title": "BACK TO THE BASICS",
+    "artistId": "louz-xa-lone",
+    "year": 2024,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-louz-iloverap",
+    "title": "I LOVE RAP",
+    "artistId": "louz-xa-lone",
+    "year": 2025,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-gracee-you",
+    "title": "You",
+    "artistId": "gracee",
+    "year": 2019,
+    "type": "EP",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Includes 'Don't You Know'. CONFLICTED: Apple Music dates this 2019-04-09 on one surface and 2019-07-30 on another.",
+    "sourceIds": [
+      "src-apple-adjustor"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-ahboy-tayoketan",
+    "title": "Ta Yoke Tan (Chinatown) (တရုတ်တန်း)",
+    "artistId": "ah-boy",
+    "year": 2007,
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Solo debut album. Corrects the archive, which previously had no record of it.",
+    "sourceIds": [
+      "src-wiki-ah-boy"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-nay-classic",
+    "title": "Classic Tunez",
+    "artistId": "nay",
+    "year": 2019,
+    "type": "album",
+    "labelId": "solatido",
+    "trackCount": null,
+    "note": "NAY's earliest verified release, including 'A Sate' - makes NAY the longest-career artist in the new wave circle by about two years. NAY appears to operate as both artist and mastering engineer; whether the credits refer to one person or several is UNRESOLVED (see artists.json).",
+    "sourceIds": [
+      "src-spotify-lil-kee-boi"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-223-daworld",
+    "title": "223 Da World",
+    "artistId": "223",
+    "year": 2024,
+    "type": "album",
+    "labelId": "billionaire-minds",
+    "trackCount": 12,
+    "note": "8 Nov 2024, 12 tracks, 31:58. Tracks include 'Yay Shay' with NAY, 'Don't Trap' with Yan and LiL Max, and 'sin4me' with Yan. Produced by Yungpunch.",
+    "sourceIds": [
+      "src-apple-223"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-ahsar-prodigy",
+    "title": "Prodigy Kid",
+    "artistId": "ah-sar",
+    "year": 2025,
+    "type": "EP",
+    "labelId": "eagle-element",
+    "trackCount": 6,
+    "note": "Ah Sar's debut EP, 8 May 2025. Includes 'Yupyar Shin' with Lil Kee Boi and 'major payne' with MURKIO. CAVEAT: aggregators misattribute this to Lil Kee Boi; it is Ah Sar's, with Kee Boi featured.",
+    "sourceIds": [
+      "src-apple-ah-sar"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-ahsar-free",
+    "title": "Freemefromeverything",
+    "artistId": "ah-sar",
+    "year": 2025,
+    "type": "album",
+    "labelId": "billionaire-minds",
+    "trackCount": 9,
+    "note": "7 Nov 2025, 9 tracks, 14:09. Includes 'Be Yar' with Lil Kee Boi and 'Ko Ko La Ma Si Nay' with Lil Kee Boi. CAVEAT: also widely misattributed to Lil Kee Boi.",
+    "sourceIds": [
+      "src-apple-ah-sar"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-bkho-bluonblue",
+    "title": "BLUE ON BLUE",
+    "artistId": "bkho-bain",
+    "year": 2024,
+    "type": "album",
+    "labelId": "fastlane-records",
+    "trackCount": null,
+    "note": "Debut album, 11 May 2024, on FASTLANE Records. Charted in Australia and Thailand, reaching #3 on an Apple Music chart in May 2026. Track count conflicts across sources (13 vs 14).",
+    "sourceIds": [
+      "src-apple-bkho-bain",
+      "src-eleven-overflow-2025"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-mossberg-darkhorse",
+    "title": "STORY OF A DARK HORSE",
+    "artistId": "mossberg-arki",
+    "year": 2026,
+    "type": "album",
+    "labelId": "billionaire-minds",
+    "trackCount": 13,
+    "note": "Includes 'Green Green' with Ah Sar.",
+    "sourceIds": [
+      "src-apple-mossberg-arki"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-mossberg-egostone",
+    "title": "EGO STONE",
+    "artistId": "mossberg-arki",
+    "year": 2026,
+    "type": "EP",
+    "labelId": "billionaire-minds",
+    "trackCount": 4,
+    "note": "Includes 'Aye Say' with Yungpunch.",
+    "sourceIds": [
+      "src-apple-mossberg-arki"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-mossberg-paintmywrld",
+    "title": "Paintmywrld",
+    "artistId": "mossberg-arki",
+    "year": 2025,
+    "type": "EP",
+    "labelId": "billionaire-minds",
+    "trackCount": 5,
+    "sourceIds": [
+      "src-apple-mossberg-arki"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-myatamara-amygdala",
+    "title": "Amygdala",
+    "artistId": "myat-amara-maung",
+    "year": 2025,
+    "type": "album",
+    "labelId": "billionaire-minds",
+    "trackCount": 9,
+    "note": "Includes 'Bal Thu Ko Chit Lal' with Reload, N.A.W and 8Ten, and 'Lost My Way' with Reload.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-myatamara-223s",
+    "title": "223S",
+    "artistId": "myat-amara-maung",
+    "year": 2023,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 11,
+    "note": "Self-released.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-pink",
+    "title": "Pink",
+    "artistId": "myat-amara-maung",
+    "artistIdB": "toxic",
+    "year": 2023,
+    "type": "EP",
+    "labelId": "billionaire-minds",
+    "trackCount": 3,
+    "note": "Billed 'Myat Amara Maung & TOXIC', produced by Ricky Pink. Contains 'Thit Sar' with RELOAD, whose music video has 1.1M views.",
+    "sourceIds": [
+      "src-apple-myat-amara-maung"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-wink-cd",
+    "title": "CD",
+    "artistId": "wink",
+    "year": 2025,
+    "type": "album",
+    "labelId": "b4-records",
+    "trackCount": 35,
+    "note": "A 35-track collection - the largest release in the new wave cohort.",
+    "sourceIds": [
+      "src-apple-wink"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-wink-drafts",
+    "title": "Drafts",
+    "artistId": "wink",
+    "year": 2022,
+    "type": "album",
+    "labelId": "b4-records",
+    "trackCount": 8,
+    "note": "CONFLICTED date: platform release 2022-11-27 but (P) 2023 b4 Records.",
+    "sourceIds": [
+      "src-apple-wink"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-28-idomyway",
+    "title": "I Do My Way",
+    "artistId": "28",
+    "year": 2026,
+    "type": "album",
+    "labelId": "billionaire-minds",
+    "trackCount": 9,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-slamm-dramatic",
+    "title": "Dramatic",
+    "artistId": "slamm",
+    "year": 2026,
+    "type": "album",
+    "labelId": "billionaire-minds",
+    "trackCount": 8,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-slamm-midnight",
+    "title": "Midnight Journals",
+    "artistId": "slamm",
+    "year": 2026,
+    "type": "EP",
+    "labelId": "billionaire-minds",
+    "trackCount": 5,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-peachy-kan",
+    "title": "ကံဘောင်",
+    "artistId": "peachy",
+    "year": 2026,
+    "type": "EP",
+    "labelId": "billionaire-minds",
+    "trackCount": 4,
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-lilkee-boi-b4ktbc",
+    "title": "##B4KTBC",
+    "artistId": "lil-kee-boi",
+    "year": 2024,
+    "type": "EP",
+    "labelId": "eagle-element",
+    "trackCount": 6,
+    "note": "6 tracks, 13:14. Includes 'crash out' with Murkio and 'Geeked Up'. CAVEAT: 'Angelic Dream' is a 2:30 TRACK, not the 2022 EP that aggregators claim.",
+    "sourceIds": [
+      "src-spotify-lil-kee-boi"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-lilkee-boi-motherteresa",
+    "title": "Mother Teresa",
+    "artistId": "lil-kee-boi",
+    "artistIdB": "nay",
+    "year": 2025,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "19 Feb 2025, with NAY. 12M+ YouTube views - the breakout of the Bago-to-Munich diaspora story. CAVEAT: stream, view and play counts are three different metrics and are routinely conflated in coverage; none is asserted here beyond the widely reported video views.",
+    "sourceIds": [
+      "src-spotify-lil-kee-boi"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-223-momma",
+    "title": "MOMMA I'M CRIMINAL",
+    "artistId": "223",
+    "artistIdB": "li-l-max",
+    "year": 2026,
+    "type": "single",
+    "labelId": "zen-music",
+    "trackCount": null,
+    "note": "13 Mar 2026, on Zen Music.",
+    "sourceIds": [
+      "src-apple-223"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-trigger-dontkill",
+    "title": "DON'T KILL MY VIBE",
+    "artistId": "trigger",
+    "artistIdB": "223",
+    "year": 2023,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Jersey Club beat; reviewed by LIFTED, Aug 2023.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-13three-run",
+    "title": "RUN",
+    "artistId": "13-three",
+    "artistIdB": "xma",
+    "year": 2023,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Four-way drill collaboration with XMA, CEYYIE and ABET. The clearest documentation of drill entering the Burmese new wave.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-13three-run-full",
+    "title": "RUN",
+    "artistId": "ceyyie",
+    "artistIdB": "abet",
+    "year": 2023,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Same four-way collaboration as rel-13three-run, recorded under the second billing pair. Kept as a distinct record because the two surfaces credit different lead artists; a renderer may prefer to merge them.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "medium",
+    "yearNote": null
+  },
+  {
+    "id": "rel-beamby-reason",
+    "title": "Reason to Live",
+    "artistId": "be-amby",
+    "year": 2022,
+    "type": "EP",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-beamby-freedom",
+    "title": "Freedom to Dream",
+    "artistId": "be-amby",
+    "year": 2023,
+    "type": "EP",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-beamby-season",
+    "title": "Season to Sing",
+    "artistId": "be-amby",
+    "year": 2025,
+    "type": "EP",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "note": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-dickcouncil",
+    "title": "DICKCOUNCIL",
+    "artistId": "rap-against-junta",
+    "year": 2021,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 12,
+    "note": "TRACK COUNT CONFLICTED AND DELIBERATELY UNRESOLVED. Bandcamp and HipHopDX both say 12 tracks; RAJ's own statement says '11 songs performed by a total of 15 rappers'. The likely reconciliation (11 songs plus an 'RAJ - Intro') is an inference, not a sourced claim. Bandcamp publish date 21 Sep 2021 and release date 21 Oct 2021; a listening party was held 21 Oct. Credits run to 11 artist units including 882021, Bje-Buz-Bawe, VLC & Be Amby, P-Ya, JT/JP/KOL!, Ronin for Revolution, Revo D. Cause, DL & HOA, Ma'Sarah, Pyae Phyo Aung and Aim. Album compiled over roughly three months during the COVID third wave. Launched by YouTube listening party.",
+    "sourceIds": [
+      "src-raj-dickcouncil",
+      "src-hiphopdx-raj-2021",
+      "src-lifted-raj-2021",
+      "src-globalvoices-2021",
+      "src-insight-raj-2021"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-endgame",
+    "title": "End Game",
+    "artistId": "rap-against-junta",
+    "year": 2021,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Feb 2021, 200,000+ YouTube views within about six weeks. Coda Story attributes it to named individuals rather than to RAJ as an album act; it is not on RAJ's Bandcamp.",
+    "sourceIds": [
+      "src-globalvoices-2021",
+      "src-lifted-raj-2021"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-thevoices",
+    "title": "The Voices",
+    "artistId": "louz-xa-lone",
+    "year": 2021,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Released 3 Feb 2021 as a FACEBOOK video, 7,000 likes and 2,000 shares. Attributed by Coda Story to individual artists, not to RAJ. Facebook was blocked 4-7 Feb 2021.",
+    "sourceIds": [
+      "src-globalvoices-2021",
+      "src-rfa-facebook-block"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-leecoup",
+    "title": "Lee Coup",
+    "artistId": "rap-against-junta",
+    "year": 2021,
+    "type": "single",
+    "labelId": null,
+    "trackCount": 1,
+    "note": "Bandcamp, 15 Mar 2021.",
+    "sourceIds": [
+      "src-raj-bandcamp"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-lee199",
+    "title": "Lee 199",
+    "artistId": "rap-against-junta",
+    "year": 2021,
+    "type": "single",
+    "labelId": null,
+    "trackCount": 1,
+    "note": "Bandcamp, 21 Apr 2021.",
+    "sourceIds": [
+      "src-raj-bandcamp"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-dictators",
+    "title": "Dictators Must Die",
+    "artistId": "rap-against-junta",
+    "year": 2021,
+    "type": "single",
+    "labelId": null,
+    "trackCount": 1,
+    "note": "Bandcamp, 30 Jun 2021. VICE says it features artists from Indonesia, Taiwan and elsewhere, but the Bandcamp credit lists nine Burmese-language pseudonyms with no country data, so no per-artist nationality is recorded here.",
+    "sourceIds": [
+      "src-raj-bandcamp",
+      "src-vice-raj-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-blood",
+    "title": "Blood",
+    "artistId": "rap-against-junta",
+    "year": 2022,
+    "type": "single",
+    "labelId": null,
+    "trackCount": 1,
+    "note": "Bandcamp, 7 Jan 2022. Chorus: 'This is our blood, our blood / Never gonna be under the military regime / And will fight till the end.' Credited to G, Pi Ya, TPx, Cinrungtoi fa, N Min, Y Cube, Classicz, 3Kao and Moe Gyi.",
+    "sourceIds": [
+      "src-raj-bandcamp",
+      "src-vice-raj-2023"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-out",
+    "title": "Out!",
+    "artistId": "rap-against-junta",
+    "year": 2022,
+    "type": "single",
+    "labelId": null,
+    "trackCount": 1,
+    "note": "Bandcamp, 21 Mar 2022, ISRC GX53U2099933.",
+    "sourceIds": [
+      "src-raj-bandcamp"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-yaltayar",
+    "title": "YalTaYar ThaChin",
+    "artistId": "rap-against-junta",
+    "year": 2022,
+    "type": "single",
+    "labelId": null,
+    "trackCount": 1,
+    "note": "Bandcamp, 26 Jul 2022, produced by Meontox.",
+    "sourceIds": [
+      "src-raj-bandcamp"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-raj-camefromhell",
+    "title": "Came From Hell",
+    "artistId": "rap-against-junta",
+    "artistIdB": "i-and-o",
+    "year": 2022,
+    "type": "single",
+    "labelId": null,
+    "trackCount": 1,
+    "note": "Bandcamp, 10 Sep 2022. Artist billed 'I & O'; recorded and mixed by UK; music by Lax.",
+    "sourceIds": [
+      "src-raj-bandcamp"
+    ],
+    "confidence": "high",
+    "yearNote": null
+  },
+  {
+    "id": "rel-zayarthaw-faith",
+    "title": "Generation Driven by Faith",
+    "artistId": "phyo-zeya-thaw",
+    "year": 2022,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Released POSTHUMOUSLY through Rap Against Junta, years after Zayar Thaw was executed on 25 July 2022. Opens with a voice note in which he says he wrote the bars in prison and never finished it. RAJ's note: 'He was the pioneer of Hip Hop culture in Myanmar. He ran so we could walk.' One of the archive's few releases by a deceased artist, and the clearest case of the archive itself as a preservation mechanism.",
+    "sourceIds": [
+      "src-lifted-2023",
+      "src-nyt-zayar-thaw-2022"
+    ],
+    "confidence": "high",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-meemi-wegotthis",
+    "title": "We Got This (Myanmar Song to Fight against Military Dictatorship)",
+    "artistId": "meemi",
+    "year": 2021,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "18 Feb 2021 - within the first weeks after the coup.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-vanzzzo-rebel",
+    "title": "Rebel (Save Myanmar)",
+    "artistId": "vanzzzo",
+    "year": 2021,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "March 2021, from Indianapolis. The diaspora's most visible direct response.",
+    "sourceIds": [
+      "src-lifted-2023"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-tripleedge-drop",
+    "title": "Triple Edge mass single drop (A LONG WAY / CLASS WAR / RICE FOR LIFE / BUILT ON BLOOD / CNX BABY / DYNAMITE / AGAINST THE ODDS / DEK DOI / HERO)",
+    "artistId": "triple-edge",
+    "year": 2021,
+    "type": "EP",
+    "labelId": null,
+    "trackCount": 9,
+    "note": "All nine released 10-11 Nov 2021, featuring KYI, KAMEN THOUGHT, BXMB The Tank, 3Kao, Zero-Seven, Yang Flo and RK. The 'KYI' credit is NOT established as Kan Kyi.",
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-tripleedge-191",
+    "title": "191",
+    "artistId": "triple-edge",
+    "artistIdB": "bxmb-the-tank",
+    "year": 2022,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "1 Sep 2022, with KYI and BXMB The Tank.",
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ],
+    "confidence": "medium",
+    "yearNote": null
+  },
+  {
+    "id": "rel-tripleedge-broken",
+    "title": "BROKEN SPEAKER",
+    "artistId": "triple-edge",
+    "year": 2024,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "8 Jul 2024, featuring Be Amby - the RAJ-to-Chiang-Mai personnel link.",
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-tripleedge-root",
+    "title": "รากหญ้า (GRASSROOTS)",
+    "artistId": "triple-edge",
+    "year": 2024,
+    "type": "single",
+    "labelId": null,
+    "trackCount": null,
+    "note": "26 Jul 2024. One of two releases with Thai-script titles, a weak but real signal of Thai-language operation.",
+    "sourceIds": [
+      "src-apple-triple-edge"
+    ],
+    "confidence": "medium",
+    "yearNote": null,
+    "artistIdB": null
+  },
+  {
+    "id": "rel-wildboyz-mixtape-2013",
+    "title": "Wildboyz Entertainment Mixtape",
+    "artistId": "oasix",
+    "year": 2013,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": 14,
+    "note": "Feb 2013. 12 tracks plus 2 bonus. THE RICHEST SINGLE TRACKLIST IN THE ARCHIVE and the clearest evidence of the Mandalay underground network. Full lineup: 01 Good Morning (Mg Moe Aung & Alatt feat Dr.13); 02 Show Me What You Got (Alatt, TMH, Channel, Oasix); 03 Marico (Mg Moe Aung & Mg Archi); 04 Rap ဆိုမွာလား (Thu Rain); 05 တံၿမက္စည္း ၾကက္ေမြွး (Mg Moe Aung, Plus, Sai Nay); 06 She Is My Girl (Oasix); 07 Like Dreams (Dr.13); 08 UnderGround Student (Y-Zet, Alone, Mg Hann Saw); 09 ဒီညေတာ႔ေကာင္းၿပီ (Y-Zet & Lout Lout); 10 She Loved Me Just 14 Days (Mg Moe Aung, Channel, Alatt feat Mg Archi); 11 ခ်စ္မိသူ (Sai Nay); 12 သူငယ္ခ်င္း (Phyo Wai & Mg Pyae Phyo); bonus Boucher (Dudue, Oo Fat, Lout Lout, Mg Hann Saw, Oasix, Channel); bonus တာလိုက္ (Oo Fat, Mg Hann Saw, Lout Lout). Oasix is the lead credit because he is the most prominent member, not because the release is his alone - this is a crew compilation and is recorded as such. Tracklist corroborated across two independent fan-archive mirrors.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-wildboyz-welcome-2012",
+    "title": "Wellcome to Wild Boyz",
+    "artistId": "oasix",
+    "year": 2012,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Nov 2012, credited to T-Rain, Mg Hann Saw, Y-Zet and Aung Moe Heinn. The earliest dated Wildboy artefact in the archive.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rel-mrc-mixtape-2011",
+    "title": "Mandalay Rapperz Crew Mixtape",
+    "artistId": "chan-myae",
+    "year": 2011,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": null,
+    "note": "2011, recorded at studio TKG with lyrics and beats by MRC. The Mandalay crew's debut and the archive's proof that a distinct Mandalay Rapperz Crew existed alongside the Yangon M.R.C (Nine Win) with the same initials. Members: Ye' Myat, Na Yem, Na Jyam, Nga Ye', Aung Phyo, Kyaw Zin, Yan Naing, Doe-Z, Thiri Yadanar, Su Thet Nge, guest No No.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-mrc-lovehate-2012",
+    "title": "Mandalay Love & Hate (Vol-1 + Vol-2)",
+    "artistId": "chan-myae",
+    "year": 2012,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": 17,
+    "note": "Sep 2012, 17 tracks. FLAGGED: this is pop/R&B, not rap, despite the crew's name. Recorded here so it is not mistaken for a rap release.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-error-mdy-2013",
+    "title": "Error Mdy Mixtape",
+    "artistId": "hein-min-error",
+    "year": 2013,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": 14,
+    "note": "Aug 2013, 14 tracks, full tracklist recovered: 1 Why You Love Me (NTZ, K-Square & Hein Min); 2 ေကာင္မေလးအတြက္ (M2K & NTZ); 3 Hate (or) Love (Heinz & Hein Min); 4 ထပ္တူက်တ့ဲအခ်စ္ (K-Square, Heinz & Wai Phyo Lin); 5 Summer Holiday (M2K & Hein Min); 6 ခ်န္ခဲ့သူ (Hein Min & Heinz); 7 Baby Sexy Girl (R-K); 8 ခ်စ္မိလို႔ရူး (Hein Min & Phone Myat); 9 My Queen (Heinz ft Ko Peter); 10 အျဖည့္ခံ (M2K & K-Square); 11 ကဲလိုက္ၾကမယ္ (R-K); 12 မုန္းႏိုင္ပါသည္ (M2K, NTZ & Heinz); 13 ခ်န္ထားခဲ့ (R-K); 14 ငါလာၿပီ (Heinz & K-Square). Mandalay collective 'Error MDY'; no member has an entity record, so Hein Min is used as a placeholder lead credit.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-error-mdy-thingyan-2015",
+    "title": "UGDY Thingyan 2015 Mixtape",
+    "artistId": "hein-min-error",
+    "year": 2015,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Error MDY's Thingyan (water festival) mixtape. Mandalay crews released festival mixtapes as a regular seasonal form.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rel-tharnge-mixtape-2013",
+    "title": "Thar Nge (MC Family) Mixtape",
+    "artistId": "chan-myae",
+    "year": 2013,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": 7,
+    "note": "2013, 7 tracks: 1 မင္းပညာဒါအကုန္ပဲလား; 2 There For You (ft Oasix); 3 Celebrity အရူး; 4 မနက္ျဖန္အထိ (ft Y-Zet); 5 ငါ့ကိုမုန္းလိုက္ (ft Oasix); 6 ေစာက္တလြဲလုပ္သူမ်ား (ft Y-Zet); 7 အမုန္းရဲ့အစ (Cypher Love). THE STRONGEST MANDALAY-SCENE EVIDENCE IN THE ARCHIVE: two of Oasix's and Y-Zet's seven guest appearances come from a crew they both belonged to at the time. Crew members: Joe Joe, B-Boi, Khaing Soe, Timmy, Wailin Phyo, Thaw Thaw, and Chan Myae of Mandalay Rapperz Crew. City UNVERIFIED - the crossover with Wildboy makes Mandalay plausible but no source states it.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-tharnge-collection-2013",
+    "title": "Thar Nge Song Collection",
+    "artistId": "chan-myae",
+    "year": 2013,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": 10,
+    "note": "Mar 2013, 10 tracks featuring Shwe Htoo, Timmy, Joe Joe and B Boi.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rel-mdy-allstars-2012",
+    "title": "Mdy all stars (6 Stars Ratin')",
+    "artistId": "mc-black-saturn",
+    "year": 2012,
+    "type": "compilation",
+    "labelId": null,
+    "trackCount": 6,
+    "note": "Nov 2012. Mc Black Saturn, Channel Wildboy, Mg Secondz, Sai Thar Kyaw, MC Min Thant, Mr Dirt Dino. Valuable as cross-city evidence: Channel Wildboy independently confirms Wildboy membership, and Sai Thar Kyaw and MC Min Thant both appear at Yangon's 2018 Showdown battle.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-coconuts-showdown"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rel-wareru-mixtape-2017",
+    "title": "တစ္သက္တာမွတ္တိုင္းႏွင့် အေတြးအေခၚမ်ား",
+    "artistId": "wareru",
+    "year": 2017,
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": 12,
+    "note": "2017, 12 tracks, full tracklist: 1 စစ္သည္တေယာက္ရဲ႕သြားရာလမ္း; 2 အေရးေတာ္ပံုက်မ္း; 3 မွတ္တိုင္ (ft Max Yang); 4 ေက်ာ္စြာ (ft Soul Seven); 5 ေအာင္ေဇယ်; 6 အာဠာ၀ကရဲ႕ ညစာ; 7 အျခားပလက္ေဖာင္း; 8 ရဲစိတ္ (ft Sean Viddar); 9 သူ႔ႏွလံုးသားမွ စကားေျပာေသာအခါ; 10 ေရႊမန္းဆီသို႔ (ft Ko Zay); 11 ၂၁ ရာစု လူခၽြန္လူေကာင္း; 12 ခ်စ္ေရးဆို. A Spotify album carries the same title with a matching track list and is a SUSPECTED RE-RELEASE, not a second release.",
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-spotify-wareru"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-hot-manto",
+    "title": "MANTO",
+    "artistId": "hein-htet-zaw",
+    "year": null,
+    "yearNote": "UNVERIFIED: Spotify lists no year and the catalogue sits in a 2026 window. Suspected re-release.",
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Includes 'MANDALAY VERSE' and 'HTET ZAW HOT'. One of six Hein Htet Zaw albums/EPs with no reliable date in any source.",
+    "sourceIds": [
+      "src-spotify-hot"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-hot-blodded-croc",
+    "title": "HOT BLODDED CROC",
+    "artistId": "hein-htet-zaw",
+    "year": null,
+    "yearNote": "UNVERIFIED: no year in any source; 2026-era catalogue window.",
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Includes 'MANDALAY ANTHEM'. Title corroborates the croc motif on the HOT streaming identity.",
+    "sourceIds": [
+      "src-spotify-hot"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-hot-croc-move-s1",
+    "title": "CROC MOVE (SEASON 1)",
+    "artistId": "hein-htet-zaw",
+    "year": null,
+    "yearNote": "UNVERIFIED: no year in any source.",
+    "type": "EP",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Includes 'AND MY FRIENDS'.",
+    "sourceIds": [
+      "src-spotify-hot"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-hot-trill-recognize",
+    "title": "TRILL RECOGNIZE TRILL",
+    "artistId": "hein-htet-zaw",
+    "year": null,
+    "yearNote": "UNVERIFIED: no year in any source.",
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "note": "Includes 'SWAMP THING', an 11-way collaboration with FREZZY, KAP Y, STWO, BIGG, ATEE and T FLOW - the clearest cross-link between the Hein Htet Zaw circle and A TEE.",
+    "sourceIds": [
+      "src-spotify-hot"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-hot-thway-sote-myay",
+    "title": "THWAY SOTE MYAY",
+    "artistId": "hein-htet-zaw",
+    "year": null,
+    "yearNote": "UNVERIFIED: no year in any source.",
+    "type": "EP",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-spotify-hot"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-hot-its-all-good",
+    "title": "IT'S ALL GOOD, MAN",
+    "artistId": "hein-htet-zaw",
+    "year": null,
+    "yearNote": "UNVERIFIED: no year in any source.",
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-spotify-hot"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-hot-online-mixtape-2014",
+    "title": "Mg Hein Htet Zaw Online Mixtape",
+    "artistId": "hein-htet-zaw",
+    "year": 2014,
+    "type": "mixtape",
+    "labelId": null,
+    "trackCount": 6,
+    "note": "Aug 2014, 6 tracks: ABCD (ft Yang KG); Dirty Mann (with Joe Joez); Middle Region Evening (with Dattha); Heart Record (New Version); Nout Sone Pal; My Elder. An ONLINE mixtape circulated by download in 2014 - evidence of the pre-streaming distribution era, and named for it.",
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rel-heinmin-mixtape",
+    "title": "မႏၲေလး တပင္ေရႊထီး",
+    "artistId": "j-fire-mdy",
+    "year": null,
+    "yearNote": "UNVERIFIED: no year in any source.",
+    "type": "album",
+    "labelId": null,
+    "trackCount": null,
+    "sourceIds": [
+      "src-mhc-archive",
+      "src-jfire-site"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-khaing-myal-stoners-book",
+    "title": "Stoner's Book",
+    "artistId": "khaing-myal-kyaw-swar",
+    "year": null,
+    "yearNote": "UNVERIFIED: after c.2013, before 2020.",
+    "type": "mixtape",
+    "labelId": "ultrasonic",
+    "trackCount": null,
+    "note": "With Louzy, Tricky, Ozie and Rich T. SINGLE-SOURCE: rests entirely on the artist's own LinkedIn bio.",
+    "sourceIds": [
+      "src-khaing-myal-linkedin"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rel-khaing-myal-one-take",
+    "title": "ONE TAKE",
+    "artistId": "khaing-myal-kyaw-swar",
+    "year": 2020,
+    "type": "EP",
+    "labelId": "360beatz",
+    "trackCount": null,
+    "note": "Raw one-take recordings plus remixes of three 1990s hip-hop tracks - a self-documented archivist impulse by a Mandalay rapper-producer.",
+    "sourceIds": [
+      "src-playboard-kyawswar"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rel-yzet-za-2017-fix",
+    "title": "Y-Zet ဇ (debut solo album)",
+    "artistId": "yzet",
+    "year": 2017,
+    "type": "album",
+    "labelId": null,
+    "trackCount": 14,
+    "note": "Released 10 June 2017, 13 tracks plus a bonus. FULL TRACKLIST: 01 ေရဆန္လမ္း; 02 သူရဲေကာင္းတုိ႔မိခင္; 03 သင္းကြဲတိမ္; 04 မ်က္လွည့္ (ft Shwe Htoo); 05 အဆုိေတာ္ၾကီး; 06 Warning (ft Lil' Z); 07 ေကာက္ေတး (ft G-Clock); 08 မျဖစ္သင့္ေသာ; 09 ေခါင္းေတြေမာ့ထား; 10 ျပႆနာ (ft Oasix & Alatt); 11 ဘယ္သူလဲ (ft Shwe Htoo & Oasix); 12 ခရမ္းျပာလိပ္ျပာမ်ား (ft Zarni); bonus 13 မွ အခန္း၄၇. Note this is the album whose promotion six weeks later turned fatal. Wikipedia glosses the title ဇ as 'Gene'; ဇ is the Burmese letter *za*.",
+    "sourceIds": [
+      "src-wiki-yzet-2",
+      "src-mhc-archive"
+    ],
+    "confidence": "high"
+  }
 ]

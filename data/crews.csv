@@ -1,3 +1,29 @@
-id,name,formed,city,memberIds,status,sourceIds
-mha,Myanmar HipHop Association (M.H.A.),2002,Yangon,j-me;bigg-y;g-tone;kyak-pha;yatha;thuta-aye,unofficial,src-wiki-burmese-hiphop
-generation-wave,Generation Wave,2007,Yangon,phyo-zeya-thaw,youth movement (not a rap group),src-wiki-acid
+id,name,kind,formed,dissolved,city,status,memberIds
+b-clipz,B-Clipz (B Clipz Recordz),crew,2008,,Yangon,"9 members at formation, 5 by late 2011","['aung-ye-htike', 'little-t']"
+mrc,M.R.C (Nine Win),crew,,,Yangon,active by 2011-2013; operated MRC Music Production,['chan-myae']
+yhs,Y.H.S,studio,2011,,Yangon,"recording studio, active 2011-2013",[]
+wildboy,Wildboy (Wildboyz Entertainment),crew,,,Mandalay,active c. 2009-2013; disbanded 'in some year' (per Oasix's Wikipedia article),"['oasix', 'yzet']"
+b-lord-family,B-Lord Family (BLF),crew,2009,2018,Yangon,active 2009-2018,['x-boxin']
+rockstar,Rock$tar,crew,2002,,Yangon,Ah Boy lead vocalist from 2002; later folded into VIP as the 'Rock$tar' name,['ah-boy']
+sme,SME (Swag Music Entertainment),label,2009,,Yangon,founded Dec 2009 by Jimmy Jacobs and Luffie; 200+ shows,['jimmy-jacobs']
+bg18,BG18 Record Label,label,,,Yangon,active from c. 2018,"['yair-yint-aung', 'yung-hugo', 'adjustor', 'jcz', 'doublej', 'eillie', 'bobby-soxer']"
+eagle-element,Eagle Element,label,,,,active from 2024,"['lil-kee-boi', 'ah-sar']"
+billionaire-minds,Billionaire Minds Group (BMG),label,,,,active from 2023,"['223', '28', 'ah-sar', 'blazy', 'moe-htet', 'mossberg-arki', 'murkio', 'myat-amara-maung', 'peachy', 'reload', 'slamm', 'slo9e', 'toxic', 'yan']"
+b4-records,b4 Records,label,,,Yangon,active from c. 2022,"['wink', 'bkho-bain']"
+the-noise-label,The NOISE Records (The NOISE Label),label,,,,releases from 2017,"['bo-htet', '99-symphony', 'mossberg-arki', 'reload']"
+boombox-ent,The Boombox Entertainment (Boombox Ent),label,2021,,Yangon,active from 2021; director U Pyae Soe,['x-boxin']
+legacy-music,"Legacy Music Network (Legacy Music Co., Ltd)",label,2011,,Yangon,active from 2011; distributor and digital aggregator,"['htet-yan', 'oasix', 'reload']"
+360beatz,360Beatz,label,2017,,Yangon,Myanmar's first professional music agency; management and digital aggregation,[]
+jam-it,Jam It!,association,2012,,Yangon,"active from late 2012; 20+ gigs by 2015, 40+ acts","['eaiddhi', 'ye-ngwe-soe']"
+ultrasonic,Ultrasonic record,crew,,,Mandalay,released the mixtape Stoner's Book,[]
+mfg,M.F.G (Myanmar Future Generations),crew,,,,underground group; 9mm were said to have distributed their sample CDs at a performance,[]
+kg18-scene,New wave label circle (Billionaire Minds Group + Eagle Element),association,2023,,,a copyright-label network rather than a genre scene,[]
+triple-edge-cm,Triple Edge (Chiang Mai),collective,2021,,Chiang Mai,active from Nov 2021,['kan-kyi']
+a-new-burma,A New Burma,association,,,Chiang Mai,"exile arts collective; shows in Bangkok, London, Manchester, Melbourne",[]
+fastlane-records,FASTLANE Records,label,,,,bkho bain's debut album label (2024),['bkho-bain']
+zen-music,Zen Music,label,,,,credits 2026 releases including 223's 'MOMMA I'M CRIMINAL' and Yan's 'SCG',"['223', 'yan']"
+destino-label,Destino Label,label,,,,released 'Epic Comeback' (2023),"['zay-ye', 'mc-bay-gyi']"
+solatido,Solatido Entertainment,label,,,,released '12 Yar Thi' (2018) as a joint Nay & Reload album,"['nay', 'reload']"
+sg-music,SG Music,label,2023,,,active from 2023,[]
+mha,Myanmar HipHop Association (M.H.A.),association,2002,,Yangon,unofficial,"['j-me', 'bigg-y', 'g-tone', 'kyak-pha', 'yatha', 'thuta-aye']"
+generation-wave,Generation Wave,association,2007,,Yangon,youth movement (not a rap group),['phyo-zeya-thaw']

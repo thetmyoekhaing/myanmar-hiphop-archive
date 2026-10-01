@@ -1,4 +1,378 @@
 [
-  {"id": "ev-straight-outta-yangon-2", "name": "Full Stop's Straight Outta Yangon: Chapter 2", "date": "2017-09-15", "venueId": "ven-clubhouse", "performerIds": ["acid"], "sourceIds": ["src-coconuts-2017"], "confidence": "medium", "note": "ACID reunion show; exact date approximate (announced as 'tonight' in Sep 2017 article)"},
-  {"id": "ev-saisai-birthday-show", "name": "Sai Sai Birthday Show", "date": "2004-04-10", "venueId": null, "performerIds": ["sai-sai-kham-leng"], "sourceIds": ["src-wiki-saisai"], "confidence": "high", "note": "Annual outdoor concert starting 10 April 2004"}
+  {
+    "id": "ev-straight-outta-yangon-2",
+    "name": "Full Stop's Straight Outta Yangon: Chapter 2",
+    "date": "2017-09-15",
+    "venueId": "ven-clubhouse",
+    "performerIds": [
+      "acid"
+    ],
+    "sourceIds": [
+      "src-coconuts-2017"
+    ],
+    "confidence": "medium",
+    "note": "ACID reunion show; exact date approximate (announced as 'tonight' in Sep 2017 article)"
+  },
+  {
+    "id": "ev-saisai-birthday-show",
+    "name": "Sai Sai Birthday Show",
+    "date": "2004-04-10",
+    "venueId": null,
+    "performerIds": [
+      "sai-sai-kham-leng"
+    ],
+    "sourceIds": [
+      "src-wiki-saisai"
+    ],
+    "confidence": "high",
+    "note": "Annual outdoor concert starting 10 April 2004"
+  },
+  {
+    "id": "ev-yzet-violent-2017",
+    "name": "Y-Zet album promotion concert (Mandalay)",
+    "date": "2017-06-10",
+    "venueId": null,
+    "performerIds": [
+      "yzet"
+    ],
+    "sourceIds": [
+      "src-wiki-yzet-2"
+    ],
+    "confidence": "high",
+    "note": "Turned violent: one 19-year-old died and the event was shut down. One of the few documented fatal incidents at a Burmese hip-hop event."
+  },
+  {
+    "id": "ev-first-step-2016",
+    "name": "FIRST STEP Hip Hop Music Show",
+    "date": "2016-05-21",
+    "venueId": "ven-myaw-sin-island",
+    "performerIds": [
+      "jouk-jack",
+      "g-fatt",
+      "nine-one",
+      "kyaw-htut-swe",
+      "shwe-htoo",
+      "x-boxin",
+      "lil-z",
+      "htet-yan"
+    ],
+    "sourceIds": [
+      "src-smiyanmar"
+    ],
+    "confidence": "high",
+    "note": "Myaw Sin Island, Kandawgyi Park, Yangon. A free public-park show - the opposite of the paid hotel circuit, and evidence that the scene still had public access to live performance in 2016."
+  },
+  {
+    "id": "ev-monsoon-ii-2016",
+    "name": "Monsoon II (Full Stop)",
+    "date": "2016-08-27",
+    "venueId": "ven-yih",
+    "performerIds": [
+      "j-me",
+      "g-tone"
+    ],
+    "sourceIds": [
+      "src-myanmore-monsoon-ii-2016"
+    ],
+    "confidence": "high",
+    "note": "Yangon International Hotel, with house DJs flown in from Bangkok. Part of Charlie Artingstoll's Full Stop series."
+  },
+  {
+    "id": "ev-soy-r3-2016",
+    "name": "Straight Outta Yangon Round 3 (Full Stop)",
+    "date": "2016-12",
+    "venueId": "ven-clubhouse",
+    "performerIds": [],
+    "sourceIds": [
+      "src-myanmore-week-2016-12"
+    ],
+    "confidence": "medium",
+    "note": "Early December 2016, 9pm-4am, at The Clubhouse. Full Stop series; line-up not recorded in the source."
+  },
+  {
+    "id": "ev-soy-ch2b-2017",
+    "name": "Straight Outta Yangon: Chapter 2 (ACID reunion, Full Stop lineup)",
+    "date": "2017-09-22",
+    "venueId": "ven-clubhouse",
+    "performerIds": [
+      "acid",
+      "jcz",
+      "doublej",
+      "reload",
+      "myat-amara-maung",
+      "naung-naung"
+    ],
+    "sourceIds": [
+      "src-myanmore-week-2016-12",
+      "src-coconuts-2017"
+    ],
+    "confidence": "high",
+    "note": "The Clubhouse, Kandawgyi Palace Hotel. ACID reunion plus the Full Stop roster. The pre-existing ev-straight-outta-yangon-2 record (dated 15 Sep 2017 from the Coconuts article) is retained separately; the two dates conflict and are NOT merged. Only performers with an existing artist record are listed."
+  },
+  {
+    "id": "ev-showdown-freestyle",
+    "name": "The Showdown Freestyle Battle",
+    "date": null,
+    "venueId": "ven-urban-asia",
+    "performerIds": [
+      "annaga",
+      "yan-yan-chan",
+      "g-tone",
+      "bo-htet",
+      "naung-naung"
+    ],
+    "sourceIds": [
+      "src-coconuts-showdown"
+    ],
+    "confidence": "medium",
+    "note": "Urban Asia Center, downtown Yangon, Saturday 8 Sept, 16 freestyle rappers from across Myanmar, judged by Anegga (ACID co-founder). Guest performances by Yan Yan Chan, G-Tone, Bo Htet, Nay, Ba Htoo, Jeep Jeep, Naung Naung, Young Beatz and Min Thant. Sponsored by Grand Royal Signature whiskey. YEAR IS UNVERIFIED - the Coconuts article is undated; do not assume 2018."
+  },
+  {
+    "id": "ev-break-the-night-2019",
+    "name": "Break the Night",
+    "date": "2019-12",
+    "venueId": "ven-ifb-yangon",
+    "performerIds": [],
+    "sourceIds": [
+      "src-irrawaddy-break-night-2019"
+    ],
+    "confidence": "high",
+    "note": "Myanmar-France-Germany hip-hop project organised by Institut Francais de Birmanie with Goethe-Institut Myanmar. DJ Densen (DE), Saw Phoe Kwar, Tyrah-T, Boby Funk, Chan A Win; hip-hop battle plus an open graffiti wall, free, 6:30-11:30pm. The clearest documented instance of graffiti as part of a hip-hop event."
+  },
+  {
+    "id": "ev-bohtet-heavyweight-2020",
+    "name": "Heavy Weight album promotion show (Time City Yangon)",
+    "date": "2020-02-05",
+    "venueId": null,
+    "performerIds": [
+      "bo-htet"
+    ],
+    "sourceIds": [
+      "src-zipevent-bohtet-2020"
+    ],
+    "confidence": "medium",
+    "note": "Promotion for Bo Htet's album whose date is itself CONFLICTED between 2020 and 2023 across platforms."
+  },
+  {
+    "id": "ev-mob-party-2024",
+    "name": "MOB Party (3rd annual)",
+    "date": "2024-11-30",
+    "venueId": "ven-cool-muang",
+    "performerIds": [
+      "kan-kyi"
+    ],
+    "sourceIds": [
+      "src-dvb-mob-2024",
+      "src-dvb-mob-2024-scene"
+    ],
+    "confidence": "high",
+    "note": "Parking lot at Cool Muang Coffee near Tha Phae Gate, Chiang Mai. Thai, Myanmar and international participation. Raises funds for children who remain stateless and are at risk due to displacement and lack of access to education. NOTE: the 1st and 2nd editions (2022, 2023) are implied by 'annual' and 'third annual' but no article for them exists, so they are NOT recorded as events."
+  },
+  {
+    "id": "ev-mob-party-2025",
+    "name": "MOB Party (4th annual)",
+    "date": "2025-11-29",
+    "venueId": "ven-democrazy-cm",
+    "performerIds": [
+      "kan-kyi"
+    ],
+    "sourceIds": [
+      "src-dvb-mob-2025"
+    ],
+    "confidence": "high",
+    "note": "Democrazy!, Chiang Mai. Thai headliner Elevenfinger was released from prison in Thailand shortly before this edition."
+  },
+  {
+    "id": "ev-overflow-2025",
+    "name": "Overflow Music Festival",
+    "date": "2025-11-02",
+    "venueId": "ven-overflow-park",
+    "performerIds": [
+      "bkho-bain",
+      "wink"
+    ],
+    "sourceIds": [
+      "src-eleven-overflow-2025"
+    ],
+    "confidence": "high",
+    "note": "Eastern Yangon Event Park. bkho bain (as Thein Min Htike) and Wink (as Ye Wint Aung, 'Bala') performed material using obscene language and distributed condoms. Police arrested participants between 5 and 6 Nov; 16 people were charged under Myanmar Penal Code ss. 505(b) and 294, with arrests in Tamwe, Yankin and Thingangyun townships. One of the clearest documented instances of legal repression of a live hip-hop event."
+  },
+  {
+    "id": "ev-jamit-first-2012",
+    "name": "Jam It! first show (Kan Daw Gyi Park)",
+    "date": "2012",
+    "venueId": "ven-kandawgyi-park",
+    "performerIds": [],
+    "sourceIds": [
+      "src-jam-it-about",
+      "src-myanmore-underground-2015"
+    ],
+    "confidence": "high",
+    "note": "Began as an acoustic gig, late 2012. Jam It! went on to 20+ gigs by 2015 across Yangon and Mandalay with 40+ acts, cross-genre with punk, hard rock and metal, plus live graffiti artists. The best-documented underground live platform in the archive."
+  },
+  {
+    "id": "ev-raj-firstshow-2021",
+    "name": "Rap Against Junta first public show",
+    "date": "2021-02",
+    "venueId": null,
+    "performerIds": [
+      "osho"
+    ],
+    "sourceIds": [
+      "src-vice-raj-2023"
+    ],
+    "confidence": "high",
+    "note": "A few weeks after the coup, on a sidewalk next to a police station in downtown Yangon: 4-5 performers, 1-2 hours."
+  },
+  {
+    "id": "ev-raj-secondshow-2021",
+    "name": "Rap Against Junta second show",
+    "date": "2021-03",
+    "venueId": null,
+    "performerIds": [],
+    "sourceIds": [
+      "src-vice-raj-2023"
+    ],
+    "confidence": "high",
+    "note": "Staged with the cooperation of a large Yangon shopping mall; the power was cut mid-concert."
+  },
+  {
+    "id": "ev-raj-dickcouncil-party-2021",
+    "name": "DICKCOUNCIL album listening party",
+    "date": "2021-10-21",
+    "venueId": null,
+    "performerIds": [
+      "ko-aye-win"
+    ],
+    "sourceIds": [
+      "src-hiphopdx-raj-2021"
+    ],
+    "confidence": "medium",
+    "note": "Held on YouTube at 21:15 HKT. An online launch for an album released while the country had no reliable internet - the clearest single illustration of why the international platforms are also the archive."
+  },
+  {
+    "id": "ev-xboxin-houseparty-2018",
+    "name": "X-BOXIN's House Party",
+    "date": "2018-05",
+    "venueId": "ven-hard-rock-yangon",
+    "performerIds": [
+      "x-boxin"
+    ],
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium",
+    "note": "Hard Rock Cafe Yangon, May 2018."
+  },
+  {
+    "id": "ev-scarr-2026",
+    "name": "SCARR - Resilience Arts Exhibition",
+    "date": "2026-06-27",
+    "venueId": null,
+    "performerIds": [],
+    "sourceIds": [
+      "src-dvb-scarr-2026"
+    ],
+    "confidence": "high",
+    "note": "Chiang Mai, 27-28 June 2026. 20 Myanmar artists, many living in hiding or on precarious legal status in Thailand; co-organised with Artists' Shelter. SAFETY: participants are deliberately unnamed in the source and one is credited only as 'Harry'. Do not attempt to identify. Recorded as context for the conditions the exile scene works under, not as a hip-hop event."
+  },
+  {
+    "id": "ev-newburma-4elements-2026",
+    "name": "4 Elements residency exhibition (A New Burma)",
+    "date": "2026-05-21",
+    "venueId": null,
+    "performerIds": [],
+    "sourceIds": [
+      "src-dvb-newburma-2026",
+      "src-anewburma"
+    ],
+    "confidence": "high",
+    "note": "Infra Practice Chiang Mai, 21-24 May 2026, Norway-backed. A New Burma, founded by Hnin Win, has worked with 100+ artists since 2022 and has shown in Bangkok, London, Manchester and Melbourne. Not rap-specific, but the nearest thing the diaspora has to scene infrastructure."
+  },
+  {
+    "id": "ev-rk-mdy-2025",
+    "name": "RK Showdown (Mandalay earthquake charity hip-hop show)",
+    "date": "2025-05-23",
+    "venueId": "ven-rk-mdy",
+    "performerIds": [
+      "myo-kyawt-myaing",
+      "yatha",
+      "g-tone",
+      "jouk-jack"
+    ],
+    "sourceIds": [
+      "src-gnlm-rk-showdown-2025"
+    ],
+    "confidence": "medium-high",
+    "note": "Featuring Myo Kyawt Myaing, Yatha, G-Tone, Jouk Jack and Sandy Myint Lwin. RARE EVIDENCE OF A YANGON-MANDALAY CO-BILL: four of the five performers are Yangon acts appearing in Mandalay, which is the clearest documented instance of cross-city traffic in the archive. G-Tone's presence is notable given his 2007 performance ban."
+  },
+  {
+    "id": "ev-mrc-mixtape-2011",
+    "name": "Mandalay Rapperz Crew mixtape release",
+    "date": "2011",
+    "venueId": "ven-tkg-studio-mdy",
+    "performerIds": [
+      "chan-myae",
+      "solo-zay-ye-mdy"
+    ],
+    "sourceIds": [
+      "src-mhc-archive"
+    ],
+    "confidence": "medium",
+    "note": "Recorded at studio TKG. The exact date and venue beyond the studio are not recorded in the source; the venue here is the studio, not a live setting."
+  },
+  {
+    "id": "ev-mdy-dj-2025",
+    "name": "Cover Club Buddha-song DJ set (prosecuted)",
+    "date": "2025-07-31",
+    "venueId": "ven-cover-club-mdy",
+    "performerIds": [],
+    "sourceIds": [
+      "src-eleven-mdy-djs-2025"
+    ],
+    "confidence": "high",
+    "note": "1-2am. Three DJs played a DJ mix of 'Buddham Saranam Gacchami' and danced in a way reported as disrespecting Buddhism. Charged under s.505(a), case (P)214/2025, Myoma PS; arrested 11 and 13 Sept 2025. Not a rap event - recorded because it is the archive's only documented Mandalay prosecution of a music performer, and because the same s.505(a) architecture catches rappers. Performer names are deliberately not entered as artist records."
+  },
+  {
+    "id": "ev-zayar-thaw-2008",
+    "name": "Zayar Thaw sentenced (Lanmadaw Township court)",
+    "date": "2008-11-20",
+    "venueId": null,
+    "performerIds": [
+      "phyo-zeya-thaw"
+    ],
+    "sourceIds": [
+      "src-wiki-phyo-zeya-thaw"
+    ],
+    "confidence": "high",
+    "note": "Five years under SLORC Law 6/88 (illegal organising) plus one year for foreign currency. Minutes before sentencing he wrote: 'I feel sad, but not because of my imprisonment... I feel sad for the future of our country and people.' Released 17 May 2011."
+  },
+  {
+    "id": "ev-zayar-thaw-ban-2011",
+    "name": "Zayar Thaw performance ban, Hmyawzin Island",
+    "date": "2011-08",
+    "venueId": "ven-hmyawzin-island",
+    "performerIds": [
+      "phyo-zeya-thaw"
+    ],
+    "sourceIds": [
+      "src-wiki-phyo-zeya-thaw"
+    ],
+    "confidence": "high",
+    "note": "Mingala Taungnyunt Township police banned him from performing at a stage show three months after his release from prison. He called it 'doubly punishing'. Recorded because a state that releases a dissident and then bans him from performing is a materially different situation from one that imprisons him."
+  },
+  {
+    "id": "ev-g-tone-2007",
+    "name": "G-Tone concert (performance ban)",
+    "date": "2007-11-18",
+    "venueId": null,
+    "performerIds": [
+      "g-tone"
+    ],
+    "sourceIds": [
+      "src-dvb-g-tone-ban"
+    ],
+    "confidence": "high",
+    "note": "G-Tone removed his shirt mid-performance to reveal a tattoo; police handcuffed him as he left the stage but did not detain him, then beat audience members, escalating it into a riot. The Myanmar Music Association banned G-Tone, Thuta and Pyi Tha for one year. CORRECTION to an earlier archive note: this was a BAN, not an arrest, and it happened in 2007. The tattoo's content is disputed between DVB and de Bakker."
+  }
 ]

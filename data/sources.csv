@@ -1,10 +1,95 @@
-id,type,title,author,publication,date,url,license
-src-wiki-burmese-hiphop,encyclopedia,Burmese hip-hop,,Wikipedia,,https://en.wikipedia.org/wiki/Burmese_hip-hop,CC BY-SA
-src-wiki-acid,encyclopedia,Acid (hip-hop group),,Wikipedia,,https://en.wikipedia.org/wiki/Acid_(hip-hop_group),CC BY-SA
-src-wiki-saisai,encyclopedia,Sai Sai Kham Leng,,Wikipedia,,https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng,CC BY-SA
-src-coconuts-2017,article,ACID - Myanmar's hip hop godfathers - to reunite at the Clubhouse tonight,,Coconuts Yangon,2017-09-15,https://coconuts.co/yangon/lifestyle/acid-myanmars-hip-hop-godfathers-reunite-clubhouse-tonight/,Copyrighted (facts only)
-src-myanmore-2017,interview,Snare and the Rap Master Nay Win,Aung Pyae,Myanmore,2017-01-06,https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/,Copyrighted (facts only)
-src-insight-604,podcast,Insight Myanmar Ep.604: Straight Outta Yangon,,Insight Myanmar,2026-09-08,https://insightmyanmar.org/complete-shows/2026/9/8/episode-604-straight-outta-yangon,Copyrighted (facts only)
-src-yt-acid-doc,video,The History of Myanmar Hip Hop | ACID: The Beginning,,YouTube,,https://www.youtube.com/watch?v=XHU7xXY-VKo,Copyrighted (facts only)
-src-deezer-saisai,database,Sai Sai Kham Leng artist page,,Deezer,,https://www.deezer.com/en/artist/11437368,Copyrighted (facts only)
-src-street-magazine,magazine,"The Street (scanned issues, private collection)",,"The Street Magazine, Yangon",2009,,"Copyrighted (private scans; facts only, no republication)"
+id,type,title,author,publication,date,url,archivedUrl,license,quality
+src-wiki-burmese-hiphop,encyclopedia,Burmese hip-hop,,Wikipedia,,https://en.wikipedia.org/wiki/Burmese_hip-hop,,CC BY-SA,secondary
+src-wiki-acid,encyclopedia,Acid (hip-hop group),,Wikipedia,,https://en.wikipedia.org/wiki/Acid_(hip-hop_group),,CC BY-SA,secondary
+src-wiki-saisai,encyclopedia,Sai Sai Kham Leng,,Wikipedia,,https://en.wikipedia.org/wiki/Sai_Sai_Kham_Leng,,CC BY-SA,secondary
+src-coconuts-2017,article,ACID - Myanmar's hip hop godfathers - to reunite at the Clubhouse tonight,,Coconuts Yangon,2017-09-15,https://coconuts.co/yangon/lifestyle/acid-myanmars-hip-hop-godfathers-reunite-clubhouse-tonight/,,Copyrighted (facts only),medium-high
+src-myanmore-2017,interview,Snare and the Rap Master Nay Win,Aung Pyae,Myanmore,2017-01-06,https://www.myanmore.com/2017/01/snare-and-the-rap-master-nay-win/,,Copyrighted (facts only),high
+src-insight-604,podcast,Insight Myanmar Ep.604: Straight Outta Yangon,,Insight Myanmar,2026-09-08,https://insightmyanmar.org/complete-shows/2026/9/8/episode-604-straight-outta-yangon,,Copyrighted (facts only),primary
+src-yt-acid-doc,video,The History of Myanmar Hip Hop | ACID: The Beginning,,YouTube,,https://www.youtube.com/watch?v=XHU7xXY-VKo,,Copyrighted (facts only),secondary
+src-deezer-saisai,database,Sai Sai Kham Leng artist page,,Deezer,,https://www.deezer.com/en/artist/11437368,,Copyrighted (facts only),low
+src-street-magazine,magazine,"The Street (scanned issues, private collection)",,"The Street Magazine, Yangon",2009,,,"Copyrighted (private scans; facts only, no republication)",primary
+src-rocking-rangoon,journal,Rocking Rangoon,,Index on Censorship / SAGE,2010,https://journals.sagepub.com/doi/10.1177/0306422010379805,,Copyrighted (facts only),high
+src-scmp-acid,article,Hip hop changed his life: songs by Myanmar band Acid,,South China Morning Post,2021,https://www.scmp.com/magazines/post-magazine/arts-music/article/3197010/hip-hop-changed-his-life-songs-myanmar-band-acid-inspired-hong-kong-restaurant-founder-never-give,,Copyrighted (facts only),high
+src-world-swagger-math,article,This Burmese rapper sounds straight outta Compton,,The World / PRX,2013-12-09,https://theworld.org/stories/2013/12/09/burmese-rapper-who-sounds-straight-outta-compton-swagger-math,,Copyrighted (facts only),high
+src-myanmore-jme,interview,J-Me: A Master of Ceremonies,,Myanmore,2015-06,https://www.myanmore.com/yangon/2015/06/j-me-a-master-of-ceremonies/,,Copyrighted (facts only),high
+src-guardian-2010,article,Burma's hip-hop resistance spreads message of freedom,,The Guardian,2010-04-22,https://www.theguardian.com/world/2010/apr/22/burma-hiphop-resistance,,Copyrighted (facts only),high
+src-globalpost-2010,article,Myanmar: Hip-hop's revolution,,AFP / GlobalPost,2010-05-11,https://www.globalpost.com/dispatch/asia/100511/myanmar-generation-wave,,Copyrighted (facts only),high
+src-amnesty-2011,advocacy,Rapping for rights in Myanmar,,Amnesty International,2011-06,https://www.amnesty.org/en/latest/campaigns/2011/06/rapping-for-rights-in-myanmar/,,Copyrighted (facts only),high
+src-bbc-2012,article,Burma abolishes media censorship,,BBC News,2012-08-20,https://www.bbc.com/news/world-asia-19315806,,Copyrighted (facts only),high
+src-independent-2013,article,Censorship casts a cloud over Burma's hip-hop scene,,The Independent,2013,https://www.alexbookbinder.com/censorship-casts-cloud-burmas-hip-hop-scene-independent/,,Copyrighted (facts only),high
+src-sdut-2015,article,Myanmar rappers rewrite women's roles in their lyrics,,San Diego Union-Tribune,2015-12-21,https://www.sandiegouniontribune.com/2015/12/21/myanmar-rappers-rewrite-womens-roles-in-their-lyrics/,,Copyrighted (facts only),high
+src-jam-it,website,About Us,,Jam It!,,https://www.jamitmyanmar.com/en/about-us,,Copyrighted (facts only),medium-high
+src-coda-2021,article,Myanmar rappers battle against the coup,,Coda Story,2021,https://www.codastory.com/disinformation/myanmar-hiphop-coup/,,Copyrighted (facts only),high
+src-raj-dickcouncil,music,DICKCOUNCIL,,Rap Against Junta / Bandcamp,2021-10-21,https://rapagainstjunta.bandcamp.com/album/dickcouncil,,Copyrighted (facts only),primary
+src-globalvoices-2021,article,Myanmar rappers express rage and resistance against the military regime,,Global Voices,2021-11-26,https://globalvoices.org/2021/11/26/myanmar-rappers-express-rage-and-resistance-against-the-military-regime/,,Copyrighted (facts only),medium-high
+src-dvb-mob-2024,article,Third annual MOB Party celebrates Thai and Myanmar hip hop music,,Democratic Voice of Burma,2024,https://english.dvb.no/third-annual-mob-party-celebrates-thai-and-myanmar-hip-hop-music/,,Copyrighted (facts only),high
+src-dvb-mob-2025,article,Underground rap show MOB Party at Chiang Mai's Democrazy!,,Democratic Voice of Burma,2025,https://english.dvb.no/mob-party-hip-hop-concert-at-democrazy-in-chiang-mai/,,Copyrighted (facts only),high
+src-vice-myanmar-rappers,article,Myanmar's Rappers Don't Care Much About Politics,,VICE,,https://www.vice.com/en/article/myanmar-rappers-photographs-876/,,Copyrighted (image credits only; verify permission before redistribution),medium-high
+src-vice-raj-2023,article,Rappers are using music to fight the Myanmar military,Ashley Fike; Romano Santos,VICE,2023-10-25,https://www.vice.com/en/article/rappers-are-using-music-to-fight-the-myanmar-military/,,Copyrighted (facts only),high
+src-raj-bandcamp,music,Rap Against Junta,,Rap Against Junta / Bandcamp,2021,https://rapagainstjunta.bandcamp.com/,,Copyrighted (facts only),primary
+src-raj-yt,video,Rap Against Junta (YouTube channel),,YouTube,2021-03-15,https://www.youtube.com/@RapAgainstJunta,,Copyrighted (facts only),primary
+src-insight-raj-2021,interview,Rap Against Junta: A Propaganda War Machine for Freedom,Shwe Lan Ga Lay,Insight Myanmar,2021-12-26,https://insightmyanmar.org/insight-myanmar-blog/2021/12/26/rap-against-junta-a-propaganda-war-machine-for-freedom,,Copyrighted (facts only),high
+src-dvb-mob-2024-scene,article,Myanmar resistance music at MOB Party in Thailand,,Democratic Voice of Burma,2024-12-06,https://english.dvb.no/myanmar-resistance-music-at-mob-party-in-thailand/,,Copyrighted (facts only),high
+src-dvb-g-tone-2007,article,Riot at concert after rapper arrested,,Democratic Voice of Burma,2007-11-19,https://english.dvb.no/riot-at-concert-after-rapper-arrested/,https://web.archive.org/web/20071121194834/http://english.dvb.no/riot-at-concert-after-rapper-arrested/,Copyrighted (facts only),high
+src-dvb-kan-kyi-podcast,podcast,Kan Kyi Vox Pop (DVB interview),,Democratic Voice of Burma,2023-08-14,https://english.dvb.no/,,Copyrighted (facts only),medium-high
+src-lifted-2023,article,Myanmar Hip Hop strives to thrive despite obstructions & censorship,Sabiq Rafid,LIFTED Japan,2023-08-02,https://liftedasia.com/articles/myanmar-hip-hop,,Copyrighted (facts only),medium-high
+src-lifted-raj-2021,article,Myanmar's Rap Against Junta: DICKCOUNCIL,Roger Yiu,LIFTED Japan,2021-10-25,https://liftedasia.com/article/myanmars-rap-against-junta-dickcouncil,,Copyrighted (facts only),medium-high
+src-lifted-mha-knockout,article,MHA Knockout,,LIFTED Japan,,https://liftedasia.com/article/mha-knockout,,Copyrighted (facts only),medium
+src-hiphopdx-yunghugo,interview,Press Yung Hugo On Popularizing His Heritage In Myanmar And Beyond,MC Galang,HipHopDX,2022-03-22,https://hiphopdx.com/en_asia/news/id.68976/title.yung-hugo-on-popularizing-his-heritage-in-myanmar-and-beyond-talks-new-album-make-karen-great-again,https://web.archive.org/web/20220325210015/https://hiphopdx.com/en_asia/news/id.68976/title.yung-hugo-on-popularizing-his-heritage-in-myanmar-and-beyond-talks-new-album-make-karen-great-again,Copyrighted (facts only),high
+src-hiphopdx-raj-2021,article,Rap Against Junta's 'DICKCOUNCIL' listening party,,HipHopDX,2021-10-21,https://hiphopdx.com/en_asia/news/id.65336/,https://web.archive.org/web/20211021093124/https://hiphopdx.com/en_asia/news/id.65336/,Copyrighted (facts only),medium
+src-bbc-byu-har-2023,article,Myanmar rapper jailed for 20 years over Facebook broadcast,,BBC News,2023-05-26,https://www.bbc.com/news/world-asia-65719165,,Copyrighted (facts only),high
+src-nyt-zayar-thaw-2022,article,"Phyo Zeya Thaw, Myanmar democracy icon, is executed",Hannah Beech,The New York Times,2022-07-27,https://www.nytimes.com/2022/07/27/world/asia/27phyo-zeya-thaw-dead.html,,Copyrighted (facts only),high
+src-dw-rapper-junta-2026,video,The Rapper and the Junta (documentary),Thomas Dandois,Deutsche Welle,2026-01-27,https://www.dw.com/en/the-rapper-and-the-junta/a-75633310,,Copyrighted (facts only),medium-high
+src-myanmore-rangoon-rhythm-floke,interview,Rangoon Rhythm: Floke Rose,,MYANMORE,2019-05,https://www.myanmore.com/2019/05/rangoon-rhythm-floke-rose/,,Copyrighted (facts only),high
+src-myanmore-rangoon-rhythm-jimmy,interview,Rangoon Rhythm: hip hop star Jimmy Jacobs,,MYANMORE,2018-08,https://www.myanmore.com/2018/08/rangoon-rhythm-hip-hop-star-jimmy-jacobs/,,Copyrighted (facts only),high
+src-myanmore-underground-2015,interview,Yangon's underground music scene,,MYANMORE,2015-07,https://www.myanmore.com/2015/07/yangons-underground-music-scene/,,Copyrighted (facts only),high
+src-myanmore-week-2016-12,article,"Look week, 2nd till 8th December 2016 (Straight Outta Yangon Round 3)",,MYANMORE,2016-12,https://www.myanmore.com/2016/12/events-exhibitions-parties-look-week-2nd-till-8th-december/,,Copyrighted (facts only),medium-high
+src-myanmore-monsoon-ii-2016,article,"Full Stop presents Monsoon II ft. J, G-Tone",,MYANMORE,2016-08,https://www.myanmore.com/2016/08/%E2%80%8Bfull-stop-presents-monsoon-ii-ft-j-g-tone%E2%80%8B/,,Copyrighted (facts only),medium-high
+src-eleven-phyo-lay,interview,A peek into Phyo Lay's life,,Eleven Media Group,,https://elevenmyanmar.com/news/a-peek-into-phyo-lays-life,,Copyrighted (facts only),high
+src-eleven-overflow-2025,article,16 arrested over obscene acts at Overflow Music Festival in Yangon,,Eleven Media Group,2025-11,https://elevenmyanmar.com/news/16-arrested-over-obscene-acts-at-overflow-music-festival-in-yangon,,Copyrighted (facts only),high
+src-coconuts-showdown,article,Myanmar freestyle rap champion crowned over weekend,,Coconuts Yangon,,https://coconuts.co/yangon/lifestyle/myanmar-freestyle-rap-champion-crowned-weekend/,,Copyrighted (facts only),medium-high
+src-coconuts-imagine-dragons,article,Old familiar feeling: Burmese hit takes hit in Imagine Dragons melody,,Coconuts Yangon,2019,https://coconuts.co/yangon/lifestyle/old-familiar-feeling-burmese-hit-takes-hit-imagine-dragons-melody/,,Copyrighted (facts only),medium-high
+src-irrawaddy-break-night-2019,article,"Myanmar MCs, Burmese B-Boys Break the Night concert highlights hip hop",,The Irrawaddy,2019-12,https://www.irrawaddy.com/culture/arts/myanmar-mcs-burmese-b-boys-break-night-concert-highlights-hip-hop.html,,Copyrighted (facts only),medium-high
+src-wiki-oasix,encyclopedia,Oasix,,Wikipedia,,https://en.wikipedia.org/wiki/Oasix,,CC BY-SA,secondary
+src-wiki-ah-boy,encyclopedia,Ah Boy,,Wikipedia,,https://en.wikipedia.org/wiki/Ah_Boy,,CC BY-SA,secondary
+src-wiki-yzet,encyclopedia,Y-Zet,,Wikipedia,,https://en.wikipedia.org/wiki/Y-Zet,,CC BY-SA,secondary
+src-wiki-j-me,encyclopedia,J-Me,,Wikipedia,,https://en.wikipedia.org/wiki/J-Me,,CC BY-SA,secondary
+src-wiki-nay-win,encyclopedia,Nay Win,,Wikipedia,,https://en.wikipedia.org/wiki/Nay_Win,,CC BY-SA,secondary
+src-wiki-bobby-soxer,encyclopedia,Bobby Soxer,,Wikipedia,,https://en.wikipedia.org/wiki/Bobby_Soxer,,CC BY-SA,secondary
+src-wiki-htet-yan,encyclopedia,Htet Yan,,Wikipedia,,https://en.wikipedia.org/wiki/Htet_Yan,,CC BY-SA,secondary
+src-wiki-sophia-everest,encyclopedia,Sophia Everest,,Wikipedia,,https://en.wikipedia.org/wiki/Sophia_Everest,,CC BY-SA,secondary
+src-mhc-archive,archive,"Myanmar Hip Hop Channel (fan archive of Myanmar hip hop albums, mixtapes and interviews, 2009-2017)",,Myanmar Hip Hop Channel via web.archive.org,,http://www.mmhiphopchannel.com,https://web.archive.org/web/2009/http://www.mmhiphopchannel.com/,"Copyrighted (fan re-uploads; cited for release metadata only, no audio redistributed)",medium
+src-hiphopug-blog,blog,"Myanmar Hip Hop Underground (Burmese-language blog, ~250 album posts 2013-2014)",,hiphopug.blogspot.com,,http://mmhiphopug.blogspot.com,https://web.archive.org/web/2017/http://mmhiphopug.blogspot.com/,Copyrighted (fan re-uploads; cited for release metadata only),medium
+src-myanmarhiphopalbums-archive,archive,"myanmarhiphopalbums.net (per-album catalogue, 2011-2019; domain later hijacked - cite archived copies only)",,web.archive.org,,http://www.myanmarhiphopalbums.net,https://web.archive.org/web/2019/http://www.myanmarhiphopalbums.net/,Copyrighted (facts only; do not visit the live domain),medium
+src-myanmarmp3album-archive,archive,"myanmarmp3album.com (album archive with tracklists, 2008-2011; domain expired)",,web.archive.org,,http://myanmarmp3album.com,https://web.archive.org/web/2015/http://myanmarmp3album.com/,Copyrighted (facts only),medium
+src-idea-magazine-yzet-2017,interview,"Interview with Y-Zet (IDEA Magazine, August 2017 issue)",,IDEA Magazine,2017-08,https://web.archive.org/web/20171221152936/http://www.mmhiphopchannel.com/2017/08/interview-with-y-zet-idea-magazine.html,,Copyrighted (facts only),medium
+src-jam-it-about,website,Jam It! About Us,,Jam It!,,https://jamitmyanmar.com/en/about-us,,Copyrighted (facts only),medium-high
+src-360beatz,website,"360Beatz (Myanmar music agency, founded 2017)",,360Beatz,,https://360beatz.com/,,Copyrighted (facts only),medium
+src-legacy-music,website,"Legacy Music Network (Yangon distributor, founded 2011)",,Legacy Music Network,,https://www.legacy.com.mm/,,Copyrighted (facts only),medium
+src-boombox-ent,article,JOOX 3 / The Boombox Entertainment,,Myanmar Tech Press,2021,https://en.myanmartechpress.com/joox-3/,,Copyrighted (facts only),medium
+src-smiyanmar,article,"FIRST STEP Hip Hop Music Show, Myaw Sin Island Kandawgyi Park",,SMI (Shwe Myan Irqa),2016-05-21,https://myanmar851.rssing.com/chan-48834278/article587.html,,Copyrighted (facts only),medium
+src-zipevent-firstjam-2019,website,"The First Jam Vol. 7 (street-dance jam, Yangon)",,Zipevent,2019-08-24,https://www.zipeventapp.com/e/thefirstjam,,Copyrighted (facts only),medium
+src-zipevent-bohtet-2020,website,"Heavy Weight album promotion show, Time City Yangon",,Zipevent,2020-02-05,https://web.zipeventapp.com/e/-heavyweightofficialalbumpromotionshow,,Copyrighted (facts only),low
+src-anewburma,website,"A New Burma (exile arts collective, founded by Hnin Win)",,A New Burma,,https://anewburma.com/about,,Copyrighted (facts only),medium-high
+src-dvb-scarr-2026,article,SCARR - Resilience Arts Exhibition highlights trauma of exiled Myanmar artists,,Democratic Voice of Burma,2026-06-29,https://english.dvb.no/highlighting-the-trauma-and-resilience-of-exiled-myanmar-artists/,,Copyrighted (facts only),high
+src-dvb-newburma-2026,article,Myanmar exile artists showcase 4 Elements exhibit in Thailand,,Democratic Voice of Burma,2026-05-22,https://english.dvb.no/myanmar-exile-artists-showcase-4-elements-exhibit-in-thailand,,Copyrighted (facts only),high
+src-myanmarmix-postcoup,article,Watch out for these Myanmar musicians in the post-pandemic world,,Myanmar Mix,,https://www.myanmarmix.com/en/articles/watch-out-for-these-myanmar-musicians-in-the-post-pandemic-world,,Copyrighted (facts only),medium
+src-wired-shutdown-2021,article,Myanmar's internet shutdown: 46 days of darkness,,WIRED,2021-04-02,https://www.wired.com/story/myanmar-internet-shutdown,,Copyrighted (facts only),high
+src-guardian-vpn-2021,article,Myanmar's internet shutdown: what's going on and how it crushes dissent,,The Guardian,2021-02-17,https://www.theguardian.com/world/2021/feb/17/myanmars-internet-shutdown-whats-going-on-and-it-crush-dissent,,Copyrighted (facts only),high
+src-rfa-facebook-block,article,Facebook blocked in Myanmar,,Radio Free Asia,2021-02-04,https://www.rfa.org/english/news/myanmar/facebook-blocked-02042021140109.html,,Copyrighted (facts only),high
+src-rfa-byu-har-2023,article,Rapper Byu Har sentenced to 20 years,,Radio Free Asia,2023-06-28,https://www.rfa.org/english/news/myanmar/telegram-06282023151906.html,,Copyrighted (facts only),high
+src-spotify-lil-kee-boi,database,"Lil Kee boi (artist page, id 4ya4GRiHw7q3gQeUWUWuNv)",,Spotify,,https://open.spotify.com/artist/4ya4GRiHw7q3gQeUWUWuNv,,Copyrighted (facts only),medium
+src-apple-223,database,"223 (artist page, id 2XKEF9CCdTcI2LB2li5Nkr)",,Spotify,,https://open.spotify.com/artist/2XKEF9CCdTcI2LB2li5Nkr,,Copyrighted (facts only),medium
+src-apple-mossberg-arki,database,Mossberg Arki (Apple Music artist id 1680787965),,Apple Music,,https://music.apple.com/us/artist/mossberg-arki/1680787965,,Copyrighted (facts only),medium
+src-apple-reload,database,Reload (Apple Music artist id 1628574089),,Apple Music,,https://music.apple.com/us/artist/reload/1628574089,,Copyrighted (facts only),medium
+src-apple-myat-amara-maung,database,Myat Amara Maung (Apple Music artist id 1237014117),,Apple Music,,https://music.apple.com/us/artist/myat-amara-maung/1237014117,,Copyrighted (facts only),medium
+src-apple-wink,database,Wink (Apple Music artist id 1442802121),,Apple Music,,https://music.apple.com/us/artist/wink/1442802121,,Copyrighted (facts only),medium
+src-apple-x-boxin,database,X-Boxin (Apple Music artist id 1416399955),,Apple Music,,https://music.apple.com/us/artist/x-boxin/1416399955,,Copyrighted (facts only),medium
+src-apple-adjustor,database,Adjustor (Apple Music artist id 1449395777),,Apple Music,,https://music.apple.com/us/artist/adjustor/1449395777,,Copyrighted (facts only),medium
+src-apple-triple-edge,database,Triple Edge (Apple Music artist id 1675648387),,Apple Music,,https://music.apple.com/us/artist/triple-edge/1675648387,,Copyrighted (facts only),medium
+src-apple-bkho-bain,database,bkho bain (artist page),,Spotify,,https://open.spotify.com/artist/5KVhMmPSXwaLNnvJTMSyWz/discography,,Copyrighted (facts only),medium
+src-apple-ah-sar,database,Ah Sar (artist page),,Spotify,,https://open.spotify.com/artist/3MRvCHWMuvtA2Jmlz5wsGS,,Copyrighted (facts only),medium
+src-apple-murkio,database,MURKIO (artist page),,Spotify,,https://open.spotify.com/artist/3QmS2QjMEuEhsiGjFt2oAe,,Copyrighted (facts only),medium
+src-apple-yan,database,Yan - ヤン (Apple Music artist id 1706144767),,Apple Music,,https://music.apple.com/us/artist/yan-%E3%83%A4%E3%83%B3/1706144767,,Copyrighted (facts only),medium
+src-deezer-99sym-internation,database,INTERNATION - 99 Symphony,,Deezer,2024-06-01,https://www.deezer.com/en/album/603149192,,Copyrighted (facts only),medium
+src-99symphony-audiomack,database,99 Symphony (fan archive),,Audiomack,,https://audiomack.com/99-symphony,,Copyrighted (facts only),low
